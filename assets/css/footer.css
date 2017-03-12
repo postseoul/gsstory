@@ -1,0 +1,129 @@
+.footer {
+  padding: 80px 0 100px 0;
+  background-color: #2b2c34;
+  min-width: 1200px;
+  bottom: 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+.footer-container {
+  background-color: #2b2c34;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*FOOTER LINKS: 이용약관, 개인정보취급방침, 이용안내*/
+.footer-link {
+  color: #fff;
+  opacity: 0.5;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.footer-links-bar {
+  opacity: 0.3;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.footer-link-first{
+  padding-right: 15px;
+}
+
+.footer-link-second{
+  padding: 0 15px;
+}
+
+.footer-link-third{
+  padding-left: 15px;
+}
+
+/* 고객센터 */
+.footer-contact { margin-bottom: 20px; }
+
+.footer-contact-number, .footer-contact-time {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.footer-contact-label {
+  display: inline-block;
+  margin-right: 20px;
+  color: #9182ff;
+}
+
+.footer-contact-number .footer-contact-label {
+  float: left;
+  margin-top: 25px;
+}
+
+.footer-contact-content { font-size: 45px; }
+
+.footer-contact-breaktime {
+  font-weight: 200;
+  display: inline-block;
+  opacity: 0.6;
+}
+
+.footer-hr {
+  size: 1px;
+  opacity: 0.3;
+  margin-bottom: 30px;
+}
+
+/* 계좌정보 */
+.footer-accounts {
+  margin-bottom: 50px;
+}
+
+.footer-accounts-bank-name {
+  opacity: 0.7;
+  margin-right: 10px;
+}
+
+.footer-accounts-bank-number {
+  font-size: 20px;
+}
+
+.footer-accounts-bank-slash {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-accounts-name {
+  margin-left: 18px;
+}
+
+/* 회사정보 */
+.footer-company {
+  font-size: 13px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.footer-company-name {
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.footer-company-paragraph {
+  margin: 0 0 10px 0;
+}
+
+.footer-company-paragraph a {
+  color: #abacae;
+}
+
+.footer-company-bar {
+  font-size: 11px;
+  margin: 0 10px 0 10px;
+  opacity: 0.3;
+  vertical-align: top;
+}
+
+
+.footer-copyright {
+  font-size: 13px;
+  opacity: 0.5;
+}

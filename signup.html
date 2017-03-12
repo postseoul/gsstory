@@ -3,6 +3,8 @@
 <meta charset="UTF-8">
 <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="assets/css/signup.css" type="text/css">
+<link rel="stylesheet" href="assets/css/base.css" type="text/css">
+<link rel="stylesheet" href="assets/css/footer.css" type="text/css">
 <script
   src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -11,75 +13,106 @@
 <body>
 <header class="nav">
 </header>
+
 <section class="main">
   <header class="header">
     회원가입
   </header>
   <form class="signup">
-    <input class="signup-username" placeholder="홍길동" />
-    <input class="signup-phone" placeholder="+82-10-1234-5678" />
-    <input class="signup-email" type="email" placeholder="account_id@mail.com" />
+    <div class="signup-naver-logo"></div>
+    <input class="signup-username" value="홍길동" disabled/>
+    <div class="signup-naver-logo"></div>
+    <input class="signup-email" type="email" value="account_id@mail.com" disabled/>
     <input class="signup-password" type="password" placeholder="비밀번호" />
     <input class="signup-password-confirmation" type="password" placeholder="비밀번호 확인" />
+    <input class="signup-phone" placeholder="+82-10-1234-5678" />
+
+    <a href="#!" class="signup-user-type signup-user-type-selected">개인회원</a>
+    <a href="#!" class="signup-user-type">기업회원</a>
+    <div class="clear"></div>
+
     <div class="signup-agreement">
-      <input class="signup-agreement-input" type="checkbox"/>
-      <div class="signup-agreement-checkbox" onclick="toggle_checkbox();"></div>
-      <span class="signup-agreement-text" onclick="toggle_checkbox();">회원가입 약관 동의</span>
-      <a class="signup-agreement-link" href="#">보기</a>
+      <input id="signup-agreement-input-1" class="signup-agreement-input" type="checkbox"/>
+      <div id="signup-agreement-checkbox-1" class="signup-agreement-checkbox" onclick="toggle_checkbox(1);"></div>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(1);">개인정보수집 및 이용동의서</span>
+      <a id="signup-agreement-link-1" class="signup-agreement-link" href="#!">보기</a>
+    </div>
+    <div class="signup-agreement">
+      <input id="signup-agreement-input-2" class="signup-agreement-input" type="checkbox"/>
+      <div id="signup-agreement-checkbox-2" class="signup-agreement-checkbox" onclick="toggle_checkbox(2);"></div>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(2);">회원가입 약관 동의</span>
+      <a id="signup-agreement-link-2" class="signup-agreement-link" href="#!">보기</a>
     </div>
     <input class="signup-submit" type="submit" value="회원가입"/>
   </form>
 </section>
+
+<!-- FOOTER -->
 <footer class="footer">
-<ul class="footer-links">
-  <li><a href="#">이용약관</a></li>
-  <li><a href="#">개인정보취급방침</a></li>
-  <li><a href="#">이용안내</a></li>
-</ul>
-<div class="footer-contact">
-  <div class="footer-contact-number">
-    <span class="footer-contact-label">고객센터</span>
-    <span class="footer-contact-content">1600-9575</span>
+  <div class="footer-container">
+    <div class="footer-links">
+      <a href="#!" class="footer-link footer-link-first">이용약관</a><span class="footer-links-bar">|</span>
+      <a href="#!" class="footer-link footer-link-second">개인정보취급방침</a><span class="footer-links-bar">|</span>
+      <a href="#!" class="footer-link footer-link-third">이용안내</a>
+    </div>
+    <div class="clear"></div>
+
+    <div class="footer-contact">
+      <div class="footer-contact-number">
+        <span class="footer-contact-label">고객센터</span>
+        <span class="footer-contact-content">1600-9575</span>
+      </div>
+      <div class="footer-contact-time">
+        <span class="footer-contact-label">고객센터<br>운영시간</span>
+        <span class="footer-contact-content">1600-9575</span>
+      </div>
+      <div class="footer-contact-breaktime">점심시간은 오후 12시부터 오후 1시까지 입니다.<br>토요일, 일요일 공휴일은 쉽니다.</div>
+    </div>
+
+    <hr class="footer-hr">
+
+    <div class="footer-accounts">
+      <span class="footer-accounts-bank">
+        <span class="footer-accounts-bank-name">국민은행</span>
+        <span class="footer-accounts-bank-number">912-23-637362</span>
+      </span>
+      <span class="footer-accounts-bank-slash">/</span>
+      <span class="footer-accounts-bank">
+        <span class="footer-accounts-bank-name">하나은행</span>
+        <span class="footer-accounts-bank-number">270-910196-49107</span>
+      </span>
+      <span class="footer-accounts-name">장진웅</span>
+    </div>
+
+    <div class="footer-company">
+      <p class="footer-company-paragraph">
+        <span class="footer-company-name">(주)감성스토리</span>
+        사업자등록번호: 701-87-00540 <span class="footer-company-bar">|</span> 주소:서울특별시 성동구 하왕십리동 966-90 4층<br>
+      </p>
+      <p class="footer-company-paragraph">통신판매업신고번호:2016-서울성동-00944호 <a href="#!">사업자정보확인</a> <span class="footer-company-bar">|</span> 개인정보관리책입자: 송태훈 <a href="mailto:support@instarter.kr">support@instarter.kr</a></p>
+    </div>
+
+    <div class="footer-copyright">
+      Copyright © INSTARER. All rights reserved.
+    </div>
   </div>
-  <div class="footer-contact-time">
-    <span class="footer-contact-label">고객센터 운영시간</span>
-    <span class="footer-contact-content">1600-9575</span>
-  </div>
-  <div class="footer-contact-breaktime">점심시간은 오후 12시부터 오후 1시까지 입니다. 토요일, 일요일 공휴일은 쉽니다.</div>
-</div>
-<div class="footer-accounts">
-  <span class="footer-accounts-bank">
-    <span class="footer-accounts-bank-label">국민은행</span>
-    <span class="footer-accounts-bank-number">912-23-637362</span>
-  </span>
-  <span class="footer-accounts-bank">
-    <span class="footer-accounts-bank-label">하나은행</span>
-    <span class="footer-accounts-bank-number">270-910196-49107</span>
-  </span>
-  <span class="footer-accounts-bank-name">장진웅</span>
-</div>
-<div class="footer-company">
-  <div>
-    <span>(주)감성스토리</span>
-    사업자등록번호: 701-87-00540
-    주소:서울특별시 성동구 하왕십리동 966-90 4층
-    통신판매업신고번호:2016-서울성동-00944호 <a href="#">사업자정보확인</a>
-    개인정보관리책입자: 송태훈 <a href="mailto:support@instarter.kr">support@instarter.kr</a>
-  </div>
-  <div></div>
-</div>
-<div class="footer-copyright">
-  Copyright © INSTARER. All rights reserved.
-</div>
 </footer>
 </body>
 
 <script>
-// 체크박스를 숨겼습니다. 체크박스 이미지 또는 '회원가입 약관 동의' 텍스트를 클릭하면 체크박스가 토글됩니다.
-function toggle_checkbox(){
-  var checkbox = $('.signup-agreement-input');
-  checkbox.prop('checked', !checkbox.prop('checked'));
-  $('.signup-agreement-checkbox').toggleClass('checked');
-}
+  // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
+  function toggle_checkbox(index){
+    var checkbox = $('#signup-agreement-input-'+index);
+    checkbox.prop('checked', !checkbox.prop('checked'));
+    $('#signup-agreement-checkbox-'+index).toggleClass('signup-agreement-checkbox-checked');
+  }
+
+  // 개인회원, 기업회원 선택
+  $(".signup-user-type").click(function() {
+    $(".signup-user-type").each(function() {
+      this.className = 'signup-user-type';
+    });
+    this.className = 'signup-user-type signup-user-type-selected';
+  });
 </script>
 </html>
