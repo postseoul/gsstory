@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="signup.css" type="text/css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="nav">
+</header>
+<section class="main">
+  <header class="header">
+    회원가입
+  </header>
+  <form class="signup">
+    <input class="signup-username" placeholder="홍길동" />
+    <input class="signup-phone" placeholder="+82-10-1234-5678" />
+    <input class="signup-email" type="email" placeholder="account_id@mail.com" />
+    <input class="signup-password" type="password" placeholder="비밀번호" />
+    <input class="signup-password-confirmation" type="password" placeholder="비밀번호 확인" />
+    <div class="signup-agreement">
+      <input class="signup-agreement-input" type="checkbox"/>
+      <div class="signup-agreement-checkbox" onclick="toggle_checkbox();"></div>
+      <span class="signup-agreement-text" onclick="toggle_checkbox();">회원가입 약관 동의</span>
+      <a class="signup-agreement-link" href="#">보기</a>
+    </div>
+    <input class="signup-submit" type="submit" value="회원가입"/>
+  </form>
+</section>
+<footer class="footer">
+</footer>
+</body>
+
+<script>
+// 체크박스를 숨겼습니다. 체크박스 이미지 또는 '회원가입 약관 동의' 텍스트를 클릭하면 체크박스가 토글됩니다.
+function toggle_checkbox(){
+  var checkbox = $('.signup-agreement-input');
+  checkbox.prop('checked', !checkbox.prop('checked'));
+  $('.signup-agreement-checkbox').toggleClass('checked');
+}
+</script>
+</html>

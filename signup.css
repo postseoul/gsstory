@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.nav {
+  background-color: #2b2c34;
+  height: 80px;
+}
+.main {
+  margin: 0 auto;
+  width: 472px;
+}
+
+.header {
+  background-image: url("assets/images/header-signup.png");
+  font-size: 60px;
+  height: 156px;
+  line-height: 196px;
+  margin: 80px auto 85px;
+  width: 367px;
+  text-align: center;
+}
+
+.signup-username,
+.signup-phone,
+.signup-email,
+.signup-password,
+.signup-password-confirmation {
+  border: 1px solid #ededed;
+  background-color: #f7f7f7;
+  color: #2b2c34;
+  display: block;
+  margin-bottom: 10px;
+  padding: 20px;
+  min-width: 470px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.signup-password,
+.signup-password-confirmation {
+  background-color: #fff;
+}
+.signup-submit {
+  border: none;
+  font-size: 20px;
+  width: 472px;
+  height: 75px;
+  color: #fff;
+  background-color: #2b2c34;
+}
+
+.signup-agreement {
+  max-width: 432px;
+  background-color: #f7f7f7;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.signup-agreement-input {
+  display: none;
+}
+
+.signup-agreement-checkbox {
+  display: inline-block;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 10px;
+  background-image: url("assets/images/checkbox-no.png");
+}
+
+.signup-agreement-checkbox.checked {
+  margin-top: 1px;
+  margin-right: 5px;
+  width: 23px;
+  height: 22px;
+  background-image: url("assets/images/checkbox-yes.png");
+}
+
+.signup-agreement-link {
+  float: right;
+  color: #2b2c34;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: #2b2c34;
+  height: 470px;
+  bottom: 0;
+}
