@@ -1,21 +1,33 @@
 <html>
 <head>
-<meta charset="UTF-8">
-<link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="assets/css/signup.css" type="text/css">
-<link rel="stylesheet" href="assets/css/base.css" type="text/css">
-<link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-<script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/signup.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
 </head>
 <body>
-<header class="nav">
+<header class="header">
+<div class="header-container">
+  <img src="assets/images/temp-logo.png" class="header-logo">
+  <div class="header-nav">
+    <a class="header-nav-item" href="#!">인스타터란?</a>
+    <a class="header-nav-item" href="#!">서비스소개</a>
+    <a class="header-nav-item" href="#!">추천 서비스</a>
+    <a class="header-nav-item" href="#!">고객 후기</a>
+    <a class="header-nav-item" href="#!">자주 묻는 질문</a>
+    <a class="header-nav-item header-nav-login" href="#!">로그인</a>
+  </div>
+</div>
 </header>
 
 <section class="main">
-  <header class="header">
+  <header class="signup-header">
     회원가입
   </header>
   <form class="signup">
@@ -34,13 +46,13 @@
     <div class="signup-agreement">
       <input id="signup-agreement-input-1" class="signup-agreement-input" type="checkbox"/>
       <div id="signup-agreement-checkbox-1" class="signup-agreement-checkbox" onclick="toggle_checkbox(1);"></div>
-      <span class="signup-agreement-text" onclick="toggle_checkbox(1);">개인정보수집 및 이용동의서</span>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(1);">회원가입 약관 동의</span>
       <a id="signup-agreement-link-1" class="signup-agreement-link" href="#!">보기</a>
     </div>
     <div class="signup-agreement">
       <input id="signup-agreement-input-2" class="signup-agreement-input" type="checkbox"/>
       <div id="signup-agreement-checkbox-2" class="signup-agreement-checkbox" onclick="toggle_checkbox(2);"></div>
-      <span class="signup-agreement-text" onclick="toggle_checkbox(2);">회원가입 약관 동의</span>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(2);">개인정보수집 및 이용동의서</span>
       <a id="signup-agreement-link-2" class="signup-agreement-link" href="#!">보기</a>
     </div>
     <input class="signup-submit" type="submit" value="회원가입"/>
