@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/login.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header"></header>
+
+<section class="main">
+  <header class="signup-header">
+    로그인
+  </header>
+  <form class="login-form">
+    <input class="signup-email" placeholder="이메일 주소" />
+    <input class="signup-password" type="password" placeholder="비밀번호" />
+    <input class="signup-submit" type="submit" value="로그인"/>
+    <div class="signin-socials">
+      <a class="signin-naver" href="#!">네이버 로그인</a>
+      <a class="signin-facebook" href="#!">페이스북 로그인</a>
+    </div>
+    <div class="sublink">
+      <span class="sublink-label">인스타터 처음 사용하시나요?</span>
+      <a class="sublink-link" href="signup">회원 가입하기</a>
+      <div class="clear"></div>
+    </div>
+    <div class="sublink">
+      <span class="sublink-lable">계정이 기억나지 않으신가요?</span>
+      <a class="sublink-link" href="#!">아이디/비밀번호 찾기</a>
+      <div class="clear"></div>
+    </div>
+  </form>
+</section>
+
+<footer class="footer"></footer>
+</body>
+
+<script>
+  $('.header').load("layout/header.html");
+  $('.footer').load("layout/footer.html");
+</script>
+</html>
