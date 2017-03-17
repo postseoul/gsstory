@@ -13,17 +13,6 @@
 </head>
 <body>
 <header class="header">
-<div class="header-container">
-  <img src="assets/images/temp-logo.png" class="header-logo">
-  <div class="header-nav">
-    <a class="header-nav-item" href="#!">인스타터란?</a>
-    <a class="header-nav-item" href="#!">서비스소개</a>
-    <a class="header-nav-item" href="#!">추천 서비스</a>
-    <a class="header-nav-item" href="#!">고객 후기</a>
-    <a class="header-nav-item" href="#!">자주 묻는 질문</a>
-    <a class="header-nav-item header-nav-login" href="#!">로그인</a>
-  </div>
-</div>
 </header>
 
 <section class="main">
@@ -64,6 +53,7 @@
 </body>
 
 <script>
+  $('.header').load("layout/header.html");
   $('.footer').load("layout/footer.html");
 
   // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
