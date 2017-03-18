@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="assets/css/base.css" type="text/css">
   <link rel="stylesheet" href="assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-  <link rel="stylesheet" href="assets/css/login.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/lost.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -13,96 +13,27 @@
 </head>
 <body>
 <header class="header">
-<div class="header-container">
-  <img src="assets/images/temp-logo.png" class="header-logo">
-  <div class="header-nav">
-    <a class="header-nav-item" href="#!">인스타터란?</a>
-    <a class="header-nav-item" href="#!">서비스소개</a>
-    <a class="header-nav-item" href="#!">추천 서비스</a>
-    <a class="header-nav-item" href="#!">고객 후기</a>
-    <a class="header-nav-item" href="#!">자주 묻는 질문</a>
-    <a class="header-nav-item header-nav-login" href="#!">로그인</a>
-  </div>
-</div>
+  <!-- layout/header.html -->
 </header>
 
 <section class="main">
   <header class="signup-header">
     아이디/비밀번호 찾기
   </header>
-  <form>
+  <form class="login-form">
     <input class="signup-username" placeholder="이름"/>
     <input class="signup-phone" placeholder="전화번호" />
     <input class="signup-submit" type="submit" value="확인"/>
   </form>
 </section>
 
-<!-- FOOTER -->
 <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-links">
-      <a href="#!" class="footer-link footer-link-first">이용약관</a><span class="footer-links-bar">|</span>
-      <a href="#!" class="footer-link footer-link-second">개인정보취급방침</a><span class="footer-links-bar">|</span>
-      <a href="#!" class="footer-link footer-link-third">이용안내</a>
-    </div>
-    <div class="clear"></div>
-
-    <div class="footer-contact">
-      <div class="footer-contact-number">
-        <span class="footer-contact-label">고객센터</span>
-        <span class="footer-contact-content">1600-9575</span>
-      </div>
-      <div class="footer-contact-time">
-        <span class="footer-contact-label">고객센터<br>운영시간</span>
-        <span class="footer-contact-content">1600-9575</span>
-      </div>
-      <div class="footer-contact-breaktime">점심시간은 오후 12시부터 오후 1시까지 입니다.<br>토요일, 일요일 공휴일은 쉽니다.</div>
-    </div>
-
-    <hr class="footer-hr">
-
-    <div class="footer-accounts">
-      <span class="footer-accounts-bank">
-        <span class="footer-accounts-bank-name">국민은행</span>
-        <span class="footer-accounts-bank-number">912-23-637362</span>
-      </span>
-      <span class="footer-accounts-bank-slash">/</span>
-      <span class="footer-accounts-bank">
-        <span class="footer-accounts-bank-name">하나은행</span>
-        <span class="footer-accounts-bank-number">270-910196-49107</span>
-      </span>
-      <span class="footer-accounts-name">장진웅</span>
-    </div>
-
-    <div class="footer-company">
-      <p class="footer-company-paragraph">
-        <span class="footer-company-name">(주)감성스토리</span>
-        사업자등록번호: 701-87-00540 <span class="footer-company-bar">|</span> 주소:서울특별시 성동구 하왕십리동 966-90 4층<br>
-      </p>
-      <p class="footer-company-paragraph">통신판매업신고번호:2016-서울성동-00944호 <a href="#!">사업자정보확인</a> <span class="footer-company-bar">|</span> 개인정보관리책입자: 송태훈 <a href="mailto:support@instarter.kr">support@instarter.kr</a></p>
-    </div>
-
-    <div class="footer-copyright">
-      Copyright © INSTARER. All rights reserved.
-    </div>
-  </div>
+  <!-- layout/header.html -->
 </footer>
 </body>
 
 <script>
-  // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
-  function toggle_checkbox(index){
-    var checkbox = $('#signup-agreement-input-'+index);
-    checkbox.prop('checked', !checkbox.prop('checked'));
-    $('#signup-agreement-checkbox-'+index).toggleClass('signup-agreement-checkbox-checked');
-  }
-
-  // 개인회원, 기업회원 선택
-  $(".signup-user-type").click(function() {
-    $(".signup-user-type").each(function() {
-      this.className = 'signup-user-type';
-    });
-    this.className = 'signup-user-type signup-user-type-selected';
-  });
+  $('.header').load("layout/header.html");
+  $('.footer').load("layout/footer.html");
 </script>
 </html>
