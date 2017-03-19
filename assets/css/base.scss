@@ -1,0 +1,63 @@
+@import 'variables';
+
+body {
+  color: $instarter-black;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -1.2;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  color: $instarter-black;
+  margin: 0 auto;
+  width: 472px;
+}
+
+.main-header {
+  font-size: 60px;
+  line-height: 196px;
+  margin: 80px auto 85px;
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.form-control {
+  background-color: $instarter-white;
+  border: 1px solid $instarter-border-grey;
+  color: $instarter-black;
+  display: block;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  min-width: 470px;
+  padding: 25px 20px;
+
+  &:disabled {
+    background-color: $instarter-background-grey;
+  }
+}
+
+.btn-default {
+  background-color: $instarter-black;
+  border: none;
+  color: $instarter-white;
+  font-size: 20px;
+  height: 75px;
+  width: 472px;
+}

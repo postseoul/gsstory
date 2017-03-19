@@ -1,0 +1,94 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/signup.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header">
+  <div class="header-container">
+    <img src="assets/images/temp-logo.png" class="header-logo">
+    <div class="header-nav">
+      <a class="header-nav-item" href="#!">인스타터란?</a>
+      <a class="header-nav-item" href="#!">서비스소개</a>
+      <a class="header-nav-item" href="#!">추천 서비스</a>
+      <a class="header-nav-item" href="#!">고객 후기</a>
+      <a class="header-nav-item" href="#!">자주 묻는 질문</a>
+      <a class="header-nav-item-selected" href="login">로그인</a>
+    </div>
+  </div>
+</header>
+<header class="user-header">
+  <div class="header-container">
+    <span class="user-header-logo">나의 인스타터</span>
+    <div class="user-header-nav">
+      <a class="user-header-nav-item" href="#!">진행중인 서비스</a>
+      <a class="user-header-nav-item" href="#!">구매내역</a>
+      <a class="user-header-nav-item" href="#!">회원 정보 관리</a>
+      <a class="user-header-nav-item" href="#!">1:1문의</a>
+    </div>
+  </div>
+</header>
+
+<section class="main">
+  <header class="main-header signup-header">
+    회원가입
+  </header>
+  <form class="signup">
+    <div class="signup-naver-logo"></div>
+    <input class="form-control" value="홍길동" placeholder="이름" disabled/>
+    <div class="signup-naver-logo"></div>
+    <input class="form-control" type="email" value="account_id@mail.com" placeholder="이메일 주소" disabled/>
+    <input class="form-control" type="password" placeholder="비밀번호" />
+    <input class="form-control" type="password" placeholder="비밀번호 확인" />
+    <input class="form-control" placeholder="전화번호" />
+    <a href="#!" class="signup-user-type signup-user-type-selected">개인회원</a>
+    <a href="#!" class="signup-user-type">기업회원</a>
+    <div class="clear"></div>
+
+    <div class="signup-agreement">
+      <input id="signup-agreement-input-1" class="signup-agreement-input" type="checkbox"/>
+      <div id="signup-agreement-checkbox-1" class="signup-agreement-checkbox" onclick="toggle_checkbox(1);"></div>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(1);">회원가입 약관 동의</span>
+      <a id="signup-agreement-link-1" class="signup-agreement-link" href="#!">보기</a>
+    </div>
+    <div class="signup-agreement">
+      <input id="signup-agreement-input-2" class="signup-agreement-input" type="checkbox"/>
+      <div id="signup-agreement-checkbox-2" class="signup-agreement-checkbox" onclick="toggle_checkbox(2);"></div>
+      <span class="signup-agreement-text" onclick="toggle_checkbox(2);">개인정보수집 및 이용동의서</span>
+      <a id="signup-agreement-link-2" class="signup-agreement-link" href="#!">보기</a>
+    </div>
+    <input class="signup-submit" type="submit" value="회원가입"/>
+  </form>
+</section>
+
+<footer class="footer"></footer>
+</body>
+
+<script>
+  $('.header').load("layout/header.html");
+  $('.footer').load("layout/footer.html");
+
+  // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
+  function toggle_checkbox(index){
+    var checkbox = $('#signup-agreement-input-'+index);
+    checkbox.prop('checked', !checkbox.prop('checked'));
+    $('#signup-agreement-checkbox-'+index).toggleClass('signup-agreement-checkbox-checked');
+  }
+
+  // 개인회원, 기업회원 선택
+  $(".signup-user-type").click(function() {
+    $(".signup-user-type").each(function() {
+      this.className = 'signup-user-type';
+    });
+    this.className = 'signup-user-type signup-user-type-selected';
+  });
+</script>
+</html>

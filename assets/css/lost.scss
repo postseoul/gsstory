@@ -1,19 +1,22 @@
+@import 'variables';
+
 .lost-header {
   background: url("../images/header-login.png") no-repeat center;
   font-size: 60px;
   height: 196px;
   margin: 80px 0 85px -42px;
   width: 565px;
-  text-align: center; }
+  text-align: center;
+}
 
 .form-control-first {
   margin-bottom: 0;
-  border-bottom: none; }
+  border-bottom: none;
+}
 
 .sublink {
-  margin-bottom: 15px; }
-
+  margin-bottom: 15px;
+}
 .sublink-link {
-  float: right; }
-
-/*# sourceMappingURL=lost.css.map */
+  float: right;
+}

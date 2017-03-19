@@ -1,111 +1,137 @@
-@charset "UTF-8";
+@import 'variables';
+
 .footer {
   margin-top: 150px;
   padding: 80px 0 100px 0;
-  background-color: #2B2C34;
-  min-width: 1200px;
+  background-color: $instarter-black;
+  min-width: $width-desktop;
   bottom: 0;
-  color: #FFF;
-  font-size: 15px; }
+  color: $instarter-white;
+  font-size: 15px;
+}
 
 .footer-container {
-  background-color: #2B2C34;
-  width: 1200px;
-  margin: 0 auto; }
+  background-color: $instarter-black;
+  width: $width-desktop;
+  margin: 0 auto;
+}
 
 /*FOOTER LINKS: 이용약관, 개인정보취급방침, 이용안내*/
 .footer-link {
-  color: #ABABAD;
+  color: $instarter-font-grey;
   font-weight: 200;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .footer-links-bar {
   opacity: 0.3;
   font-size: 13px;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
-.footer-link-first {
-  padding-right: 15px; }
+.footer-link-first{
+  padding-right: 15px;
+}
 
-.footer-link-second {
-  padding: 0 15px; }
+.footer-link-second{
+  padding: 0 15px;
+}
 
-.footer-link-third {
-  padding-left: 15px; }
+.footer-link-third{
+  padding-left: 15px;
+}
 
 /* 고객센터 */
 .footer-contact {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .footer-contact-number, .footer-contact-time {
   display: inline-block;
-  margin-right: 50px; }
+  margin-right: 50px;
+}
 
 .footer-contact-label {
   display: inline-block;
   margin-right: 20px;
-  color: #9182ff; }
+  color: #9182ff;
+}
 
 .footer-contact-number .footer-contact-label {
   float: left;
-  margin-top: 25px; }
+  margin-top: 25px;
+}
 
 .footer-contact-content {
-  font-size: 45px; }
+  font-size: 45px;
+}
 
 .footer-contact-breaktime {
   font-weight: 200;
   display: inline-block;
-  color: #ABABAD; }
+  color: $instarter-font-grey;
+}
 
 .footer-hr {
   size: 1px;
   opacity: 0.3;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+}
 
 /* 계좌정보 */
 .footer-accounts {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 .footer-accounts-bank-name {
-  color: #ABABAD;
-  margin-right: 10px; }
+  color: $instarter-font-grey;
+  margin-right: 10px;
+}
 
 .footer-accounts-bank-number {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .footer-accounts-bank-slash {
   margin: 0 10px;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .footer-accounts-name {
-  margin-left: 18px; }
+  margin-left: 18px;
+}
 
 /* 회사정보 */
 .footer-company {
   font-size: 13px;
   font-weight: 200;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .footer-company-name {
   font-weight: bold;
-  margin-right: 25px; }
+  margin-right: 25px;
+}
 
 .footer-company-paragraph {
-  margin: 0 0 10px 0; }
-  .footer-company-paragraph a {
+  margin: 0 0 10px 0;
+
+  a {
     margin-left: 5px;
-    color: #ABABAD;
-    text-decoration: underline; }
+    color: $instarter-font-grey;
+    text-decoration: underline;
+  }
+}
 
 .footer-company-bar {
   font-size: 11px;
   margin: 0 10px 0 10px;
   opacity: 0.3;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .footer-copyright {
   font-size: 13px;
-  color: #ABABAD; }
+  color: $instarter-font-grey;
 
-/*# sourceMappingURL=footer.css.map */
+}

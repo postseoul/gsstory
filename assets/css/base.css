@@ -1,14 +1,51 @@
 body {
+  color: #2B2C34;
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
-  letter-spacing: -1.2;
-}
+  letter-spacing: -1.2; }
+
+input {
+  border: none; }
+
+a {
+  text-decoration: none; }
 
 .main {
+  color: #2B2C34;
   margin: 0 auto;
-  width: 472px;
-}
+  width: 472px; }
+
+.main-header {
+  font-size: 60px;
+  line-height: 196px;
+  margin: 80px auto 85px;
+  text-align: center; }
 
 .clear {
-  clear: both;
-}
+  clear: both; }
+
+.hidden {
+  display: none; }
+
+.form-control {
+  background-color: #FFF;
+  border: 1px solid #EDEDED;
+  color: #2B2C34;
+  display: block;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 10px;
+  min-width: 470px;
+  padding: 25px 20px; }
+  .form-control:disabled {
+    background-color: #F6F6F6; }
+
+.btn-default {
+  background-color: #2B2C34;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  height: 75px;
+  width: 472px; }
+
+/*# sourceMappingURL=base.css.map */
