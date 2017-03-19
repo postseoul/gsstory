@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Roboto';
-  unicode-range: U+20-7A;
+  unicode-range: U+20-7E;
 }
 
 body {
@@ -20,6 +20,14 @@ a {
   text-decoration: none;
 }
 
+.clear {
+  clear: both;
+}
+
+.hidden {
+  display: none;
+}
+
 .main {
   color: $instarter-black;
   margin: 0 auto;
@@ -32,15 +40,6 @@ a {
   margin: 80px auto 85px;
   text-align: center;
 }
-
-.clear {
-  clear: both;
-}
-
-.hidden {
-  display: none;
-}
-
 
 .form-control {
   background-color: $instarter-white;
