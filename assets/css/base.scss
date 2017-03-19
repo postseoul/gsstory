@@ -1,9 +1,14 @@
 @import 'variables';
 
+@font-face {
+  font-family: 'Roboto';
+  unicode-range: U+20-7A;
+}
+
 body {
   color: $instarter-black;
   margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
   letter-spacing: -1.2;
 }
 

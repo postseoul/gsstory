@@ -17,6 +17,10 @@
 }
 
 /*FOOTER LINKS: 이용약관, 개인정보취급방침, 이용안내*/
+.footer-links {
+  margin-bottom: 50px;
+}
+
 .footer-link {
   color: $instarter-font-grey;
   font-weight: 200;
@@ -59,7 +63,7 @@
 
 .footer-contact-number .footer-contact-label {
   float: left;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .footer-contact-content {
@@ -114,7 +118,7 @@
 }
 
 .footer-company-paragraph {
-  margin: 0 0 10px 0;
+  margin-bottom: 10px;
 
   a {
     margin-left: 5px;
@@ -125,7 +129,7 @@
 
 .footer-company-bar {
   font-size: 11px;
-  margin: 0 10px 0 10px;
+  margin: 0 10px;
   opacity: 0.3;
   vertical-align: top;
 }
