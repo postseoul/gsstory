@@ -47,9 +47,10 @@ $user-header-height: 60px;
 
 .user-header-logo {
   line-height: $user-header-height;
-  vertical-align: middle;
+  float: left;
   font-size: 18px;
   font-weight: bold;
+  vertical-align: middle;
 }
 
 .user-header-nav {

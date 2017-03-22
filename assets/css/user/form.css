@@ -1,5 +1,5 @@
 .signup-header {
-  background-image: url("../images/header-signup.png");
+  background-image: url("../../images/header-signup.png");
   height: 156px;
   width: 367px; }
 
@@ -8,7 +8,7 @@
   margin: 9px 0 0 405px;
   width: 54px;
   height: 54px;
-  background-image: url("../images/naver-logo.png"); }
+  background-image: url("../../images/naver-logo.png"); }
 
 .signup-user-type {
   color: #2B2C34;
@@ -34,14 +34,14 @@
   font-size: 18px; }
 
 .signup-agreement-checkbox {
-  background-image: url("../images/checkbox-no.png");
+  background-image: url("../../images/checkbox-no.png");
   float: left;
   height: 18px;
   margin: 5px 10px 0 0;
   width: 18px; }
 
 .signup-agreement-checkbox-checked {
-  background-image: url("../images/checkbox-yes.png");
+  background-image: url("../../images/checkbox-yes.png");
   height: 22px;
   margin: 1px 5px 0 0;
   width: 23px; }
@@ -52,4 +52,4 @@
   font-size: 15px;
   text-decoration: underline; }
 
-/*# sourceMappingURL=signup.css.map */
+/*# sourceMappingURL=form.css.map */
