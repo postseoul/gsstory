@@ -19,9 +19,25 @@
   <header class="main-header lost-header">
     아이디/비밀번호 찾기
   </header>
-  <form class="login-form">
+  <div class="login-radio-group">
+    <span class="lost-radio lost-radio-checked" onclick="toggle_radio('username');"></span>
+    <span class="lost-radio-label" onclick="toggle_radio('username');">아이디 찾기</span>
+    <span class="lost-radio" onclick="toggle_radio('password');"></span>
+    <span class="lost-radio-label" onclick="toggle_radio('password');">비밀번호 찾기</span>
+    <input class="hidden" type="radio" name="lost" id="username" value="username" checked>
+    <input class="hidden" type="radio" name="lost" id="password" value="password">
+    <div class="clear"></div>
+  </div>
+  <form class="form">
     <input class="form-control form-control-first" placeholder="이름"/>
     <input class="form-control" placeholder="전화번호" />
+    <input class="btn-default" type="submit" value="확인"/>
+  </form>
+
+  <form class="form hidden">
+    <input class="form-control form-control-first" placeholder="이름"/>
+    <input class="form-control form-control-second" placeholder="전화번호" />
+    <input class="form-control" type="email" placeholder="이메일" />
     <input class="btn-default" type="submit" value="확인"/>
   </form>
 </section>
@@ -32,5 +48,14 @@
 <script>
   $('.header').load("layout/header.html");
   $('.footer').load("layout/footer.html");
+
+  // 라디오 버튼 이미지 또는 텍스트를 클릭하면 라디오 버튼이 토글됩니다.
+  function toggle_radio(id){
+    var radio = $('#'+id);
+    if(radio.prop('checked')) return;
+    radio.prop('checked', true);
+    $('.lost-radio').toggleClass('lost-radio-checked');
+    $('.form').toggleClass('hidden');
+  }
 </script>
 </html>

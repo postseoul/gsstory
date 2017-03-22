@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.form-control-first {
+.form-control-first, .form-control-second {
   margin-bottom: 0;
   border-bottom: none;
 }
@@ -19,4 +19,26 @@
 }
 .sublink-link {
   float: right;
+}
+
+.login-radio-group {
+  text-align: center;
+  margin: 100px 0 30px;
+}
+
+.lost-radio {
+  background-image: url("../images/radio-no.png");
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.lost-radio-checked {
+  background-image: url("../images/radio-yes.png");
+}
+
+.lost-radio-label {
+  line-height: 23px;
+  margin-right: 25px;
+  vertical-align: top;
 }
