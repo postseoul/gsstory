@@ -66,3 +66,17 @@ a {
   height: 75px;
   width: 472px;
 }
+
+.sublink {
+  margin-bottom: 15px;
+}
+
+.sublink-label {
+  font-weight: 200;
+}
+
+.sublink-link {
+  color: $instarter-purple;
+  float: right;
+  text-decoration: underline;
+}

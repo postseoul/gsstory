@@ -2,9 +2,14 @@
 @import 'variables';
 
 .signup-header {
-  background-image: url("../../images/header-signup.png");
+  background-image: url("../../images/header-user-create.png");
   height: 156px;
   width: 367px;
+}
+
+.edit-header {
+  background: url("../../images/header-user-edit.png") no-repeat center;
+  height: 186px;
 }
 
 .signup-naver-logo {
@@ -64,4 +69,34 @@
   float: right;
   font-size: 15px;
   text-decoration: underline;
+}
+
+.btn-password-edit {
+  background-color: $instarter-white;
+  border: 2px solid $instarter-black;
+  color: $instarter-black;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 187px;
+  height: 75px;
+}
+
+.btn-user-edit {
+  background-color: $instarter-black;
+  border: none;
+  color: $instarter-white;
+  display: inline-block;
+  font-size: 20px;
+  width: 275px;
+  height: 75px;
+}
+
+.sub-header {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.btn-group {
+  margin-bottom: 30px;
 }

@@ -39,10 +39,14 @@
 </header>
 
 <section class="main">
-  <header class="main-header signup-header">
-    회원가입
+  <header class="main-header edit-header">
+    회원 정보 관리
   </header>
   <form class="signup">
+    <div class="sub-header">회원 정보 관리</div>
+    <img src="#">
+    <a>프로필 사진 추가</a>
+    <a>프로필 이미지 삭제하기</a>
     <div class="signup-naver-logo"></div>
     <input class="form-control" value="홍길동" placeholder="이름" disabled/>
     <div class="signup-naver-logo"></div>
@@ -54,19 +58,42 @@
     <a href="#!" class="signup-user-type">기업회원</a>
     <div class="clear"></div>
 
-    <div class="signup-agreement">
-      <input id="signup-agreement-input-1" class="signup-agreement-input" type="checkbox"/>
-      <div id="signup-agreement-checkbox-1" class="signup-agreement-checkbox" onclick="toggle_checkbox(1);"></div>
-      <span class="signup-agreement-text" onclick="toggle_checkbox(1);">회원가입 약관 동의</span>
-      <a id="signup-agreement-link-1" class="signup-agreement-link" href="#!">보기</a>
+    <div class="sub-header">인스타그램 아이디 관리</div>
+    <div>
+      <img src="#"/>
+      <span>Account_id</span>
+      <span>아이디 변경</span>
+      <img src="#">
     </div>
-    <div class="signup-agreement">
-      <input id="signup-agreement-input-2" class="signup-agreement-input" type="checkbox"/>
-      <div id="signup-agreement-checkbox-2" class="signup-agreement-checkbox" onclick="toggle_checkbox(2);"></div>
-      <span class="signup-agreement-text" onclick="toggle_checkbox(2);">개인정보수집 및 이용동의서</span>
-      <a id="signup-agreement-link-2" class="signup-agreement-link" href="#!">보기</a>
+    <div>
+      <img src="#">
+      인스타그램 아이디 추가...
     </div>
-    <input class="signup-submit" type="submit" value="회원가입"/>
+    <div class="sub-header">해시태그 관리</div>
+    <input class="form-control" placeholder="추가하고자 하는 해시태그를 입력하세요">
+    <div>
+      <div>해시태그 1</div>
+      <div>해시태그 2</div>
+      <div>해시태그 3</div>
+    </div>
+    <div class="sub-header">댓글 관리</div>
+    <input class="form-control" placeholder="추가하고자 하는 댓글 내용을 입력하세요">
+    <div>
+      <div>사용자가 등록한 댓글 1</div>
+      <div>사용자가 등록한 댓글 2</div>
+      <div>사용자가 등록한 댓글 3</div>
+    </div>
+
+    <div class="btn-group">
+      <input class="btn-password-edit" type="submit" value="비밀번호 변경"/>
+      <input class="btn-user-edit" type="submit" value="회원 정보 수정"/>
+    </div>
+
+    <div class="sublink">
+      <span class="sublink-label">인스타터 서비스가 더 이상 필요하지 않으신가요?</span>
+      <a class="sublink-link" href="#!">회원탈퇴</a>
+      <div class="clear"></div>
+    </div>
   </form>
 </section>
 
