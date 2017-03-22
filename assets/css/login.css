@@ -7,22 +7,14 @@
   margin-bottom: 0;
   border-bottom: none; }
 
-.signup-submit {
-  background-color: #2b2c34;
-  border: none;
-  color: #fff;
-  font-size: 20px;
-  height: 75px;
-  width: 472px; }
-
-.login-form {
+.form {
   margin-bottom: 150px; }
 
-.signin-socials {
+.btn-socials {
   margin: 20px 0 30px 0; }
 
-.signin-naver,
-.signin-facebook {
+.btn-naver,
+.btn-facebook {
   color: #fff;
   display: block;
   font-size: 18px;
@@ -30,13 +22,13 @@
   margin-bottom: 5px;
   padding: 25px 70px; }
 
-.signin-naver {
+.btn-naver {
   background-color: #1fc700;
   background-image: url("../images/naver-logo.png");
   background-repeat: no-repeat;
   background-position: 5px 10px; }
 
-.signin-facebook {
+.btn-facebook {
   background-color: #3b5998;
   background-image: url("../images/facebook-logo.png");
   background-repeat: no-repeat;
