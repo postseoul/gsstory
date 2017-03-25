@@ -108,4 +108,18 @@
   font-size: 15px;
   text-decoration: underline; }
 
+.password-checked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../../images/password-checked.png"); }
+
+.password-unchecked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../../images/password-unchecked.png"); }
+
 /*# sourceMappingURL=form.css.map */
