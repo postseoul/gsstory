@@ -149,3 +149,52 @@
   height: 17px;
   background-image: url("../../images/password-unchecked.png")
 }
+
+.instagram-account-form {
+  background-color: $instarter-yellow;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.instagram-profile {
+  width: 50px;
+  height: 50px;
+  border: 1px solid $instarter-white;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+}
+
+.instagram-username {
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+.instagram-account-form-control {
+  float: right;
+}
+
+.instagram-edit {
+  line-height: 55px;
+  vertical-align: middle;
+  color: $instarter-white;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.instagram-remove {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.instagram-add {
+  background: url("../../images/btn-add.png") no-repeat 127px 0;
+  color: $instarter-font-grey;
+  display: block;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  margin-bottom: 20px;
+  padding-left: 185px;
+  vertical-align: middle;
+}
