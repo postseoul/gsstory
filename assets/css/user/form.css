@@ -75,11 +75,37 @@
   width: 275px;
   height: 75px; }
 
+.btn-group {
+  margin-bottom: 30px; }
+
 .sub-header {
   font-size: 25px;
   margin-bottom: 30px; }
 
-.btn-group {
-  margin-bottom: 30px; }
+.form-profile {
+  margin-bottom: 40px; }
+
+.form-profile-img {
+  float: left; }
+
+.btn-group-profile {
+  margin: 25px 0 0 20px;
+  float: left; }
+
+.btn-add-profile {
+  display: block;
+  background: url("../../images/btn-add.png") no-repeat;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  vertical-align: middle;
+  padding-left: 60px;
+  color: #ABABAD;
+  margin-bottom: 20px; }
+
+.btn-remove-profile {
+  color: #715EFF;
+  font-size: 15px;
+  text-decoration: underline; }
 
 /*# sourceMappingURL=form.css.map */
