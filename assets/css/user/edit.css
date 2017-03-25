@@ -1,0 +1,87 @@
+.sub-header {
+  font-size: 25px;
+  margin-bottom: 30px; }
+
+.form-profile {
+  margin-bottom: 40px; }
+
+.form-profile-img {
+  float: left; }
+
+.btn-group-profile {
+  margin: 25px 0 0 20px;
+  float: left; }
+
+.btn-add-profile {
+  display: block;
+  background: url("../../images/btn-add.png") no-repeat;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  vertical-align: middle;
+  padding-left: 60px;
+  color: #ABABAD;
+  margin-bottom: 20px; }
+
+.btn-remove-profile {
+  color: #715EFF;
+  font-size: 15px;
+  text-decoration: underline; }
+
+.password-checked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../../images/password-checked.png"); }
+
+.password-unchecked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../../images/password-unchecked.png"); }
+
+.instagram-form {
+  background-color: #FFBC66;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+
+.instagram-form-profile {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FFF;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px; }
+
+.instagram-form-username {
+  line-height: 55px;
+  vertical-align: middle; }
+
+.instagram-form-control {
+  float: right; }
+
+.instagram-form-edit {
+  line-height: 55px;
+  vertical-align: middle;
+  color: #FFF;
+  text-decoration: underline;
+  margin-right: 20px; }
+
+.instagram-form-remove {
+  display: inline-block;
+  vertical-align: middle; }
+
+.instagram-form-add {
+  background: url("../../images/btn-add.png") no-repeat 127px 0;
+  color: #ABABAD;
+  display: block;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  margin-bottom: 20px;
+  padding-left: 185px;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=edit.css.map */
