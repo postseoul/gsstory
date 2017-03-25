@@ -1,9 +1,13 @@
 @charset "UTF-8";
 @import 'variables';
 
+.signup-user-type {
+  margin-bottom: 60px;
+}
+
 .sub-header {
   font-size: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .form-profile {
@@ -98,7 +102,29 @@
   font-size: 18px;
   height: 46px;
   line-height: 46px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   padding-left: 185px;
   vertical-align: middle;
+}
+
+.hashtags {
+  margin-bottom: 60px;
+}
+
+.comments {
+  margin-bottom: 80px;
+}
+
+.hashtag, .comment {
+  float: left;
+  background-color: #f1efff;
+  color: $instarter-purple;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 10px 10px 0;
+}
+
+.hashtag-cancel, .comment-cancel {
+  float: right;
+  margin: 6px 0 0 20px;
 }
