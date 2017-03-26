@@ -105,4 +105,26 @@
   float: right;
   margin: 6px 0 0 20px; }
 
+.btn-group {
+  margin-bottom: 30px; }
+
+.btn-password-edit {
+  background-color: #FFF;
+  border: 2px solid #2B2C34;
+  color: #2B2C34;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 187px;
+  height: 75px; }
+
+.btn-user-edit {
+  background-color: #2B2C34;
+  border: none;
+  color: #FFF;
+  display: inline-block;
+  font-size: 20px;
+  width: 275px;
+  height: 75px; }
+
 /*# sourceMappingURL=edit.css.map */

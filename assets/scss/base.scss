@@ -59,6 +59,10 @@ a {
 }
 
 .btn-default {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
   background-color: $instarter-black;
   border: none;
   color: $instarter-white;

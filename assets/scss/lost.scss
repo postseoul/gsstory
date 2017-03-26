@@ -43,3 +43,53 @@
   margin-right: 25px;
   vertical-align: top;
 }
+
+.btn-password {
+  background-color: #FFF;
+  border: 2px solid $instarter-black;
+  color: $instarter-black;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 20px;
+  width: 155px;
+  height: 71px;
+  line-height: 71px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn-cancel {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  background-color: $instarter-black;
+  border: none;
+  color: $instarter-white;
+  font-size: 20px;
+  height: 75px;
+  width: 120px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn-cancel-find-password {
+  margin: auto 0;
+}
+
+.modal-text {
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.modal-username {
+  color: $instarter-purple;
+  font-weight: bold;
+}
+
+.modal-name {
+  font-weight: normal;
+}
