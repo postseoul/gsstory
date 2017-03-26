@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+
+<section class="main">
+  <header class="main-header cart-header">
+    <span>장바구니
+    <span class="cart-header-badge">2</span>
+    </span>
+
+  </header>
+  <div>
+    <span>장바구니</span>
+    <span>주문/결제</span>
+    <span>주문완료</span>
+  </div>
+  <table>
+    <thead>
+    <th><input type="checkbox"></th>
+    <th>상품평</th>
+    <th>옵션</th>
+    <th>가격</th>
+    <th>수량</th>
+    <th>합계</th>
+    <th>적립금</th>
+    <th></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>데일리 팔로워 업</td>
+        <td>1,500</td>
+        <td>132,000원</td>
+        <td>1개</td>
+        <td>132,000원</td>
+        <td>19320</td>
+        <td>X</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>데일리 팔로워 업</td>
+        <td>1,500</td>
+        <td>132,000원</td>
+        <td>1개</td>
+        <td>132,000원</td>
+        <td>19320</td>
+        <td>X</td>
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <div>
+      <div>상품금액</div>
+      <div>264,000원</div>
+    </div>
+    <div>
+      <div><span>할인</span><span>진행중인 프로모션 명</span></div>
+      <div>-0원</div>
+    </div>
+  </div>
+    <div>
+      <div><span>합계</span><span>264,000원</span></div>
+      <div><span>적립금</span><span>38,649원</span></div>
+    </div>
+  </div>
+  <div>
+    <a href="#!">서비스 계속 보기</a>
+    <div>
+      <a href="#!">선택 상품 주문</a>
+      <a href="#!">전체 상품 주문</a>
+    </div>
+  </div>
+
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("layout/header.html");
+  $('.footer').load("layout/footer.html");
+</script>
+</html>
