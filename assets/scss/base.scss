@@ -21,6 +21,17 @@ a {
   text-decoration: none;
 }
 
+table {
+  width: 100%;
+  border-top: 2px solid $instarter-black;
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid $instarter-border-grey;
+  padding: 20px 0;
+}
+
 .clear {
   clear: both;
 }
@@ -59,7 +70,7 @@ a {
 }
 
 .btn-default {
-  display: block;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
   line-height: 75px;
@@ -83,4 +94,8 @@ a {
   color: $instarter-purple;
   float: right;
   text-decoration: underline;
+}
+
+.float-right {
+  float: right;
 }

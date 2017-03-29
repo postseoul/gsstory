@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/base.css" type="text/css">
   <link rel="stylesheet" href="assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
@@ -29,7 +29,10 @@
   </div>
   <table>
     <thead>
-    <th><input type="checkbox"></th>
+    <td>
+      <input id="cart-item-all" class="hidden" type="checkbox"/>
+      <div id="checkbox-cart-item-all" class="checkbox-cart-item" onclick="toggle_checkbox_all();"></div>
+    </td>
     <th>상품평</th>
     <th>옵션</th>
     <th>가격</th>
@@ -40,50 +43,80 @@
     </thead>
     <tbody>
       <tr>
-        <td><input type="checkbox"></td>
-        <td>데일리 팔로워 업</td>
+        <td>
+          <input id="cart-item-1" class="cart-item hidden" type="checkbox"/>
+          <div id="checkbox-cart-item-1" class="checkbox-cart-item" onclick="toggle_checkbox(1);"></div>
+        </td>
+        <td>
+          <div>데일리 팔로워 업</div>
+          <div>매일 150명씩 총 1,500명 증가</div>
+        </td>
         <td>1,500</td>
-        <td>132,000원</td>
+        <td class="cart-item-price">132,000원</td>
         <td>1개</td>
         <td>132,000원</td>
-        <td>19320</td>
+        <td>
+          <span class="mark-mileage">m</span>
+          <span class="data-mileage">19,320원</span>
+        </td>
         <td>X</td>
       </tr>
       <tr>
-        <td><input type="checkbox"></td>
-        <td>데일리 팔로워 업</td>
+        <td>
+          <input id="cart-item-2" class="cart-item hidden" type="checkbox"/>
+          <div id="checkbox-cart-item-2" class="checkbox-cart-item" onclick="toggle_checkbox(2);"></div>
+        </td>
+        <td>
+          <div>좋아요 업</div>
+          <div>좋아요가 2,500개 증가</div>
+        </td>
         <td>1,500</td>
-        <td>132,000원</td>
+        <td class="cart-item-price">132,000원</td>
         <td>1개</td>
         <td>132,000원</td>
-        <td>19320</td>
+        <td>
+          <span class="mark-mileage">m</span>
+          <span class="data-mileage">19,320원</span>
+        </td>
         <td>X</td>
       </tr>
     </tbody>
   </table>
-  <div>
-    <div>
-      <div>상품금액</div>
-      <div>264,000원</div>
-    </div>
-    <div>
-      <div><span>할인</span><span>진행중인 프로모션 명</span></div>
-      <div>-0원</div>
-    </div>
-  </div>
-    <div>
-      <div><span>합계</span><span>264,000원</span></div>
-      <div><span>적립금</span><span>38,649원</span></div>
-    </div>
-  </div>
-  <div>
-    <a href="#!">서비스 계속 보기</a>
-    <div>
-      <a href="#!">선택 상품 주문</a>
-      <a href="#!">전체 상품 주문</a>
-    </div>
-  </div>
 
+  <div class="totla-price-promotion">
+    <div class="total-price">
+      <span class="total-price-label">상품금액</span>
+      <span class="total-price-value">264,000원</span>
+      <div class="clear"></div>
+    </div>
+    <div class="promotion">
+      <span class="promotion-label">할인</span>
+      <span class="promotion-name">진행중인 프로모션 명</span>
+      <span class="promotion-value">
+        - 0원
+      </span>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="final">
+    <div class="final-price">
+      <span>합계</span>
+      <span class="final-price-value">264,000원</span>
+    </div>
+    <div>
+      <span>적립금</span>
+      <span class="final-mileage-value">38,649원</span>
+      <span class="final-mark-mileage">m</span>
+    </div>
+  </div>
+  <div>
+    <a href="#!" class="btn-continue">서비스 계속 보기</a>
+    <div class="float-right">
+      <a href="#!" class="btn-seleted-order">선택 상품 주문</a>
+      <a href="#!" class="btn-all-order">전체 상품 주문</a>
+    </div>
+  </div>
+  <div class="clear"></div>
 </section>
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>
@@ -91,5 +124,18 @@
 <script>
   $('.header').load("layout/header.html");
   $('.footer').load("layout/footer.html");
+
+  // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
+  function toggle_checkbox_all() {
+    $('cart_item').each(function (item) {
+      item.prop('checked', !item.prop('checked'));
+    });
+  }
+
+  function toggle_checkbox(index){
+    var checkbox = $('#cart-item-'+index);
+    checkbox.prop('checked', !checkbox.prop('checked'));
+    $('#checkbox-cart-item-'+index).toggleClass('checkbox-cart-item-checked');
+  }
 </script>
 </html>

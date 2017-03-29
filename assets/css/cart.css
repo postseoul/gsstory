@@ -2,7 +2,6 @@
   background: url("../images/header-cart.png") no-repeat center;
   font-size: 60px;
   height: 196px;
-  margin: 80px 0 85px -42px;
   width: 565px;
   text-align: center; }
 
@@ -17,9 +16,136 @@
   background-color: #FFBC66; }
 
 .main {
-  widht: 1200px; }
+  width: 1200px; }
 
-table {
-  border-top: 2px solid #2B2C34; }
+.checkbox-cart-item {
+  background: url("../images/checkbox-no.png") no-repeat 0 4px;
+  height: 22px;
+  margin: 0 auto;
+  width: 27px; }
+
+.checkbox-cart-item-checked {
+  background: url("../images/checkbox-yes.png") no-repeat 0 0;
+  height: 22px;
+  margin: 0 auto;
+  width: 27px; }
+
+.cart-item-price {
+  font-weight: 200; }
+
+.mark-mileage {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 22px;
+  background-color: #715EFF;
+  color: #FFF;
+  height: 22px;
+  width: 22px; }
+
+.final-mark-mileage {
+  float: right;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  background-color: #715EFF;
+  color: #FFF;
+  height: 22px;
+  width: 22px; }
+
+.data-mileage {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 22px;
+  font-weight: 200; }
+
+.totla-price-promotion {
+  margin: 35px 40px 30px; }
+
+.total-price {
+  margin-bottom: 15px; }
+
+.promotion {
+  color: #715EFF; }
+
+.promotion-name {
+  float: left;
+  font-size: 13px;
+  line-height: 23px;
+  vertical-align: middle;
+  font-weight: 200; }
+
+.total-price-label, .promotion-label {
+  font-size: 15px;
+  float: left;
+  margin-right: 5px; }
+
+.total-price-value {
+  float: right;
+  font-size: 18px; }
+
+.promotion-value {
+  float: right; }
+
+.final {
+  padding: 40px;
+  margin-bottom: 60px;
+  background-color: #F6F6F6; }
+
+.final-price {
+  margin-bottom: 20px; }
+
+.final-price-value {
+  float: right; }
+
+.final-mileage-value {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+  color: #ABABAD;
+  float: right; }
+
+.btn-continue {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  background-color: #FFF;
+  border: 2px solid #2B2C34;
+  color: #2B2C34;
+  font-size: 20px;
+  height: 75px;
+  width: 205;
+  float: left; }
+
+.btn-seleted-order {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  background-color: #FFF;
+  border: 2px solid #2B2C34;
+  color: #2B2C34;
+  height: 75px;
+  width: 185px;
+  margin-right: 5px;
+  font-size: 20px;
+  float: left; }
+
+.btn-all-order {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  background-color: #2B2C34;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  height: 75px;
+  width: 191px; }
 
 /*# sourceMappingURL=cart.css.map */

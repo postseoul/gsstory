@@ -13,6 +13,15 @@ input {
 a {
   text-decoration: none; }
 
+table {
+  width: 100%;
+  border-top: 2px solid #2B2C34; }
+
+th, td {
+  text-align: center;
+  border-bottom: 1px solid #EDEDED;
+  padding: 20px 0; }
+
 .clear {
   clear: both; }
 
@@ -44,7 +53,7 @@ a {
     background-color: #F6F6F6; }
 
 .btn-default {
-  display: block;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
   line-height: 75px;
@@ -65,5 +74,8 @@ a {
   color: #715EFF;
   float: right;
   text-decoration: underline; }
+
+.float-right {
+  float: right; }
 
 /*# sourceMappingURL=base.css.map */
