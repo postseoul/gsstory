@@ -54,6 +54,7 @@ th, td {
 }
 
 .form-control {
+  box-sizing: border-box;
   background-color: $instarter-white;
   border: 1px solid $instarter-border-grey;
   color: $instarter-black;

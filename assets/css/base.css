@@ -40,6 +40,7 @@ th, td {
   text-align: center; }
 
 .form-control {
+  box-sizing: border-box;
   background-color: #FFF;
   border: 1px solid #EDEDED;
   color: #2B2C34;
