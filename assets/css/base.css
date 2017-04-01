@@ -51,6 +51,7 @@ th, td {
   min-width: 470px;
   padding: 25px 20px; }
   .form-control:disabled {
+    color: #ABABAD;
     background-color: #F6F6F6; }
 
 .btn-default {

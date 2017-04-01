@@ -66,6 +66,7 @@ th, td {
   padding: 25px 20px;
 
   &:disabled {
+    color: $instarter-font-grey;
     background-color: $instarter-background-grey;
   }
 }
