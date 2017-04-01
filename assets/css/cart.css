@@ -67,6 +67,15 @@
   float: left;
   margin: 50px 0 0 20px; }
 
+.cart-item-title-text-header {
+  font-size: 18px;
+  margin-bottom: 15px; }
+
+.cart-item-title-text-description {
+  font-size: 13px;
+  font-weight: 200;
+  color: #715EFF; }
+
 .cart-item-option {
   display: inline-block;
   cursor: pointer;
