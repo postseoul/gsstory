@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
   <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/ticket.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -17,21 +18,19 @@
 
 <section class="main">
   <header class="main-header cart-header">
-    <span>장바구니
-    <span class="cart-header-badge">2</span>
-    </span>
-
-  </header>
-  <div>
     <span>장바구니</span>
-    <span>주문/결제</span>
-    <span>주문완료</span>
+    <span class="cart-header-badge">2</span>
+  </header>
+  <div class="process">
+    <span class="process-cart">장바구니</span>
+    <span class="process-order">주문/결제</span>
+    <span class="process-complete">주문완료</span>
   </div>
   <table>
     <thead>
     <td>
-      <input id="cart-item-all" class="hidden" type="checkbox"/>
-      <div id="checkbox-cart-item-all" class="checkbox-cart-item" onclick="toggle_checkbox_all();"></div>
+      <input id="checkbox-cart-item-all" class="checkbox-cart-item hidden" type="checkbox"/>
+      <div id="cart-item-all" class="cart-item-all" onclick="toggle_checkbox_all();"></div>
     </td>
     <th>상품평</th>
     <th>옵션</th>
@@ -42,43 +41,59 @@
     <th></th>
     </thead>
     <tbody>
-      <tr>
+      <tr id="row_0">
         <td>
-          <input id="cart-item-1" class="cart-item hidden" type="checkbox"/>
-          <div id="checkbox-cart-item-1" class="checkbox-cart-item" onclick="toggle_checkbox(1);"></div>
+          <input id="checkbox-cart-item-0" class="checkbox-cart-item hidden" type="checkbox"/>
+          <div id="cart-item-0" class="cart-item" onclick="toggle_checkbox(0);"></div>
         </td>
         <td>
-          <div>데일리 팔로워 업</div>
-          <div>매일 150명씩 총 1,500명 증가</div>
+          <div class="ticket-order-daily-follower-up"></div>
+          <div class="cart-item-title-text">
+            <div>데일리 팔로워 업</div>
+            <div>매일 150명씩 총 1,500명 증가</div>
+          </div>
+          <div class="clear"></div>
         </td>
-        <td>1,500</td>
+        <td><div class="cart-item-option">1,500</div></td>
         <td class="cart-item-price">132,000원</td>
-        <td>1개</td>
+        <td>
+          <a href="#!"><img src="assets/images/arrow-left-grey.png"></a>
+          <div class="cart-item-ammount">1개</div>
+          <a href="#!"><img src="assets/images/arrow-right-black.png"></a>
+        </td>
         <td>132,000원</td>
         <td>
           <span class="mark-mileage">m</span>
           <span class="data-mileage">19,320원</span>
         </td>
-        <td>X</td>
+        <td><img class="delete-row" src="assets/images/icon-x-black.png" onclick="delete_row(0)"/></td>
       </tr>
-      <tr>
+      <tr id="row_1">
         <td>
-          <input id="cart-item-2" class="cart-item hidden" type="checkbox"/>
-          <div id="checkbox-cart-item-2" class="checkbox-cart-item" onclick="toggle_checkbox(2);"></div>
+          <input id="checkbox-cart-item-1" class="checkbox-cart-item hidden" type="checkbox"/>
+          <div id="cart-item-1" class="cart-item" onclick="toggle_checkbox(1);"></div>
         </td>
         <td>
-          <div>좋아요 업</div>
-          <div>좋아요가 2,500개 증가</div>
+          <div class="ticket-order-like-up"></div>
+          <div class="cart-item-title-text">
+            <div>좋아요 업</div>
+            <div>좋아요가 2,500개 증가</div>
+          </div>
+          <div class="clear"></div>
         </td>
-        <td>1,500</td>
+        <td><div class="cart-item-option">1,500</div></td>
         <td class="cart-item-price">132,000원</td>
-        <td>1개</td>
+        <td>
+          <a href="#!"><img src="assets/images/arrow-left-grey.png"></a>
+          <div class="cart-item-ammount">1개</div>
+          <a href="#!"><img src="assets/images/arrow-right-black.png"></a>
+        </td>
         <td>132,000원</td>
         <td>
           <span class="mark-mileage">m</span>
           <span class="data-mileage">19,320원</span>
         </td>
-        <td>X</td>
+        <td><img class="delete-row" src="assets/images/icon-x-black.png" onclick="delete_row(1)"/></td>
       </tr>
     </tbody>
   </table>
@@ -125,17 +140,31 @@
   $('.header').load("layout/header.html");
   $('.footer').load("layout/footer.html");
 
-  // 체크박스 이미지 또는 텍스트를 클릭하면 체크박스가 토글됩니다.
+  // 체크박스 전체를 토글하는 함수
   function toggle_checkbox_all() {
-    $('cart_item').each(function (item) {
-      item.prop('checked', !item.prop('checked'));
+    checkbox_all = $('#checkbox-cart-item-all');
+    checkbox_all.prop('checked', !checkbox_all.prop('checked'));
+    $('.cart-item').each(function (index, item) {
+      checkbox = $('#checkbox-cart-item-'+index)
+      if(checkbox.prop('checked') != checkbox_all.prop('checked')) {
+        item.click();
+      }
     });
+    $('#cart-item-all').toggleClass('cart-item-checked');
   }
 
-  function toggle_checkbox(index){
-    var checkbox = $('#cart-item-'+index);
+  // 체크박스 이미지를 클릭하면 체크박스를 토글하는 함수
+  function toggle_checkbox(index) {
+    var checkbox = $('#checkbox-cart-item-'+index);
     checkbox.prop('checked', !checkbox.prop('checked'));
-    $('#checkbox-cart-item-'+index).toggleClass('checkbox-cart-item-checked');
+    $('#cart-item-'+index).toggleClass('cart-item-checked');
+  }
+
+  // 상품을 지우는 함수
+  function delete_row(index) {
+    if (confirm("장바구니에 해당 상품을 삭제합니다.")) {
+      $('#row_'+index).remove();
+    }
   }
 </script>
 </html>
