@@ -38,7 +38,7 @@
 
 .modal a.close-modal {
   position: absolute;
-  top: 35px;
+  top: 30px;
   right: 35px;
   display: block;
   width: 30px;
@@ -50,7 +50,7 @@
   background-color: #2B2C34;
   color: #FFF;
   font-size: 20px;
-  padding: 35; }
+  padding: 25px; }
 
 .modal-body {
   margin: 90px 0 50px; }

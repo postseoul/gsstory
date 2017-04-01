@@ -42,8 +42,8 @@
   margin-right: 5px;
   font-size: 20px;
   width: 155px;
-  height: 71px;
-  line-height: 71px;
+  height: 50px;
+  line-height: 50px;
   vertical-align: middle;
   text-align: center; }
 
@@ -51,12 +51,12 @@
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  line-height: 75px;
+  line-height: 50px;
   background-color: #2B2C34;
   border: none;
   color: #FFF;
   font-size: 20px;
-  height: 75px;
+  height: 50px;
   width: 120px; }
 
 .btn-group {
@@ -68,7 +68,7 @@
 .modal-text {
   font-weight: 200;
   text-align: center;
-  margin-bottom: 90px; }
+  margin-bottom: 85px; }
 
 .modal-username {
   color: #715EFF;
