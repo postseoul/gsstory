@@ -32,3 +32,44 @@
     background: url("../../images/arrow-right-purple.png") no-repeat;
     margin: 1px 30px;
   }
+
+.complete-message {
+  font-size: 34px;
+  text-align: center;
+}
+
+.complete-submessage {
+  text-align: center;
+  font-weight: 200;
+}
+
+.link-mypage {
+  text-decoration: underline;
+}
+
+.order-subheader {
+  font-size: 25px;
+}
+
+.order-bank {
+  border-top: 2px solid $instarter-black;
+  margin-bottom: 60px;
+}
+.order-bank-label {
+  font-size: 18px;
+  display: inline-block;
+  width: 180px;
+  padding: 20px 0 20px 30px;
+  background-color: #f1efff;
+  border-bottom: 1px solid #d5d5d6;
+  float: left;
+}
+
+.order-bank-data {
+  font-size: 18px;
+  display: inline-block;
+  border-bottom: 1px solid #d5d5d6;
+  padding: 20px 0 20px 30px;
+  float: left;
+  width: 960px;
+}
