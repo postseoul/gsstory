@@ -1,8 +1,12 @@
 @charset "UTF-8";
 @import 'variables';
 
+.main {
+  width: $width-desktop;
+}
+
 .cart-header {
-  background: url("../images/header-cart.png") no-repeat center;
+  background: url("../../images/header-cart.png") no-repeat center;
   margin-bottom: 5px;
 }
 
@@ -19,10 +23,6 @@
   color: $instarter-white;
 }
 
-.main {
-  width: $width-desktop;
-}
-
 .process {
   text-align: center;
   margin-bottom: 35px;
@@ -37,7 +37,7 @@
     display: inline-block;
     width: 11px;
     height: 17px;
-    background: url("../images/arrow-right-purple.png") no-repeat;
+    background: url("../../images/arrow-right-purple.png") no-repeat;
     margin: 1px 30px;
   }
 }
@@ -52,7 +52,7 @@
     display: inline-block;
     width: 11px;
     height: 17px;
-    background: url("../images/arrow-right-grey.png") no-repeat;
+    background: url("../../images/arrow-right-grey.png") no-repeat;
     margin: 1px 30px;
   }
 }
@@ -65,14 +65,14 @@
 
 .cart-item, .cart-item-all {
   cursor: pointer;
-  background: url("../images/checkbox-no.png") no-repeat 0 4px;
+  background: url("../../images/checkbox-no.png") no-repeat 0 4px;
   height: 22px;
   margin: 0 auto;
   width: 27px;
 }
 
 .cart-item-checked {
-  background: url("../images/checkbox-yes.png") no-repeat 0 0;
+  background: url("../../images/checkbox-yes.png") no-repeat 0 0;
   height: 22px;
   margin: 0 auto;
   width: 27px;
@@ -104,7 +104,7 @@
     width: 10px;
     margin: 0 0 2px 10px;
     height: 7px;
-    background: url("../images/arrow-down-black.png") no-repeat;
+    background: url("../../images/arrow-down-black.png") no-repeat;
   }
 }
 
