@@ -67,7 +67,7 @@
         <td>1개</td>
         <td>132,000원</td>
         <td>
-          <span class="mark-mileage">m</span>
+          <span class="mark-mileage">M</span>
           <span class="data-mileage">19,320원</span>
         </td>
       </tr>
@@ -84,7 +84,7 @@
         <td>1개</td>
         <td>132,000원</td>
         <td>
-          <span class="mark-mileage">m</span>
+          <span class="mark-mileage">M</span>
           <span class="data-mileage">19,320원</span>
         </td>
       </tr>
@@ -92,38 +92,52 @@
   </table>
 
   <div class="order-subheader">결제내역</div>
-  <div>
+  <div class="order-description">
     <div>
-      <span>상품 금액</span>
-      <span>적립금 사용/할인 금액</span>
-      <span>결제 금액</span>
+      <span class="order-description-title">상품 금액</span>
+      <span class="order-description-title">적립금 사용/할인 금액</span>
+      <span class="order-description-title">결제 금액</span>
     </div>
+    <div class="clear"></div>
     <div>
-      <div>
-        <div>
-          <span>데일리 팔로워 업 1,500</span>
-          <span>매일 150명씩 1,500명</span>
-          <span>132,000원</span>
+      <div class="order-description-body-wrapper">
+        <div class="order-description-body">
+          <div class="order-description-body-items">
+            <div class="order-description-body-item">
+              <span class="order-description-body-item-1">
+                <img class="icon-dot" src="../assets/images/icon-dot-purple.png">
+                데일리 팔로워 업 1,500
+              </span>
+              <span class="order-description-body-item-2">132,000원</span>
+              <div class="clear"></div>
+              <span class="order-description-body-item-3">매일 150명씩 1,500명</span>
+            </div>
+            <div class="order-description-body-item">
+              <span class="order-description-body-item-1">
+                <img class="icon-dot" src="../assets/images/icon-dot-purple.png">
+                좋아요 업 2,500
+              </span>
+              <span class="order-description-body-item-2">132,000원</span>
+              <div class="clear"></div>
+              <span class="order-description-body-item-3">좋아요 2,500개 증가</span>
+            </div>
+          </div>
+          <img class="order-description-body-mark" src="../assets/images/icon-minus.png">
         </div>
-        <div>
-          <span>좋아요 업 2,500</span>
-          <span>좋아요 2,500개 증가</span>
-          <span>132,000원</span>
+        <div class="order-description-body-discount">
+          <img class="icon-dot" src="../assets/images/icon-dot-purple.png">
+          <span class="order-description-body-discount-label">적립금 사용</span>
+          <span class="order-description-body-discount-prcie">7,500원</span>
+          <img class="order-description-body-mark" src="../assets/images/icon-equal.png">
         </div>
-        <div>-</div>
-        <div>
-          <span>적립금 사용</span>
-          <span>7,500원</span>
-        </div>
-        <div>=</div>
-        <div>256,500원</div>
+        <div class="order-description-body-price">256,500원</div>
+        <div class="clear"></div>
       </div>
     </div>
   </div>
-  <div>
-    <a href="#!" class="btn-all-order">주문완료 확인</a>
+  <div class="btn-group">
+  <a href="#!" class="btn-all-order">주문완료 확인</a>
   </div>
-  <div class="clear"></div>
 </section>
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>
