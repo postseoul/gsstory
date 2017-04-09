@@ -45,7 +45,6 @@
 .process-order {
   color: $instarter-font-grey;
   font-size: 24px;
-  font-weight: 200;
 
   &::after {
     content: '';
@@ -60,7 +59,6 @@
 .process-complete {
   color: $instarter-font-grey;
   font-size: 24px;
-  font-weight: 200;
 }
 
 .cart-item, .cart-item-all {
@@ -83,6 +81,7 @@
   float: left;
   margin: 50px 0 0 20px
 }
+
 .cart-item-title-text-header {
   font-size: 18px;
   margin-bottom: 15px;
@@ -90,7 +89,6 @@
 
 .cart-item-title-text-description {
   font-size: 13px;
-  font-weight: 200;
   color: $instarter-purple;
 }
 
@@ -106,10 +104,6 @@
     height: 7px;
     background: url("../../images/arrow-down-black.png") no-repeat;
   }
-}
-
-.cart-item-price {
-  font-weight: 200;
 }
 
 .mark-mileage {
@@ -140,14 +134,12 @@
   display: inline-block;
   vertical-align: middle;
   line-height: 22px;
-  font-weight: 200;
 }
 
 .cart-item-ammount {
   display: inline-block;
   line-height: 19px;
   vertical-align: top;
-  font-weight: 200;
   margin: 0 20px;
 }
 
@@ -172,7 +164,6 @@
   font-size: 13px;
   line-height: 23px;
   vertical-align: middle;
-  font-weight: 200;
 }
 
 .total-price-label, .promotion-label {

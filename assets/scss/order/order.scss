@@ -16,9 +16,13 @@
 }
 
 .process-cart,
-.process-order,
-.process-complete {
+.process-order {
   color: $instarter-purple;
+  font-size: 25px;
+}
+
+.process-complete {
+  color: $instarter-font-grey;
   font-size: 25px;
 }
 
@@ -33,46 +37,24 @@
     margin: 1px 30px;
   }
 
-.complete-message {
-  font-size: 34px;
-  text-align: center;
-}
-
-.complete-submessage {
-  text-align: center;
-  font-weight: 300;
-}
-
-.link-mypage {
-  text-decoration: underline;
-}
-
 .order-subheader {
   margin-top: 60px;
   font-size: 25px;
 }
 
-.order-bank {
-  border-top: 2px solid $instarter-black;
-  margin-bottom: 60px;
-}
-.order-bank-label {
-  font-size: 18px;
-  display: inline-block;
-  width: 180px;
-  padding: 20px 0 20px 30px;
-  background-color: #f1efff;
-  border-bottom: 1px solid #d5d5d6;
-  float: left;
+.cart-item-title-text {
+  text-align: left;
 }
 
-.order-bank-data {
+.cart-item-title-text-header {
   font-size: 18px;
-  display: inline-block;
-  border-bottom: 1px solid #d5d5d6;
-  padding: 20px 0 20px 30px;
-  float: left;
-  width: 960px;
+  margin-bottom: 15px;
+}
+
+.cart-item-title-text-description {
+  font-size: 15px;
+  color: $instarter-purple;
+  font-weight: 500;
 }
 
 .order-description {
