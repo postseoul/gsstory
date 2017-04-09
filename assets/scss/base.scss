@@ -24,15 +24,24 @@ a {
 table {
   width: 100%;
   border-top: 2px solid $instarter-black;
+  border-collapse:collapse;
+}
+
+tr {
+  border-bottom: 1px solid #d5d5d6;
 }
 
 th, td {
   text-align: center;
-  border-bottom: 1px solid $instarter-border-grey;
   padding: 20px 0;
 }
 
+th {
+  font-size: 18px;
+}
+
 td {
+  font-size: 15px;
   font-weight: 400;
 }
 

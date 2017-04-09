@@ -15,14 +15,21 @@ a {
 
 table {
   width: 100%;
-  border-top: 2px solid #2B2C34; }
+  border-top: 2px solid #2B2C34;
+  border-collapse: collapse; }
+
+tr {
+  border-bottom: 1px solid #d5d5d6; }
 
 th, td {
   text-align: center;
-  border-bottom: 1px solid #EDEDED;
   padding: 20px 0; }
 
+th {
+  font-size: 18px; }
+
 td {
+  font-size: 15px;
   font-weight: 400; }
 
 .clear {
