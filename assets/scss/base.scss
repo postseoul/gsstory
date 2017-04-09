@@ -9,6 +9,7 @@
 body {
   color: $instarter-black;
   margin: 0;
+  font-weight: 500;
   font-family: 'Roboto', 'Noto Sans KR', sans-serif;
 }
 
@@ -25,14 +26,14 @@ table {
   border-top: 2px solid $instarter-black;
 }
 
-th {
-  font-weight: 500;
-}
-
 th, td {
   text-align: center;
   border-bottom: 1px solid $instarter-border-grey;
   padding: 20px 0;
+}
+
+td {
+  font-weight: 400;
 }
 
 .clear {

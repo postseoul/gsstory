@@ -60,6 +60,28 @@
   float: left;
   width: 960px; }
 
+.order-title {
+  padding-left: 30px; }
+
+.order-title-text {
+  text-align: left;
+  margin-top: 25px; }
+
+.order-title-text-header {
+  font-size: 18px;
+  font-weight: 500; }
+
+.order-title-text-description {
+  font-size: 15px; }
+
+.order-title-text-instagram {
+  font-size: 15px;
+  color: #715EFF; }
+
+.order-total-price {
+  font-size: 18px;
+  font-weight: 500; }
+
 .order-description {
   border-top: 2px solid #2B2C34;
   margin-bottom: 80px; }
@@ -114,6 +136,8 @@
   color: #715EFF; }
 
 .order-description-body-item-3 {
+  font-weight: 400;
+  margin-left: 12px;
   font-size: 15px;
   padding-left: 35px; }
 

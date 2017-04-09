@@ -4,6 +4,7 @@
 body {
   color: #2B2C34;
   margin: 0;
+  font-weight: 500;
   font-family: 'Roboto', 'Noto Sans KR', sans-serif; }
 
 input {
@@ -16,13 +17,13 @@ table {
   width: 100%;
   border-top: 2px solid #2B2C34; }
 
-th {
-  font-weight: 500; }
-
 th, td {
   text-align: center;
   border-bottom: 1px solid #EDEDED;
   padding: 20px 0; }
+
+td {
+  font-weight: 400; }
 
 .clear {
   clear: both; }

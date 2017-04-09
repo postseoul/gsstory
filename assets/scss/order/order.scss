@@ -42,18 +42,29 @@
   font-size: 25px;
 }
 
-.cart-item-title-text {
+.order-title {
+  padding-left: 30px;
+}
+
+.order-title-text {
   text-align: left;
 }
 
-.cart-item-title-text-header {
+.order-title-text-header {
   font-size: 18px;
-  margin-bottom: 15px;
+  font-weight: 500;
+  margin-top: 35px;
 }
 
-.cart-item-title-text-description {
+.order-title-text-description {
   font-size: 15px;
+}
+
+.order-discount {
   color: $instarter-purple;
+}
+
+.order-total-price {
   font-weight: 500;
 }
 
