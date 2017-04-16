@@ -165,6 +165,9 @@
 .arrow-down-black {
   margin-left: 10px; }
 
+.final-price {
+  margin-bottom: 80px; }
+
 .final-price-block {
   width: 33%;
   float: left;
@@ -192,5 +195,26 @@
   float: right;
   bottom: 56px;
   right: -18px; }
+
+.btn-group {
+  text-align: center; }
+
+.btn-payment-black {
+  display: inline-block;
+  color: #FFF;
+  background-color: #2B2C34;
+  border: 2px solid #2B2C34;
+  padding: 25px 0;
+  text-align: center;
+  width: 270px; }
+
+.btn-payment-white {
+  width: 185px;
+  color: #2B2C34;
+  display: inline-block;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #FFF;
+  border: 2px solid #2B2C34; }
 
 /*# sourceMappingURL=order.css.map */

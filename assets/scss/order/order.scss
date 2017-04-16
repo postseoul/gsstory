@@ -204,6 +204,10 @@
   margin-left: 10px;
 }
 
+.final-price {
+  margin-bottom: 80px;
+}
+
 .final-price-block {
   width: 33%;
   float: left;
@@ -235,4 +239,28 @@
   float: right;
   bottom: 56px;
   right: -18px;
+}
+
+.btn-group {
+  text-align: center;
+}
+.btn-payment-black {
+  display: inline-block;
+  color: $instarter-white;
+  background-color: $instarter-black;
+  border: 2px solid $instarter-black;
+  padding: 25px 0;
+  text-align: center;
+  width: 270px;
+}
+
+
+.btn-payment-white {
+  width: 185px;
+  color: $instarter-black;
+  display: inline-block;
+  text-align: center;
+  padding: 25px 0;
+  background-color: $instarter-white;
+  border: 2px solid $instarter-black;
 }
