@@ -165,102 +165,32 @@
 .arrow-down-black {
   margin-left: 10px; }
 
-.order-description {
-  border-top: 2px solid #2B2C34;
-  margin-bottom: 80px; }
-
-.order-description-title {
-  display: inline-block;
-  border-bottom: 1px solid #EDEDED;
-  padding: 20px 0;
-  width: 400px;
-  text-align: center;
+.final-price-block {
+  width: 33%;
   float: left;
-  font-size: 18px; }
-
-.order-description-body-wrapper {
-  border-bottom: 1px solid #EDEDED;
-  height: 165px;
-  padding-bottom: 10px; }
-
-.order-description-body {
-  font-size: 18px;
-  float: left;
-  width: 400px; }
-
-.order-description-body-discount {
-  float: left;
-  width: 400px;
-  text-align: center;
-  line-height: 165px; }
-
-.order-description-body-price {
-  float: left;
-  width: 400px;
-  text-align: center;
-  font-size: 25px;
-  line-height: 165px;
-  color: #715EFF; }
-
-.order-description-body-items {
-  padding-top: 30px;
-  width: 310px;
-  display: inline-block; }
-
-.order-description-body-item {
-  margin-bottom: 20px; }
-
-.order-description-body-item-1 {
-  float: left;
-  padding-left: 35px; }
-
-.order-description-body-item-2 {
-  float: right;
-  color: #715EFF; }
-
-.order-description-body-item-3 {
-  font-size: 15px;
-  padding-left: 35px; }
-
-.order-description-body-mark {
-  padding-top: 62px;
-  float: right; }
-
-.btn-all-order {
-  display: inline-block;
-  text-align: center;
-  line-height: 75px;
-  background-color: #2B2C34;
-  border: none;
-  color: #FFF;
-  font-size: 20px;
-  height: 75px;
-  width: 190px; }
-
-.btn-group {
+  background-color: #f1efff;
+  padding: 40px 0 4px;
   text-align: center; }
 
-.order-description-body-discount {
-  font-size: 18px; }
-
-.order-description-body-discount-prcie {
-  margin-left: 40px;
-  color: #715EFF; }
-
-.mark-mileage {
-  display: inline-block;
-  font-size: 12px;
-  background-color: #715EFF;
-  line-height: 22px;
+.final-price-block-last {
+  width: 34%;
+  float: left;
+  padding: 40px 0;
+  text-align: center;
   color: #FFF;
-  height: 22px;
-  width: 22px; }
+  background-color: #715EFF; }
 
-.icon-dot {
-  margin: 0 5px 7px 0; }
+.final-price-block-label {
+  font-size: 18px;
+  font-weight: 400; }
 
-.data-mileage {
-  line-height: 22px;
-  vertical-align: top; }
+.final-price-block-data {
+  font-size: 34px; }
+
+.final-price-icon {
+  position: relative;
+  float: right;
+  bottom: 56px;
+  right: -18px; }
 
 /*# sourceMappingURL=order.css.map */
