@@ -97,6 +97,74 @@
   font-weight: 400;
   margin-bottom: 5px; }
 
+.well-notice-list-dot {
+  margin-bottom: 5px; }
+
+.order-discount-table {
+  border-top: 2px solid #2B2C34;
+  margin-bottom: 60px; }
+
+.order-discount-table-label {
+  font-size: 18px;
+  display: inline-block;
+  width: 180px;
+  height: 31px;
+  padding: 20px 0 20px 30px;
+  background-color: #f1efff;
+  border-bottom: 1px solid #d5d5d6;
+  float: left; }
+
+.order-discount-table-data {
+  font-size: 18px;
+  height: 31px;
+  font-weight: 300;
+  display: inline-block;
+  border-bottom: 1px solid #d5d5d6;
+  padding: 20px 0 20px 30px;
+  float: left;
+  width: 960px; }
+
+.order-discount-table-data-right {
+  font-size: 15px;
+  float: right;
+  margin-top: 10px; }
+
+.order-discount-table-data-checkbox {
+  background-image: url("../../images/checkbox-no.png");
+  display: inline-block;
+  height: 18px;
+  margin: 0 5px 4px 0;
+  width: 18px;
+  vertical-align: middle; }
+
+.order-discount-table-data-checkbox-checked {
+  background-image: url("../../images/checkbox-yes.png");
+  display: inline-block;
+  height: 22px;
+  margin: 0 0 9px 0;
+  width: 23px;
+  vertical-align: middle; }
+
+.order-discount-table-data-checkbox-label {
+  font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px; }
+
+.order-discount-table-input {
+  font-size: 24px;
+  width: 100px;
+  color: #715EFF;
+  text-align: right;
+  border-bottom: 1px solid #2B2C34; }
+
+.order-discount-table-coupon-select {
+  color: #2B2C34;
+  border-bottom: 1px solid #2B2C34; }
+
+.arrow-down-black {
+  margin-left: 10px; }
+
 .order-description {
   border-top: 2px solid #2B2C34;
   margin-bottom: 80px; }
