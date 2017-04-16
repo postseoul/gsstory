@@ -1,0 +1,115 @@
+.main {
+  width: 100%; }
+
+.home-header {
+  height: 850px;
+  position: relative;
+  overflow: hidden; }
+
+.home-header-video {
+  position: absolute;
+  width: 100%; }
+
+.home-service {
+  padding: 80px 0 90px; }
+
+.home-service-header-korean {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400; }
+
+.home-service-header-english {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ABABAD; }
+
+.home-service-header {
+  margin-bottom: 70px; }
+
+.home-service-body-row {
+  text-align: center;
+  margin-bottom: 75; }
+
+.home-service-body-item-1,
+.home-service-body-item-2,
+.home-service-body-item-3,
+.home-service-body-item-4,
+.home-service-body-item-5,
+.home-service-body-item-6 {
+  display: inline-block;
+  width: 600px;
+  height: 180px; }
+
+.home-service-body-item-1 {
+  background: url("../images/home-service-background-1.png") no-repeat center; }
+
+.home-service-body-item-2 {
+  background: url("../images/home-service-background-2.png") no-repeat center; }
+
+.home-service-body-item-3 {
+  background: url("../images/home-service-background-3.png") no-repeat center; }
+
+.home-service-body-item-4 {
+  background: url("../images/home-service-background-4.png") no-repeat center; }
+
+.home-service-body-item-5 {
+  background: url("../images/home-service-background-5.png") no-repeat center; }
+
+.home-service-body-item-6 {
+  background: url("../images/home-service-background-6.png") no-repeat center; }
+
+.home-service-body-item-img {
+  float: left;
+  margin: 20px 65px 0 0; }
+
+.home-service-body-item-text {
+  padding-top: 35px;
+  float: left; }
+
+.home-service-body-item-text-header {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 15px; }
+
+.home-service-body-item-text-body {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left; }
+
+.home-why {
+  padding: 240px 0;
+  background: url("../images/home-why-background.png"); }
+
+.home-why-container-wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+.home-why-container {
+  width: 600px;
+  float: right; }
+
+.home-why-header {
+  color: #FFF;
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 50px; }
+
+.home-why-body {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 50px; }
+
+.home-why-link {
+  color: #FFBC66;
+  font-size: 20px; }
+
+.home-why-link-arrow {
+  margin-left: 5px; }
+
+.footer {
+  margin-top: 0; }
+
+/*# sourceMappingURL=index.css.map */
