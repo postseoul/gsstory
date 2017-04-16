@@ -84,6 +84,19 @@
 .order-information-complete-data-link {
   text-decoration: underline; }
 
+.well-notice {
+  margin-top: 10px;
+  padding: 40px;
+  background-color: #F6F6F6; }
+
+.well-notice-header {
+  font-size: 25px; }
+
+.well-notice-list-item {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px; }
+
 .order-description {
   border-top: 2px solid #2B2C34;
   margin-bottom: 80px; }
