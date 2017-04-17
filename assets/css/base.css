@@ -4,7 +4,7 @@
 body {
   color: #2B2C34;
   margin: 0;
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'Roboto', 'Noto Sans KR', sans-serif; }
 
 input {
@@ -40,8 +40,7 @@ td {
 
 .main {
   color: #2B2C34;
-  margin: 0 auto;
-  width: 472px; }
+  margin: 0 auto; }
 
 .main-header {
   font-size: 60px;

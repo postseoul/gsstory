@@ -10,7 +10,7 @@ $header-height: 80px;
 
 .header-container {
   margin: 0 auto;
-  width: $width-desktop;
+  max-width: $width-desktop;
 }
 
 .header-logo {
@@ -40,7 +40,7 @@ $user-header-height: 60px;
 
 .user-header {
   background-color: $instarter-background-grey;
-  min-width: $width-desktop;
+  max-width: $width-desktop;
   height: $user-header-height;
 }
 

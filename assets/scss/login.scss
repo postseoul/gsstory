@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import 'variables';
 
+.main {
+  width: 472px;
+}
+
 .signup-header {
   background-image: url("../images/header-login.png");
   margin: 80px auto 85px;

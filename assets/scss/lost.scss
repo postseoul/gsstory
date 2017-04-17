@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import 'variables';
 
+.main {
+  width: 472px;
+}
+
 .lost-header {
   background: url("../images/header-login.png") no-repeat center;
   font-size: 60px;

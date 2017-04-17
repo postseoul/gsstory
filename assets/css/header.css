@@ -4,7 +4,7 @@
 
 .header-container {
   margin: 0 auto;
-  width: 1200px; }
+  max-width: 1200px; }
 
 .header-logo {
   margin-top: 26px;
@@ -27,7 +27,7 @@
 /* user header */
 .user-header {
   background-color: #F6F6F6;
-  min-width: 1200px;
+  max-width: 1200px;
   height: 60px; }
 
 .user-header-logo {

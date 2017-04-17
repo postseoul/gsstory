@@ -1,5 +1,5 @@
 .main {
-  width: 1200px; }
+  max-width: 1200px; }
 
 .cart-header {
   background: url("../../images/header-cart.png") no-repeat center;
