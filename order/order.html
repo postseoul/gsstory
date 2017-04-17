@@ -155,17 +155,17 @@
     <div class="clear"></div>
   </div>
   <div class="btn-group">
-  <a href="#!" class="btn-payment-black">계좌 입금(3% 추가 적립)</a>
-  <a href="#!" class="btn-payment-white">신용카드 결제</a>
-  <a href="#!" class="btn-payment-white">카카오페이 결제</a>
+  <a href="/order/complete" class="btn-payment-black">계좌 입금(3% 추가 적립)</a>
+  <a href="/order/complete" class="btn-payment-white">신용카드 결제</a>
+  <a href="/order/complete" class="btn-payment-white">카카오페이 결제</a>
   </div>
 </section>
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>
 
 <script>
-  $('.header').load("layout/header.html");
-  $('.footer').load("layout/footer.html");
+  $('.header').load("../layout/header.html");
+  $('.footer').load("../layout/footer.html");
   $('.order-discount-table-data-checkbox').click(function() {
     $('.order-discount-table-data-checkbox').toggleClass('order-discount-table-data-checkbox-checked');
   });
