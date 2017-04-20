@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import 'variables';
+
+.recommend-0 {
+  text-align: center;
+  background-color: $instarter-black;
+}
+
+.recommend-header {
+  margin: 0;
+  color: $instarter-white;
+  line-height: initial;
+  padding: 100px 0 15px;
+}
+
+.recommend-subheader {
+  font-size: 18px;
+  color: $instarter-font-grey;
+  margin-bottom: 90px;
+}
+
+.recommend-tickets {
+  margin-bottom: 90px;
+}
+
+.recommend-0-link-1,
+.recommend-0-link-2,
+.recommend-0-link-3,
+.recommend-0-link-4,
+.recommend-0-link-5, {
+  display: inline-block;
+  width: 250px;
+  padding-top: 50px;
+  padding-bottom: 140px;
+  color: $instarter-white;
+}
+
+.recommend-0-link-1 {
+  background: url("../images/recommend-0-01.png") no-repeat center;
+
+}
+.recommend-0-link-2 {
+  background: url("../images/recommend-0-02.png") no-repeat center;
+
+}
+.recommend-0-link-3 {
+  background: url("../images/recommend-0-03.png") no-repeat center;
+
+}
+.recommend-0-link-4 {
+  background: url("../images/recommend-0-04.png") no-repeat center;
+
+}
+.recommend-0-link-5 {
+  background: url("../images/recommend-0-05.png") no-repeat center;
+
+}
+
+.recommend-1 {
+  width: 990px;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+
+.recommend-1-header {
+  margin-bottom: 50px;
+}
+
+.recommend-1-case {
+  font-size: 20px;
+  font-weight: 500;
+  color: $instarter-skyblue;
+  margin-bottom: 20px;
+}
+
+.recommend-1-title {
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  color: $instarter-purple;
+}
+
+.recommend-1-description {
+  font-size: 15px;
+  font-weight: 300;
+}
