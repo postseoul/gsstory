@@ -1,0 +1,70 @@
+.modal-text {
+  margin: 40px 0 0 40px;
+  padding-bottom: 230px; }
+
+.modal-text-intput-wrapper {
+  display: inline-block;
+  border-bottom: 4px solid #2B2C34;
+  width: 390px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  float: left; }
+
+.modal-text-intput {
+  font-size: 18px;
+  float: left;
+  width: 320px; }
+
+.icon-search {
+  float: right; }
+
+.icon-checkbox-wrapper {
+  display: inline-block;
+  float: left;
+  font-size: 15px; }
+
+.icon-checkbox {
+  background-image: url("../../images/checkbox-no.png");
+  display: inline-block;
+  height: 18px;
+  margin: 2px 5px 0 0;
+  width: 18px; }
+
+.icon-checkbox-checked {
+  background-image: url("../../images/checkbox-yes.png");
+  display: inline-block;
+  height: 22px;
+  margin: -3px 0 0 0;
+  width: 23px; }
+
+.icon-checkbox-text {
+  font-size: 15px;
+  font-weight: 300;
+  display: inline-block;
+  vertical-align: top; }
+
+.btn-submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #2B2C34;
+  border: 2px solid #2B2C34;
+  color: #FFF;
+  font-size: 20px;
+  height: 50px;
+  width: 120px; }
+
+.btn-cancel {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #FFF;
+  border: 2px solid #2B2C34;
+  color: #2B2C34;
+  font-size: 20px;
+  height: 50px;
+  width: 120px; }
+
+/*# sourceMappingURL=modals.css.map */

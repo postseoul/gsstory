@@ -1,0 +1,30 @@
+<div id="order-modal-1" style="display:none;">
+  <div class="modal-header">상품 정보 등록하기</div>
+  <div class="modal-body">
+    <div class="modal-text">
+    <div class="modal-text-intput-wrapper">
+      <input class="modal-text-intput" placeholder="인스타그램 아이디를 정확하게 검색해 주세요" />
+      <a href=#!>
+        <img class="icon-search" src="../../assets/images/icon-search.png" />
+      </a>
+    </div>
+    <div class="icon-checkbox-wrapper">
+      <span class="icon-checkbox"></span>
+      <span class="icon-checkbox-text">전체 상품에 일괄 적용</span>
+
+    </div>
+    </div>
+    <div class="clear"></div>
+    <div class="btn-group">
+      <a href="#!" class="btn-submit" rel="modal:close">입력완료</a>
+      <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+
+<script>
+$('.icon-checkbox').click(function() {
+  $('.icon-checkbox').toggleClass('icon-checkbox-checked');
+});
+</script>

@@ -2,20 +2,22 @@
 <head>
   <meta charset="UTF-8">
   <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Roboto.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/base.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/footer.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/order/order.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/ticket.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/order/modals.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <header class="header"><!-- layout/header.html --></header>
-
 <section class="main">
   <header class="main-header order-header">주문/결제</header>
   <div class="process">
@@ -55,7 +57,7 @@
       <tr>
         <td class="btn-order-information" colspan="6">
           <img class="icon-plus-black" src="../assets/images/icon-plus-black.png">
-          <span class="btn-order-information-text">상품 정보 입력하기...</span>
+          <a href="#order-modal-1" class="btn-order-information-text" rel="modal:open">상품 정보 입력하기...</a href="#!">
         </td>
       </tr>
       <tr style="border: none;">
@@ -161,9 +163,11 @@
   </div>
 </section>
 <footer class="footer"><!-- layout/header.html --></footer>
+<div class="order-modals"></div>
 </body>
 
 <script>
+  $('.order-modals').load("./modals.html");
   $('.header').load("../layout/header.html");
   $('.footer').load("../layout/footer.html");
   $('.order-discount-table-data-checkbox').click(function() {
