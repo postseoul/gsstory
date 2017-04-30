@@ -5,6 +5,12 @@
   width: 1200px;
   margin: 0 auto; }
 
+.service-header {
+  background: url("../images/header-service.png") no-repeat center;
+  line-height: initial;
+  padding: 30px 0 34px;
+  margin-bottom: 100px; }
+
 .service-main-tab {
   float: left;
   display: inline-block;
@@ -57,6 +63,9 @@
   font-weight: 300; }
 
 .service-item-description-2 {
+  font-weight: 500; }
+
+.service-item-description-3 {
   color: #ABABAD;
   font-size: 13px;
   font-weight: 300; }
@@ -87,7 +96,8 @@
 .service-item-control-1-input {
   font-size: 24px;
   font-weight: 300;
-  border-bottom: 1px solid #2B2C34; }
+  border-bottom: 1px solid #2B2C34;
+  padding-bottom: 5px; }
 
 .btn-order,
 .btn-cart,
