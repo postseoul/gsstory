@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="../assets/css/base.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/review.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -14,7 +15,156 @@
 <body>
 <header class="header"><!-- layout/header.html --></header>
 <section class="main">
-  <header class="main-header about-header">고객 후기</header>
+  <div class="review-header-wrapper">
+    <header class="main-header review-header">고객 후기</header>
+    <div class="review-subheader">인스타터에서 구매한 서비스의 후기를 남겨주세요</div>
+    <div class="review-description">
+      남겨주신 후기 종류에 따라 적립금을 자동 지급해 드립니다.<br>
+      리뷰 적립금은 서비스 완료 후 한달 이내에 작성된 건에 한해 지급되며, 구매 1건당 1번의 적립금만 지급됩니다.
+    </div>
+    <div>
+      <div class="review-ticket">
+        <img class="review-ticket-image" src="../assets/images/review-1.png">
+        <div class="review-ticket-description">3줄 이상의 텍스트 리뷰</div>
+        <div class="review-ticket-award">1,000원</div>
+      </div>
+      <div class="review-ticket">
+        <img class="review-ticket-image" src="../assets/images/review-2.png">
+        <div class="review-ticket-description">서비스 전, 후 비교샷이 담긴<br>사진 리뷰</div>
+        <div class="review-ticket-award">2,000원</div>
+      </div>
+      <div class="review-ticket">
+        <img class="review-ticket-image" src="../assets/images/review-3.png">
+        <div class="review-ticket-description">사진 리뷰를 포함한<br>블로그나 인스타그램 리뷰</div>
+        <div class="review-ticket-award">4,000원</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="review-table-wrapper">
+    <div class="review-table-header">
+      <span class="review-count">총 12,345개의 게시물</span>
+      <span class="review-table-orders">
+        <a class="btn-order btn-order-active" href="#!"><img class="icon-checked" src="../assets/images/icon-checked.png">최신순</a>
+        <a class="btn-order" href="#!"><img class="icon-checked" src="../assets/images/icon-unchecked.png">인기순</a>
+      </span>
+    </div>
+    <table class="review-table">
+      <thead>
+        <tr>
+          <th>번호</th>
+          <th>상품명</th>
+          <th>제목</th>
+          <th>작성자</th>
+          <th>날짜</th>
+          <th>조회수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="review-table-td-1">10</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">좋아요</td>
+          <td class="review-table-td-4">rla***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">123</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">9</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">좋네요</td>
+          <td class="review-table-td-4">qkr***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">456</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">8</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">마음에 들어요</td>
+          <td class="review-table-td-4">chl***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">789</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">7</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">좋아요! 추천</td>
+          <td class="review-table-td-4">rkd***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">123</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">6</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">후기 남깁니다</td>
+          <td class="review-table-td-4">ths***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">456</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">5</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">처음만큼은 아니지만 만족합니다.</td>
+          <td class="review-table-td-4">rnj***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">789</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">4</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">5번째 구입후기</td>
+          <td class="review-table-td-4">wkd***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">132</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">3</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">구입후기! 너무 좋습니다!</td>
+          <td class="review-table-td-4">dlt***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">468</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">2</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">구매후기</td>
+          <td class="review-table-td-4">fpd***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">2131</td>
+        </tr>
+        <tr>
+          <td class="review-table-td-1">1</td>
+          <td class="review-table-td-2">데일리 팔로우 업 250</td>
+          <td class="review-table-td-3">데일리 좋아요 구매 후기</td>
+          <td class="review-table-td-4">lwk***</td>
+          <td class="review-table-td-5">2017-03-13</td>
+          <td class="review-table-td-6">132</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="review-write-box">
+      <div class="review-write-box-text">
+        <div class="review-write-box-header">서비스를 구매하셨나요?</div>
+        <div class="review-write-box-description">서비스 후기를 남겨 주시면 참고하여 더 좋은 서비를 제공하도록 노력하겠습니다.</div>
+      </div>
+      <a class="btn-review-write" href="#!">
+        <img src="../assets/images/icon-write.png">
+        <span class="btn-review-write-text">후기 작성하기</span>
+      </a>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="review-pagination-wrapper">
+    <span class="review-pagination">
+      <a class="review-pagination-prev" href="#!"><img src="../assets/images/arrow-left-grey.png"></a>
+      <a href="#!">1</a>
+      <a class="review-pagination-next" href="#!"><img src="../assets/images/arrow-right-grey.png"></a>
+      <span class="clear"></span>
+    </span>
+  </div>
 </section>
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>

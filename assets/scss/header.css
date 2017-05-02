@@ -1,0 +1,49 @@
+.header {
+  background-color: #2B2C34;
+  height: 80px; }
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.header-logo {
+  margin-top: 26px;
+  float: left; }
+
+.header-nav {
+  line-height: 80px;
+  vertical-align: middle;
+  float: right; }
+
+.header-nav-item,
+.header-nav-item-selected {
+  color: #FFF;
+  font-size: 18px;
+  margin-left: 40px; }
+
+.header-nav-item-selected {
+  color: #ABABAD; }
+
+/* user header */
+.user-header {
+  background-color: #F6F6F6;
+  max-width: 1200px;
+  height: 60px; }
+
+.user-header-logo {
+  line-height: 60px;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle; }
+
+.user-header-nav {
+  line-height: 60px;
+  vertical-align: middle;
+  float: right; }
+
+.user-header-nav-item {
+  margin-left: 40px;
+  color: #2B2C34; }
+
+/*# sourceMappingURL=header.css.map */

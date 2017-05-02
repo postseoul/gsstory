@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import 'variables';
+
+.review-header-wrapper {
+  background-color: $instarter-background-grey;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 60px;
+}
+.review-header {
+  background: url(../images/header-review.png) no-repeat center;
+  line-height: initial;
+  padding: 48px 0 16px;
+  margin: 0;
+}
+
+.review-subheader {
+  font-size: 34px;
+  margin: -15px 0 20px;
+}
+
+.review-description {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.review-ticket {
+  height: 245px;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  color: $instarter-purple;
+  margin: 0 65px 60px;
+}
+
+.review-ticket-image {
+  margin-bottom: 20px;
+}
+
+.review-ticket-description {
+  height: 58px;
+}
+
+.review-ticket-award {
+  color: $instarter-black;
+  font-size: 70px;
+}
+
+.review-table-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.review-table-header {
+  margin-bottom: 15px;
+}
+
+.review-count {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.review-table-orders {
+  float: right;
+  margin-top: 8px;
+}
+
+.btn-order {
+  font-size: 15px;
+  color: $instarter-font-grey;
+}
+
+.btn-order-active {
+  color: $instarter-purple;
+}
+
+.icon-checked {
+  margin: 0 10px 0 20px;
+}
+
+.review-table {
+  margin-bottom: 30px;
+}
+
+.review-table-td-1,
+.review-table-td-4,
+.review-table-td-5,
+.review-table-td-6 {
+  font-weight: 300;
+}
+
+.review-table-td-2 {
+  font-weight: 400;
+}
+
+.review-table-td-3 {
+  font-weight: 500;
+  text-align: left;
+}
+
+.review-write-box {
+  background-color: $instarter-background-grey;
+  padding: 40px 45px;
+  margin-bottom: 30px;
+}
+
+.review-write-box-text {
+  display: inline-block;
+}
+.review-write-box-header {
+  font-size: 30px;
+}
+
+.review-write-box-description {
+  font-weight: 300;
+}
+
+.btn-review-write {
+  background-color: $instarter-purple;
+  color: $instarter-white;
+  float: right;
+  padding: 20px 30px;
+}
+
+.btn-review-write-text {
+  line-height: 32px;
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
+
+.review-pagination-wrapper {
+  text-align: center;
+}
+
+.review-pagination {
+  display: inline-block;
+}
+
+.review-pagination a {
+  padding: 15px 18px;
+  display: inline-block;
+  float: left;
+  color: $instarter-black;
+  margin: 0 5px;
+}
+
+.review-pagination-prev,
+.review-pagination-next {
+  background-color: $instarter-background-grey;
+}

@@ -1,0 +1,39 @@
+.main {
+  width: 472px; }
+
+.signup-header {
+  background-image: url("../images/header-login.png");
+  margin: 80px auto 85px;
+  width: 465px; }
+
+.form-control-first {
+  margin-bottom: 0;
+  border-bottom: none; }
+
+.form {
+  margin-bottom: 150px; }
+
+.btn-socials {
+  margin: 20px 0 30px 0; }
+
+.btn-naver,
+.btn-facebook {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  padding: 25px 70px; }
+
+.btn-naver {
+  background-color: #1fc700;
+  background-image: url("../images/naver-logo.png");
+  background-repeat: no-repeat;
+  background-position: 5px 10px; }
+
+.btn-facebook {
+  background-color: #3b5998;
+  background-image: url("../images/facebook-logo.png");
+  background-repeat: no-repeat;
+  background-position: 5px 10px; }
+
+/*# sourceMappingURL=login.css.map */

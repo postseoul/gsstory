@@ -1,0 +1,163 @@
+.header {
+  min-width: 1200px; }
+
+.main {
+  width: 1200px;
+  margin: 0 auto; }
+
+.service-header {
+  background: url("../images/header-service.png") no-repeat center;
+  line-height: initial;
+  padding: 30px 0 34px;
+  margin-bottom: 100px; }
+
+.service-main-tab {
+  float: left;
+  display: inline-block;
+  width: 600px;
+  border-bottom: 1px solid #2B2C34;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #ABABAD;
+  font-size: 24px;
+  font-weight: 300; }
+
+.service-sub-tab:first-of-type {
+  margin-right: 30px; }
+
+.service-main-tab-active {
+  border-bottom: 2px solid #2B2C34;
+  padding-bottom: 14px;
+  color: #2B2C34;
+  font-weight: 500; }
+
+.service-sub-tabs {
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 75px;
+  text-align: center; }
+
+.service-sub-tab {
+  display: inline-block;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #ABABAD;
+  font-weight: 300; }
+
+.service-sub-tab-active {
+  border-bottom: 2px solid #715EFF;
+  padding-bottom: 14px;
+  color: #715EFF;
+  font-weight: 500; }
+
+.service-item {
+  margin-bottom: 100px; }
+
+.service-item-title {
+  font-size: 34px; }
+
+.service-item-description {
+  margin-bottom: 40px; }
+
+.service-item-description-1 {
+  font-weight: 300; }
+
+.service-item-description-2 {
+  font-weight: 500; }
+
+.service-item-description-3 {
+  color: #ABABAD;
+  font-size: 13px;
+  font-weight: 300; }
+
+.service-item-ticket {
+  float: left;
+  margin-right: 50px; }
+
+.service-item-controls {
+  float: left; }
+
+.service-item-control {
+  margin-bottom: 40px; }
+
+.service-item-control-1-label,
+.service-item-control-2-label,
+.service-item-control-3-label {
+  color: #ABABAD;
+  width: 115px;
+  display: inline-block;
+  height: 28px;
+  line-height: 37px;
+  float: left; }
+
+.service-item-control-3-label {
+  line-height: 53px; }
+
+.service-item-control-1-input {
+  font-size: 24px;
+  font-weight: 300;
+  border-bottom: 1px solid #2B2C34;
+  padding-bottom: 5px; }
+
+.btn-order,
+.btn-cart,
+.btn-more {
+  padding: 21px 35px;
+  display: inline-block;
+  font-size: 20px; }
+
+.btn-order {
+  color: #FFF;
+  border: 2px solid #2B2C34;
+  background-color: #2B2C34;
+  margin-right: 5px; }
+
+.btn-cart {
+  color: #2B2C34;
+  border: 2px solid #2B2C34;
+  margin-right: 5px; }
+
+.btn-more {
+  color: #2B2C34;
+  border: 2px solid #EDEDED;
+  background-color: #EDEDED; }
+
+.arrow {
+  padding-top: 7px;
+  margin-bottom: -2px; }
+
+.arrow-down {
+  margin-left: 20px;
+  padding-bottom: 4px; }
+
+.service-item-control-2-input {
+  font-weight: 300;
+  margin: 0 15px; }
+
+.service-item-control-3-input {
+  line-height: 53px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 53px; }
+
+.service-item-control-price {
+  font-size: 45px;
+  margin-right: 20px; }
+
+.mark-mileage {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 13px;
+  line-height: 23px;
+  background-color: #715EFF;
+  color: #FFF;
+  height: 22px;
+  width: 22px; }
+
+.service-item-control-mileage {
+  font-size: 15px;
+  color: #ABABAD;
+  float: right; }
+
+/*# sourceMappingURL=service.css.map */
