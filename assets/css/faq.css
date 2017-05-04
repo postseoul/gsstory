@@ -42,16 +42,14 @@
   font-weight: 300; }
 
 .btn-faq-more {
-  float: right;
-  display: inline-block;
   background-color: #715EFF;
   color: #FFF;
-  font-size: 20px;
-  padding: 20px 30px;
-  font-weight: 300; }
+  float: right;
+  padding: 20px 30px; }
 
 .btn-faq-more-text {
-  float: right;
+  line-height: 32px;
+  vertical-align: text-bottom;
   margin-left: 10px; }
 
 .faq-block-open .faq-question {
