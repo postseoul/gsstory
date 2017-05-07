@@ -150,3 +150,131 @@
 .review-pagination-next {
   background-color: $instarter-background-grey;
 }
+
+.modal-body {
+  margin: 40px 25px;
+}
+
+.modal-body-title {
+  font-size: 20px;
+}
+
+.btn-submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: $instarter-black;
+  border: 2px solid $instarter-black;
+  color: $instarter-white;
+  font-size: 18px;
+  padding: 10px 0;
+  width: 125px;
+}
+
+.btn-close {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid $instarter-black;
+  background-color: $instarter-white;
+  color: $instarter-black;
+  font-size: 18px;
+  padding: 10px 0;
+  width: 125px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.modal-body-product {
+  color: $instarter-black;
+  display: block;
+  border-bottom: 1px solid $instarter-black;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+.modal-body-product-description {
+  color: $instarter-purple;
+  font-size: 13px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.arrow-down-black {
+  float: right;
+  margin-top: 7px;
+}
+
+.modal-body-input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid $instarter-border-grey;
+  margin-bottom: 10px;
+  padding: 25px;
+  font-size: 18px;
+}
+
+.modal-body-textarea {
+  width: 100%;
+  height: 250px;
+  border: 1px solid $instarter-border-grey;
+  font-size: 15px;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+
+.modal-file-wrapper {
+  padding: 30px;
+  background-color: $instarter-background-grey;
+  text-align: center;
+}
+
+.btn-add {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.btn-add-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.btn-add-text {
+  color: $instarter-font-grey;
+  font-size: 18px;
+  float: left;
+  line-height: 48px;
+}
+
+.modal-file-description {
+  color: $instarter-font-grey;
+  font-size: 15px;
+}
+
+.modal-file-list {
+  background-color: $instarter-border-grey;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+}
+
+.modal-file-thumbnail {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left;
+}
+
+.modal-file-name {
+  display: inline-block;
+  float: left;
+  color: $instarter-black;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.btn-file-cancel {
+  margin-left: 15px;
+}
