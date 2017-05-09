@@ -67,15 +67,18 @@ td {
   font-weight: 300; }
 
 .service-table-1-date {
-  line-height: 54px;
+  line-height: 44px;
   color: #ABABAD;
   font-size: 15px;
+  float: left;
   font-weight: 300; }
 
 .service-table-1-title {
+  font-weight: 500;
   font-size: 18px !important; }
 
 .service-table-1-status {
+  font-weight: 500;
   color: #715EFF;
   font-size: 25px !important; }
 
@@ -90,6 +93,7 @@ td {
 
 .service-table-1-account {
   margin-top: 10px;
+  font-weight: 500;
   font-size: 25px !important;
   display: inline-block; }
 
