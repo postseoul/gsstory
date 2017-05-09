@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import 'variables';
+
+.main {
+  max-width: $width-desktop;
+}
+
+.qna-header {
+  background: url("../../images/header-user-edit.png") no-repeat center;
+  margin-bottom: 5px;
+}
+
+.qna-subheader {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin: 80px 0 30px 0;
+}
+
+.qna-block {
+  border-bottom: 1px solid $instarter-black;
+  margin-bottom: 25px;
+}
+
+.qna-question {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.qna-question-arrow {
+  background: url("../../images/arrow-down-black-big.png") no-repeat center;
+  display: inline-block;
+  float: right;
+  margin-top: 14px;
+  width: 17px;
+  height: 11px;
+}
+
+.qna-answer {
+  display: none;
+}
+
+.qna-more {
+  margin-top: 80px;
+  background-color: $instarter-background-grey;
+  padding: 40px;
+}
+
+.qna-more-header {
+  font-size: 30px;
+}
+
+.qna-more-body {
+  font-weight: 300;
+}
+
+.btn-qna-more {
+  background-color: $instarter-purple;
+  color: $instarter-white;
+  float: right;
+  padding: 20px 30px;
+}
+
+.btn-qna-more-text {
+  line-height: 32px;
+  vertical-align: text-bottom;
+  margin-left: 10px;
+}
+
+.qna-block-open {
+  .qna-question {
+    color: $instarter-purple;
+  }
+
+  .qna-answer {
+    display: block;
+    background-color: $instarter-background-grey;
+    padding: 30px;
+    font-weight: 300;
+  }
+
+  .qna-question-arrow {
+    background: url("../../images/arrow-up-purple-big.png") no-repeat center;
+    display: inline-block;
+    float: right;
+    width:17px;
+    height: 11px;
+  }
+}
+
+.qna-question-label-yet {
+  display: inline-block;
+  background-color: $instarter-background-grey;
+  color: $instarter-font-grey;
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+.qna-question-label-done {
+  display: inline-block;
+  background-color: $instarter-purple;
+  color: $instarter-white;
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+.qna-question-date {
+  font-size: 15px;
+  color: $instarter-font-grey;
+  float: right;
+  margin-right: 20px;
+  margin-top: 11px;
+}
