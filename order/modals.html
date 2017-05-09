@@ -2,21 +2,80 @@
   <div class="modal-header">상품 정보 등록하기</div>
   <div class="modal-body">
     <div class="modal-text">
-    <div class="modal-text-intput-wrapper">
-      <input class="modal-text-intput" placeholder="인스타그램 아이디를 정확하게 검색해 주세요" />
-      <a href=#!>
-        <img class="icon-search" src="../../assets/images/icon-search.png" />
-      </a>
+      <div class="modal-text-intput-wrapper">
+        <input class="modal-text-intput" placeholder="인스타그램 아이디를 정확하게 검색해 주세요" />
+        <a href=#!>
+          <img class="icon-search" src="../../assets/images/icon-search.png" />
+        </a>
+      </div>
+      <div class="icon-checkbox-wrapper">
+        <span class="icon-checkbox"></span>
+        <span class="icon-checkbox-text">전체 상품에 일괄 적용</span>
+      </div>
+      <div class="clear"></div>
+      <div class="modal-search-result">
+        <span class="modal-search-result-description">해당하는 검색 결과를 선택해 주세요</span>
+        <div class="modal-search-result-box">
+          <span class="float-left">
+            <span class="modal-search-result-profile"></span>
+            <span class="modal-search-result-account">Account_ID</span><br>
+            <span class="modal-search-result-username">사용자 이름</span>
+          </span>
+          <div class="modal-search-result-infos">
+            <div class="modal-search-result-info">
+              <div class="modal-search-result-info-label">팔로워</div>
+              <div class="modal-search-result-info-data">6,237</div>
+            </div>
+            <div class="modal-search-result-info">
+              <div class="modal-search-result-info-label">팔로잉</div>
+              <div class="modal-search-result-info-data">85</div>
+            </div>
+            <div class="modal-search-result-info">
+              <div class="modal-search-result-info-label">게시물</div>
+              <div class="modal-search-result-info-data">89</div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
     </div>
-    <div class="icon-checkbox-wrapper">
-      <span class="icon-checkbox"></span>
-      <span class="icon-checkbox-text">전체 상품에 일괄 적용</span>
-
-    </div>
+    <div class="btn-group">
+      <a href="#order-modal-2" class="btn-submit" rel="modal:open">입력완료</a>
+      <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
     </div>
     <div class="clear"></div>
+  </div>
+</div>
+
+<div id="order-modal-2" style="display:none;">
+  <div class="modal-header">등록된 상품 정보</div>
+  <div class="modal-body">
+    <div class="modal-text">
+      <div class="modal-search-result-box">
+        <span class="float-left">
+          <span class="modal-search-result-profile"></span>
+          <span class="modal-search-result-account">Account_ID</span><br>
+          <span class="modal-search-result-username">사용자 이름</span>
+        </span>
+        <div class="modal-search-result-infos">
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">팔로워</div>
+            <div class="modal-search-result-info-data">6,237</div>
+          </div>
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">팔로잉</div>
+            <div class="modal-search-result-info-data">85</div>
+          </div>
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">게시물</div>
+            <div class="modal-search-result-info-data">89</div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
     <div class="btn-group">
-      <a href="#!" class="btn-submit" rel="modal:close">입력완료</a>
+      <a href="#!" class="btn-submit">수정하기</a>
       <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
     </div>
     <div class="clear"></div>

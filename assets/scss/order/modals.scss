@@ -1,10 +1,15 @@
 @charset "UTF-8";
 @import 'variables';
 
+.modal-body {
+    margin: 30px 0 50px;
+}
+
 .modal-text {
   margin: 40px 0 0 40px;
-  padding-bottom: 230px;
+  padding-bottom: 30px;
 }
+
 .modal-text-intput-wrapper {
   display: inline-block;
   border-bottom: 4px solid $instarter-black;
@@ -12,6 +17,7 @@
   padding-bottom: 10px;
   margin-right: 20px;
   float: left;
+  margin-bottom: 50px;
 }
 
 .modal-text-intput {
@@ -77,4 +83,57 @@
   font-size: 20px;
   height: 50px;
   width: 120px;
+}
+
+.modal-search-result-description {
+  font-weight: 300;
+}
+
+.modal-search-result-box {
+  background-color: $instarter-background-grey;
+  padding: 20px;
+  margin-right: 35px;
+}
+
+.modal-search-result-profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: $instarter-border-grey;
+  float: left;
+  margin-right: 10px;
+}
+
+.modal-search-result-account {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.modal-search-result-username {
+  font-size: 18px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.modal-search-result-infos {
+  display: inline-block;
+  float: right;
+  margin: 15px 5px 0 0;
+}
+
+.modal-search-result-info {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.modal-search-result-info-label {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.modal-search-result-info-data {
+  color: $instarter-purple;
 }
