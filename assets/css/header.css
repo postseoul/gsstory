@@ -27,7 +27,6 @@
 /* user header */
 .user-header {
   background-color: #F6F6F6;
-  max-width: 1200px;
   height: 60px; }
 
 .user-header-logo {
@@ -45,5 +44,9 @@
 .user-header-nav-item {
   margin-left: 40px;
   color: #2B2C34; }
+
+.user-header-container {
+  margin: 0 auto;
+  max-width: 1200px; }
 
 /*# sourceMappingURL=header.css.map */

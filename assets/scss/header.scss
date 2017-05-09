@@ -40,7 +40,6 @@ $user-header-height: 60px;
 
 .user-header {
   background-color: $instarter-background-grey;
-  max-width: $width-desktop;
   height: $user-header-height;
 }
 
@@ -61,4 +60,9 @@ $user-header-height: 60px;
 .user-header-nav-item {
   margin-left: 40px;
   color: $instarter-black;
+}
+
+.user-header-container {
+  margin: 0 auto;
+  max-width: $width-desktop;
 }
