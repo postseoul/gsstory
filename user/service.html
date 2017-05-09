@@ -1,0 +1,159 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/user/service.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<header class="user-header"><!-- layout/user_header.html --></header>
+<section class="main">
+  <header class="main-header user-service-header">
+    진행중인 서비스
+  </header>
+  <div class="service-main-tabs">
+    <a class="service-main-tab service-main-tab-active" href="#!">진행중인 서비스</a>
+    <a class="service-main-tab" href="#!">지난 서비스</a>
+    <div class="clear"></div>
+  </div>
+  <div class="service-subheader">서비스 정보</div>
+  <table class="service-table-1">
+  <tr>
+    <th>주문번호</th>
+    <td class="service-table-1-number">20170302-00001</td>
+    <th>서비스 기간</th>
+    <td>
+      <span class="service-table-1-date">2017-03-02 ~ 2017-04-02</span>
+      <a class="btn-renewal" href="#!">서비스 연장</a>
+    </td>
+  </tr>
+  <tr>
+    <th>서비스 상품명</th>
+    <td class="service-table-1-title">데일리 팔로워 업 1,500</td>
+    <th rowspan="2">서비스 적용 계정</th>
+    <td rowspan="2">
+      <span class="service-table-1-profile-img"></span>
+      <span style="display: inline-block;">
+        <span class="service-table-1-account">Account_ID</span><br>
+        <span class="service-table-1-username">사용자 이름</span>
+      </span>
+      <a class="btn-renewal" style="margin-top: 18px;" href="#!">계정 변경</a>
+    </td>
+  </tr>
+  <tr>
+    <th>진행 상태</th>
+    <td class="service-table-1-status">진행 중</td>
+  </tr>
+  </table>
+  <div class="service-subheader">서비스 결과</div>
+  <table>
+    <thead>
+      <tr>
+        <th>날짜</th>
+        <th>서비스 적용 계정</th>
+        <th>서비스 시작 전</th>
+        <th>서비스 시작 후</th>
+        <th>증가량</th>
+        <th>진행상태</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2017-03-02</td>
+        <td>Account_ID</td>
+        <td>230</td>
+        <td class="service-table-2-after">380</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-03</td>
+        <td>Account_ID</td>
+        <td>380</td>
+        <td class="service-table-2-after">530</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-04</td>
+        <td>Account_ID</td>
+        <td>530</td>
+        <td class="service-table-2-after">680</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-05</td>
+        <td>Account_ID</td>
+        <td>680</td>
+        <td class="service-table-2-after">830</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-06</td>
+        <td>Account_ID</td>
+        <td>830</td>
+        <td class="service-table-2-after">980</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-07</td>
+        <td>Account_ID</td>
+        <td>980</td>
+        <td class="service-table-2-after">1,130</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr>
+        <td>2017-03-08</td>
+        <td>Account_ID</td>
+        <td>1,130</td>
+        <td class="service-table-2-after">1,280</td>
+        <td class="service-table-2-delta">150</td>
+        <td style="font-weight: 500;">진행 중단</td>
+      </tr>
+      <tr>
+        <td>2017-03-09</td>
+        <td>Account_ID_2</td>
+        <td>100</td>
+        <td class="service-table-2-after">250</td>
+        <td class="service-table-2-delta">150</td>
+        <td>진행 중</td>
+      </tr>
+      <tr class="service-table-2-result-row">
+        <td style="font-weight: 500;" rowspan="2">합계</td>
+        <td style="font-weight: 500;">Account_ID</td>
+        <td colspan="2"></td>
+        <td class="service-table-2-delta">1,050</td>
+        <td></td>
+      </tr>
+      <tr class="service-table-2-result-row">
+        <td style="font-weight: 500;">Account_ID_2</td>
+        <td colspan="2"></td>
+        <td class="service-table-2-delta">150</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<footer class="footer"></footer>
+</body>
+
+<script>
+  $('.header').load("../layout/header.html");
+  $('.user-header').load("../layout/user_header.html");
+  $('.footer').load("../layout/footer.html");
+</script>
+</html>
+

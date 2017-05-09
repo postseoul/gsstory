@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import 'variables';
+
+td {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.header {
+  min-width: 1200px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.user-service-header {
+  background: url("../../images/header-user-edit.png") no-repeat center;
+  height: 186px;
+}
+
+.service-main-tab {
+  float: left;
+  display: inline-block;
+  width: 600px;
+  border-bottom: 1px solid $instarter-black;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: $instarter-font-grey;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.service-sub-tab:first-of-type {
+  margin-right: 30px;
+}
+
+.service-main-tab-active {
+  border-bottom: 2px solid $instarter-black;
+  padding-bottom: 14px;
+  color: $instarter-black;
+  font-weight: 500;
+}
+
+.service-subheader {
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+.service-table-1 th {
+  background-color: #f1efff;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.service-table-1 td {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 15px;
+}
+
+.service-table-2-result-row {
+  background-color: $instarter-background-grey;
+}
+
+.btn-renewal {
+  background-color: $instarter-black;
+  display: inline-block;
+  float: right;
+  color: $instarter-white;
+  padding: 10px 0;
+  text-align: center;
+  width: 115px;
+  font-size: 16px;
+}
+
+.service-table-1-number {
+  color: $instarter-font-grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.service-table-1-date {
+  line-height: 54px;
+  color: $instarter-font-grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.service-table-1-title {
+  font-size: 18px !important;
+}
+
+.service-table-1-status {
+  color: $instarter-purple;
+  font-size: 25px !important;
+}
+
+.service-table-1-profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: $instarter-background-grey;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+
+.service-table-1-account {
+  margin-top: 10px;
+  font-size: 25px !important;
+  display: inline-block;
+}
+
+.service-table-1-username {
+  font-size: 18px !important;
+  display: inline-block;
+}
+
+.service-table-2 td {
+  font-weight: 300;
+}
+
+.service-table-2-after {
+  font-weight: 500 !important;
+}
+
+.service-table-2-delta {
+  font-weight: 500 !important;
+  color: $instarter-purple;
+}
