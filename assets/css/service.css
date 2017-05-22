@@ -6,7 +6,7 @@
   margin: 0 auto; }
 
 .service-header {
-  background: url("../images/header-service.png") no-repeat center;
+  background: url("/assets/images/header-service.png") no-repeat center;
   line-height: initial;
   padding: 30px 0 34px;
   margin-bottom: 100px; }

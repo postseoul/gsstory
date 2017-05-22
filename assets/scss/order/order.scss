@@ -6,7 +6,7 @@
 }
 
 .order-header {
-  background: url("../../images/header-order.png") no-repeat center;
+  background: url("/assets/images/header-order.png") no-repeat center;
   margin-bottom: 5px;
 }
 
@@ -33,7 +33,7 @@
     display: inline-block;
     width: 11px;
     height: 17px;
-    background: url("../../images/arrow-right-purple.png") no-repeat;
+    background: url("/assets/images/arrow-right-purple.png") no-repeat;
     margin: 1px 30px;
   }
 
@@ -163,7 +163,7 @@
 }
 
 .order-discount-table-data-checkbox {
-  background-image: url("../../images/checkbox-no.png");
+  background-image: url("/assets/images/checkbox-no.png");
   display: inline-block;
   height: 18px;
   margin: 0 5px 4px 0;
@@ -172,7 +172,7 @@
 }
 
 .order-discount-table-data-checkbox-checked {
-  background-image: url("../../images/checkbox-yes.png");
+  background-image: url("/assets/images/checkbox-yes.png");
   display: inline-block;
   height: 22px;
   margin: 0 0 9px 0;

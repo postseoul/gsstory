@@ -40,19 +40,19 @@
   color: #FFF; }
 
 .recommend-0-link-1 {
-  background: url("../images/recommend-0-01.png") no-repeat center; }
+  background: url("/assets/images/recommend-0-01.png") no-repeat center; }
 
 .recommend-0-link-2 {
-  background: url("../images/recommend-0-02.png") no-repeat center; }
+  background: url("/assets/images/recommend-0-02.png") no-repeat center; }
 
 .recommend-0-link-3 {
-  background: url("../images/recommend-0-03.png") no-repeat center; }
+  background: url("/assets/images/recommend-0-03.png") no-repeat center; }
 
 .recommend-0-link-4 {
-  background: url("../images/recommend-0-04.png") no-repeat center; }
+  background: url("/assets/images/recommend-0-04.png") no-repeat center; }
 
 .recommend-0-link-5 {
-  background: url("../images/recommend-0-05.png") no-repeat center; }
+  background: url("/assets/images/recommend-0-05.png") no-repeat center; }
 
 .recommend-1,
 .recommend-2,
@@ -101,7 +101,7 @@
 .recommend-list {
   width: 990px;
   margin: 0 auto;
-  background: url("../images/recommend-best.png") no-repeat;
+  background: url("/assets/images/recommend-best.png") no-repeat;
   height: 130px; }
 
 .recommend-list-description {

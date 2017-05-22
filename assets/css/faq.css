@@ -2,7 +2,7 @@
   max-width: 1200px; }
 
 .faq-header {
-  background: url("../images/header-faq.png") no-repeat center;
+  background: url("/assets/images/header-faq.png") no-repeat center;
   margin-bottom: 5px; }
 
 .faq-subheader {
@@ -21,7 +21,7 @@
   font-weight: 300; }
 
 .faq-question-arrow {
-  background: url("../images/arrow-down-black-big.png") no-repeat center;
+  background: url("/assets/images/arrow-down-black-big.png") no-repeat center;
   display: inline-block;
   float: right;
   width: 17px;
@@ -60,7 +60,7 @@
   padding: 30px;
   font-weight: 300; }
 .faq-block-open .faq-question-arrow {
-  background: url("../images/arrow-up-purple-big.png") no-repeat center;
+  background: url("/assets/images/arrow-up-purple-big.png") no-repeat center;
   display: inline-block;
   float: right;
   width: 17px;

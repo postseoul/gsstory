@@ -7,9 +7,9 @@
   margin-right: 20px; }
 
 .ticket-order-like-up {
-  background-image: url("../images/ticket-order-like-up.png"); }
+  background-image: url("/assets/images/ticket-order-like-up.png"); }
 
 .ticket-order-daily-follower-up {
-  background-image: url("../images/ticket-order-daily-follower-up.png"); }
+  background-image: url("/assets/images/ticket-order-daily-follower-up.png"); }
 
 /*# sourceMappingURL=ticket.css.map */

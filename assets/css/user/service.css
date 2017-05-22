@@ -10,7 +10,7 @@ td {
   margin: 0 auto; }
 
 .user-service-header {
-  background: url("../../images/header-user-edit.png") no-repeat center;
+  background: url("/assets/images/header-user-edit.png") no-repeat center;
   height: 186px; }
 
 .service-main-tab {

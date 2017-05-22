@@ -2,7 +2,7 @@
   width: 472px; }
 
 .lost-header {
-  background: url("../images/header-login.png") no-repeat center;
+  background: url("/assets/images/header-login.png") no-repeat center;
   font-size: 60px;
   height: 196px;
   margin: 80px 0 85px -42px;
@@ -24,13 +24,13 @@
   margin: 100px 0 30px; }
 
 .lost-radio {
-  background-image: url("../images/radio-no.png");
+  background-image: url("/assets/images/radio-no.png");
   display: inline-block;
   height: 20px;
   width: 20px; }
 
 .lost-radio-checked {
-  background-image: url("../images/radio-yes.png"); }
+  background-image: url("/assets/images/radio-yes.png"); }
 
 .lost-radio-label {
   line-height: 23px;

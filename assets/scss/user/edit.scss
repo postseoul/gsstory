@@ -26,7 +26,7 @@
 
 .btn-add-profile {
   display: block;
-  background: url("../../images/btn-add.png") no-repeat;
+  background: url("/assets/images/btn-add.png") no-repeat;
   font-size: 18px;
   height: 46px;
   line-height: 46px;
@@ -47,7 +47,7 @@
   margin: 28px 0 0 432px;
   width: 22px;
   height: 17px;
-  background-image: url("../../images/password-checked.png")
+  background-image: url("/assets/images/password-checked.png")
 }
 
 .password-unchecked {
@@ -55,7 +55,7 @@
   margin: 28px 0 0 432px;
   width: 22px;
   height: 17px;
-  background-image: url("../../images/password-unchecked.png")
+  background-image: url("/assets/images/password-unchecked.png")
 }
 
 .instagram-form {
@@ -96,7 +96,7 @@
 }
 
 .instagram-form-add {
-  background: url("../../images/btn-add.png") no-repeat 127px 0;
+  background: url("/assets/images/btn-add.png") no-repeat 127px 0;
   color: $instarter-font-grey;
   display: block;
   font-size: 18px;

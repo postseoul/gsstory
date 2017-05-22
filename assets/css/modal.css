@@ -44,7 +44,7 @@
   width: 30px;
   height: 30px;
   text-indent: -9999px;
-  background: url("../images/icon-x-white.png") no-repeat 0 0; }
+  background: url("/assets/images/icon-x-white.png") no-repeat 0 0; }
 
 .modal-header {
   background-color: #2B2C34;

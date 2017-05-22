@@ -28,14 +28,14 @@
   font-size: 15px; }
 
 .icon-checkbox {
-  background-image: url("../../images/checkbox-no.png");
+  background-image: url("/assets/images/checkbox-no.png");
   display: inline-block;
   height: 18px;
   margin: 2px 5px 0 0;
   width: 18px; }
 
 .icon-checkbox-checked {
-  background-image: url("../../images/checkbox-yes.png");
+  background-image: url("/assets/images/checkbox-yes.png");
   display: inline-block;
   height: 22px;
   margin: -3px 0 0 0;

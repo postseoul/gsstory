@@ -73,22 +73,22 @@
   margin-bottom: 75px; }
 
 .home-service-body-item-1 {
-  background: url("../images/home-service-background-1.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-1.png") no-repeat center; }
 
 .home-service-body-item-2 {
-  background: url("../images/home-service-background-2.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-2.png") no-repeat center; }
 
 .home-service-body-item-3 {
-  background: url("../images/home-service-background-3.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-3.png") no-repeat center; }
 
 .home-service-body-item-4 {
-  background: url("../images/home-service-background-4.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-4.png") no-repeat center; }
 
 .home-service-body-item-5 {
-  background: url("../images/home-service-background-5.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-5.png") no-repeat center; }
 
 .home-service-body-item-6 {
-  background: url("../images/home-service-background-6.png") no-repeat center; }
+  background: url("/assets/images/home-service-background-6.png") no-repeat center; }
 
 .home-service-body-item-img {
   float: left;
@@ -111,7 +111,7 @@
 
 .home-why {
   padding: 240px 0;
-  background: url("../images/home-why-background.png"); }
+  background: url("/assets/images/home-why-background.png"); }
 
 .home-why-container-wrapper {
   max-width: 1200px;
@@ -150,7 +150,7 @@
   padding-top: 35px;
   height: 235px;
   max-width: 1200px;
-  background: url("../images/home-review-background.png") no-repeat top center; }
+  background: url("/assets/images/home-review-background.png") no-repeat top center; }
 
 .home-review-title {
   color: #ABABAD;
@@ -184,7 +184,7 @@
   opacity: 1; }
 
 .owl-theme .owl-controls .owl-buttons div.owl-prev {
-  background: url("../images/arrow-carousel-left.png") no-repeat;
+  background: url("/assets/images/arrow-carousel-left.png") no-repeat;
   width: 28px;
   height: 55px;
   color: transparent;
@@ -193,7 +193,7 @@
   position: absolute; }
 
 .owl-theme .owl-controls .owl-buttons div.owl-next {
-  background: url("../images/arrow-carousel-right.png") no-repeat;
+  background: url("/assets/images/arrow-carousel-right.png") no-repeat;
   width: 28px;
   height: 55px;
   color: transparent;

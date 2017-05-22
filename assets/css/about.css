@@ -2,7 +2,7 @@
   width: 100%; }
 
 .about-header {
-  background: url("../images/header-about.png") no-repeat center;
+  background: url("/assets/images/header-about.png") no-repeat center;
   line-height: initial;
   padding-top: 55px; }
 
