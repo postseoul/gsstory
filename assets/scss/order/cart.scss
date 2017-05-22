@@ -90,20 +90,6 @@
   color: $instarter-purple;
 }
 
-.cart-item-option {
-  display: inline-block;
-  cursor: pointer;
-  border-bottom: 1px solid $instarter-black;
-  &::after {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    margin: 0 0 2px 10px;
-    height: 7px;
-    background: url("/assets/images/arrow-down-black.png") no-repeat;
-  }
-}
-
 .mark-mileage {
   display: inline-block;
   margin-right: 5px;
