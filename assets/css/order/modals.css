@@ -115,4 +115,55 @@
 .modal-search-result-info-data {
   color: #715EFF; }
 
+#order-modal-3 {
+  max-width: 850px; }
+
+.modal-body-header {
+  background-color: #F6F6F6;
+  margin-bottom: 5px;
+  padding: 15px; }
+
+.modal-body-3 {
+  margin: 0; }
+
+.modal-images {
+  margin-left: 15px; }
+
+.modal-image {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: #F6F6F6;
+  margin: 0 5px 5px 0; }
+
+.modal-image-selected {
+  border: 2px solid #715EFF;
+  box-sizing: border-box; }
+
+.select-box {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid #FFF;
+  float: right;
+  margin: 10px; }
+
+.select-box-selected {
+  background-color: #715EFF;
+  border-color: #715EFF; }
+
+.selected-count {
+  font-size: 36px;
+  color: #715EFF; }
+
+.btn-more {
+  text-align: center;
+  color: #ABABAD;
+  font-size: 18px;
+  margin: 25px 0 20px; }
+
+.modal-footer {
+  background-color: #F6F6F6; }
+
 /*# sourceMappingURL=modals.css.map */
