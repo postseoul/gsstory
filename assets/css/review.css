@@ -1,3 +1,6 @@
+.header, .footer, .review-header-wrapper {
+  min-width: 1200px; }
+
 .review-header-wrapper {
   background-color: #F6F6F6;
   text-align: center;

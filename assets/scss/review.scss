@@ -1,12 +1,17 @@
 @charset "UTF-8";
 @import 'variables';
 
+.header, .footer, .review-header-wrapper {
+  min-width: 1200px;
+}
+
 .review-header-wrapper {
   background-color: $instarter-background-grey;
   text-align: center;
   padding-top: 120px;
   margin-bottom: 60px;
 }
+
 .review-header {
   background: url(../images/header-review.png) no-repeat center;
   line-height: initial;
