@@ -59,4 +59,28 @@
   font-size: 15px;
   text-decoration: underline; }
 
+.modal-body {
+  font-size: 15px;
+  margin: 25px;
+  font-weight: 400; }
+
+.modal-text {
+  height: 320px;
+  overflow-y: scroll;
+  margin-bottom: 50px; }
+
+.btn-group {
+  text-align: center; }
+
+.btn-cancel {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #2B2C34;
+  border: 2px solid #2B2C34;
+  color: #FFF;
+  font-size: 20px;
+  height: 50px;
+  width: 120px; }
+
 /*# sourceMappingURL=form.css.map */

@@ -74,3 +74,31 @@
   font-size: 15px;
   text-decoration: underline;
 }
+
+.modal-body {
+  font-size: 15px;
+  margin: 25px;
+  font-weight: 400;
+}
+
+.modal-text {
+  height: 320px;
+  overflow-y: scroll;
+  margin-bottom: 50px;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn-cancel {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $instarter-black;
+  border: 2px solid $instarter-black;
+  color: $instarter-white;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+}
