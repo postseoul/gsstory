@@ -94,49 +94,41 @@
   </table>
 
   <div class="order-subheader">결제내역</div>
-  <div class="order-description">
-    <div>
-      <span class="order-description-title">상품 금액</span>
-      <span class="order-description-title">적립금 사용/할인 금액</span>
-      <span class="order-description-title">결제 금액</span>
-    </div>
-    <div class="clear"></div>
-    <div>
-      <div class="order-description-body-wrapper">
-        <div class="order-description-body">
-          <div class="order-description-body-items">
-            <div class="order-description-body-item">
-              <span class="order-description-body-item-1">
-                <img class="icon-dot" src="/assets/images/icon-dot-purple.png">
-                데일리 팔로워 업 1,500
-              </span>
-              <span class="order-description-body-item-2">132,000원</span>
-              <div class="clear"></div>
-              <span class="order-description-body-item-3">매일 150명씩 1,500명</span>
-            </div>
-            <div class="order-description-body-item">
-              <span class="order-description-body-item-1">
-                <img class="icon-dot" src="/assets/images/icon-dot-purple.png">
-                좋아요 업 2,500
-              </span>
-              <span class="order-description-body-item-2">132,000원</span>
-              <div class="clear"></div>
-              <span class="order-description-body-item-3">좋아요 2,500개 증가</span>
-            </div>
-          </div>
-          <img class="order-description-body-mark" src="/assets/images/icon-minus.png">
-        </div>
-        <div class="order-description-body-discount">
+  <table class="order-description">
+    <thead>
+      <tr>
+        <th>상품 금액</th>
+        <th>적립금 사용/할인 금액</th>
+        <th>결제 금액</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td class="order-description-item order-description-item-first">
           <img class="icon-dot" src="/assets/images/icon-dot-purple.png">
-          <span class="order-description-body-discount-label">적립금 사용</span>
-          <span class="order-description-body-discount-prcie">7,500원</span>
-          <img class="order-description-body-mark" src="/assets/images/icon-equal.png">
-        </div>
-        <div class="order-description-body-price">256,500원</div>
-        <div class="clear"></div>
-      </div>
-    </div>
-  </div>
+          <span class="order-description-item-1">데일리 팔로워 업 1,500</span>
+          <span class="order-description-item-2">132,000원</span><br>
+          <span class="order-description-item-3">매일 150명씩 1,500명</span>
+      </td>
+      <td rowspan="2">
+        <img class="float-left" src="/assets/images/icon-minus.png">
+        <img class="icon-dot" src="/assets/images/icon-dot-purple.png">
+        <span class="order-description-discount-label">적립금 사용</span>
+        <span class="order-description-discount-price">7,500원</span>
+        <img class="float-right" src="/assets/images/icon-equal.png">
+      </td>
+      <td class="order-description-price" rowspan="2">256,500원</td>
+    </tr>
+    <tr>
+      <td class="order-description-item">
+        <img class="icon-dot" src="/assets/images/icon-dot-purple.png">
+        <span class="order-description-item-1">좋아요 업 2,500</span>
+        <span class="order-description-item-2">132,000원</span><br>
+        <span class="order-description-item-3">좋아요 2,500개 증가</span>
+      </td>
+    </tr>
+    </tbody>
+  </table>
   <div class="btn-group">
   <a href="#!" class="btn-all-order">주문완료 확인</a>
   </div>

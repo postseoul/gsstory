@@ -104,77 +104,54 @@
 }
 
 .order-description {
-  border-top: 2px solid $instarter-black;
   margin-bottom: 80px;
+  border-bottom: 1px solid #d5d5d6;
 }
 
-.order-description-title {
-  display: inline-block;
-  border-bottom: 1px solid $instarter-border-grey;
-  padding: 20px 0;
-  width: 400px;
-  text-align: center;
-  float: left;
-  font-size: 18px;
+.order-description thead {
+  border-bottom: 1px solid #d5d5d6;
 }
 
-.order-description-body-wrapper {
-  border-bottom: 1px solid $instarter-border-grey;
-  height: 165px;
-  padding-bottom: 10px;
+.order-description tr {
+  border-bottom: none;
 }
 
-.order-description-body {
-  font-size: 18px;
-  float: left;
-  width: 400px;
+.order-description td {
+  font-weight: 500;
 }
 
-.order-description-body-discount {
-  float: left;
-  width: 400px;
-  text-align: center;
-  line-height: 165px;
-}
-.order-description-body-price {
-  float: left;
-  width: 400px;
+.order-description-price {
   text-align: center;
   font-size: 25px;
-  line-height: 165px;
   color: $instarter-purple
 }
 
-.order-description-body-items {
+.order-description-items {
   padding-top: 30px;
   width: 310px;
   display: inline-block;
 }
 
-.order-description-body-item {
+.order-description-item {
   margin-bottom: 20px;
-}
-
-.order-description-body-item-1 {
-  float: left;
   padding-left: 35px;
+  text-align: left;
 }
 
-.order-description-body-item-2 {
-  float: right;
+.order-description-item-1 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.order-description-item-2 {
+  font-size: 18px;
   color: $instarter-purple;
 }
 
-.order-description-body-item-3 {
+.order-description-item-3 {
   font-weight: 400;
   margin-left: 12px;
   font-size: 15px;
-  padding-left: 35px;
-}
-
-.order-description-body-mark {
-  padding-top: 62px;
-  float: right;
 }
 
 .btn-all-order {
@@ -193,11 +170,12 @@
   text-align: center;
 }
 
-.order-description-body-discount {
+.order-description-discount-label {
   font-size: 18px;
 }
 
-.order-description-body-discount-prcie {
+.order-description-discount-price {
+  font-size: 18px;
   margin-left: 40px;
   color: $instarter-purple;
 }
