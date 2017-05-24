@@ -94,8 +94,6 @@
   line-height: 53px; }
 
 .service-item-control-1-input {
-  font-size: 24px;
-  font-weight: 300;
   border-bottom: 1px solid #2B2C34;
   padding-bottom: 5px; }
 
@@ -159,5 +157,12 @@
   font-size: 15px;
   color: #ABABAD;
   float: right; }
+
+.service-item-control-1-input-select {
+  -webkit-appearance: none;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=service.css.map */

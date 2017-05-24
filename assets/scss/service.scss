@@ -117,8 +117,6 @@
 }
 
 .service-item-control-1-input {
-  font-size: 24px;
-  font-weight: 300;
   border-bottom: 1px solid $instarter-black;
   padding-bottom: 5px;
 }
@@ -192,4 +190,12 @@
   font-size: 15px;
   color: $instarter-font-grey;
   float: right;
+}
+
+.service-item-control-1-input-select {
+  -webkit-appearance: none;
+  background-color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 300;
 }

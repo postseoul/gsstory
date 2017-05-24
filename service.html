@@ -39,17 +39,19 @@
     <div class="service-item-controls">
       <div class="service-item-control">
         <span class="service-item-control-1-label">서비스 선택</span>
-        <a class="service-item-control-1-input">
-          <span>팔로워 2,500명 증가</span>
+        <span class="service-item-control-1-input">
+          <select class="service-item-control-1-input-select">
+            <option>팔로워 2,500명 증가</option>
+          </select>
           <img class="arrow-down" src="/assets/images/arrow-down-black-big.png">
-        </a>
+        </span>
       </div>
       <div class="service-item-control">
         <span class="service-item-control-2-label">수량</span>
         <span>
-          <a><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
-          <span class="service-item-control-2-input">5개 (최대)</span>
-          <a><img class="arrow" src="/assets/images/arrow-right-grey.png"></a>
+          <a onclick="sub(0)"><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
+          <span id="service-item-count-0" class="service-item-control-2-input">1개</span>
+          <a onclick="add(0)"><img class="arrow" src="/assets/images/arrow-right-black.png"></a>
         </span>
       </div>
       <div class="service-item-control">
@@ -83,17 +85,19 @@
     <div class="service-item-controls">
       <div class="service-item-control">
         <span class="service-item-control-1-label">서비스 선택</span>
-        <a class="service-item-control-1-input">
-          <span>좋아요 2,500개 증가</span>
+        <span class="service-item-control-1-input">
+          <select class="service-item-control-1-input-select">
+            <option>좋아요 2,500명 증가</option>
+          </select>
           <img class="arrow-down" src="/assets/images/arrow-down-black-big.png">
-        </a>
+        </span>
       </div>
       <div class="service-item-control">
         <span class="service-item-control-2-label">수량</span>
         <span>
-          <a><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
-          <span class="service-item-control-2-input">5개 (최대)</span>
-          <a><img class="arrow" src="/assets/images/arrow-right-grey.png"></a>
+          <a onclick="sub(1)"><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
+          <span id="service-item-count-1" class="service-item-control-2-input">1개</span>
+          <a onclick="add(1)"><img class="arrow" src="/assets/images/arrow-right-black.png"></a>
         </span>
       </div>
       <div class="service-item-control">
@@ -128,17 +132,19 @@
     <div class="service-item-controls">
       <div class="service-item-control">
         <span class="service-item-control-1-label">서비스 선택</span>
-        <a class="service-item-control-1-input">
-          <span>좋아요 2,500개 증가</span>
+        <span class="service-item-control-1-input">
+          <select class="service-item-control-1-input-select">
+            <option>좋아요 2,500명 증가</option>
+          </select>
           <img class="arrow-down" src="/assets/images/arrow-down-black-big.png">
-        </a>
+        </span>
       </div>
       <div class="service-item-control">
         <span class="service-item-control-2-label">수량</span>
         <span>
-          <a><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
-          <span class="service-item-control-2-input">5개 (최대)</span>
-          <a><img class="arrow" src="/assets/images/arrow-right-grey.png"></a>
+          <a onclick="sub(2)"><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
+          <span id="service-item-count-2" class="service-item-control-2-input">1개</span>
+          <a onclick="add(2)"><img class="arrow" src="/assets/images/arrow-right-black.png"></a>
         </span>
       </div>
       <div class="service-item-control">
@@ -173,17 +179,19 @@
     <div class="service-item-controls">
       <div class="service-item-control">
         <span class="service-item-control-1-label">서비스 선택</span>
-        <a class="service-item-control-1-input">
-          <span>30일 동안 좋아요 2,500개 증가</span>
+        <span class="service-item-control-1-input">
+          <select class="service-item-control-1-input-select">
+            <option>30일 동안 좋아요 2,500개 증가</option>
+          </select>
           <img class="arrow-down" src="/assets/images/arrow-down-black-big.png">
-        </a>
+        </span>
       </div>
       <div class="service-item-control">
         <span class="service-item-control-2-label">수량</span>
         <span>
-          <a><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
-          <span class="service-item-control-2-input">5개 (최대)</span>
-          <a><img class="arrow" src="/assets/images/arrow-right-grey.png"></a>
+          <a onclick="sub(3)"><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
+          <span id="service-item-count-3" class="service-item-control-2-input">1개</span>
+          <a onclick="add(3)"><img class="arrow" src="/assets/images/arrow-right-black.png"></a>
         </span>
       </div>
       <div class="service-item-control">
@@ -211,5 +219,32 @@
 <script>
   $('.header').load("layout/header.html");
   $('.footer').load("layout/footer.html");
+  var service_item_count = [1,1,1,1]
+  load_count();
+
+  function load_count() {
+    for(var i=0; i < 4; i++) {
+      $("#service-item-count-"+i)[0].innerText = service_item_count[i]+'개';
+      if(service_item_count[i] >= 5) {
+        $("#service-item-count-"+i)[0].innerText += ' (최대)'
+      } else if(service_item_count[i] <= 1) {
+        $("#service-item-count-"+i)[0].innerText += ' (최소)'
+      }
+    }
+  }
+
+  function add(index) {
+    if(service_item_count[index] < 5) {
+      service_item_count[index] += 1;
+      load_count()
+    }
+  }
+
+  function sub(index) {
+    if(service_item_count[index] > 1) {
+      service_item_count[index] -= 1;
+      load_count()
+    }
+  }
 </script>
 </html>
