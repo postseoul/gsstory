@@ -160,7 +160,7 @@
 
 .service-item-control-1-input-select {
   -webkit-appearance: none;
-  background-color: white;
+  background-color: transparent;
   border: none;
   font-size: 24px;
   font-weight: 300; }

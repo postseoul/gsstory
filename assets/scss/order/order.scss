@@ -195,9 +195,17 @@
   border-bottom: 1px solid $instarter-black;
 }
 
-.order-discount-table-coupon-select {
+.order-discount-table-coupon-input {
   color: $instarter-black;
   border-bottom: 1px solid $instarter-black;
+}
+
+.order-discount-table-coupon-input-select {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .arrow-down-black {
