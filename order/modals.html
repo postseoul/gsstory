@@ -75,7 +75,7 @@
       </div>
     </div>
     <div class="btn-group">
-      <a href="#!" class="btn-submit">수정하기</a>
+      <a href="#order-modal-3" class="btn-submit" rel="modal:open">수정하기</a>
       <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
     </div>
     <div class="clear"></div>
@@ -99,42 +99,40 @@
     </div>
     <div class="modal-images">
       <a class="modal-image modal-image-selected" href="#!">
-        <span class="select-box select-box-selected">
-          <img style="margin: 14px 12px;" src="/assets/images/icon-checked-white.png">
-        </span>
+        <span class="select-box select-box-selected"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <a class="modal-image" href="#!">
-        <span class="select-box"></span>
+        <span class="select-box"><span></span></span>
       </a>
       <div class="clear"></div>
     </div>
@@ -159,7 +157,6 @@ $('.icon-checkbox').click(function() {
 
 $('.modal-image').click(function() {
   $(this).toggleClass('modal-image-selected');
-  console.log($(this).children);
-  $(this).children[0].toggleClass('select-box-selected');
+  $(this).children().toggleClass('select-box-selected');
 });
 </script>
