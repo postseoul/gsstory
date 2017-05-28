@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/service.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/service-modal.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
@@ -46,7 +47,7 @@
   $('#service-contents-2').load('service-content/follow-foreigner.html');
   $('#service-contents-3').load('service-content/account-korean.html');
   $('#service-contents-4').load('service-content/account-foreigner.html');
-  var service_item_count = [1,1,1,1]
+  var service_item_count = [1,1,1,1,1,1,1,1,1,1]
   var language = 'korean';
   var type = 'follow';
 
@@ -83,12 +84,10 @@
   }
 
   function load_count() {
-    for(var i=0; i < 4; i++) {
+    for(var i=0; i < 10; i++) {
       $("#service-item-count-"+i)[0].innerText = service_item_count[i]+'개';
       if(service_item_count[i] >= 5) {
         $("#service-item-count-"+i)[0].innerText += ' (최대)'
-      } else if(service_item_count[i] <= 1) {
-        $("#service-item-count-"+i)[0].innerText += ' (최소)'
       }
     }
   }

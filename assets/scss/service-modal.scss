@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import 'variables';
+
+.modal {
+  padding: 20px;
+  max-width: inherit;
+}
+
+.service-modal-subtitle {
+  color: $instarter-font-grey;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.service-modal-title {
+  font-size: 45px;
+  line-height: 45px;
+  margin: 5px 0 20px;
+}
+
+.service-modal-description {
+  margin-bottom: 50px;
+}
+
+.service-modal-description-important {
+  color: $instarter-pink;
+}
+
+.service-modal-question {
+  color: $instarter-purple;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-modal-answer {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,31 @@
+.modal {
+  padding: 20px;
+  max-width: inherit; }
+
+.service-modal-subtitle {
+  color: #ABABAD;
+  font-weight: 400;
+  font-size: 15px; }
+
+.service-modal-title {
+  font-size: 45px;
+  line-height: 45px;
+  margin: 5px 0 20px; }
+
+.service-modal-description {
+  margin-bottom: 50px; }
+
+.service-modal-description-important {
+  color: #FF5E8B; }
+
+.service-modal-question {
+  color: #715EFF;
+  font-size: 20px;
+  margin-bottom: 10px; }
+
+.service-modal-answer {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 30px; }
+
+/*# sourceMappingURL=service-modal.css.map */
