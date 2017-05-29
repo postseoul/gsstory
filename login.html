@@ -7,10 +7,12 @@
   <link rel="stylesheet" href="assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
   <link rel="stylesheet" href="assets/css/login.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/modal.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <header class="header"><!-- layout/header.html --></header>
@@ -22,7 +24,7 @@
   <form href="/user/edit" class="form">
     <input class="form-control form-control-first" placeholder="이메일 주소" />
     <input class="form-control" type="password" placeholder="비밀번호" />
-    <input class="btn-default" type="submit" value="로그인"/>
+    <a class="btn-default" type="submit" href="#unconfirmed-email" rel="modal:open">로그인</a>
     <div class="btn-socials">
       <a class="btn-naver" href="#!">네이버 로그인</a>
       <a class="btn-facebook" href="#!">페이스북 로그인</a>
@@ -39,6 +41,20 @@
     </div>
   </form>
 </section>
+
+<div id="unconfirmed-email" style="display:none;">
+  <div class="modal-header">이메일 인증하기</div>
+  <div class="modal-body">
+    <input class="form-control" style="margin: 0 auto;" placeholder="이메일주소">
+    <input class="form-control" style="margin: 0 auto;" placeholder="인증번호">
+    <div class="btn-group">
+      <a href="#!" class="btn-submit" rel="modal:close">확인</a>
+      <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
 
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>

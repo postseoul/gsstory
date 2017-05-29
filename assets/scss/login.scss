@@ -46,3 +46,34 @@
   background-repeat: no-repeat;
   background-position: 5px 10px;
 }
+
+.btn-group {
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $instarter-black;
+  border: 2px solid $instarter-black;
+  color: $instarter-white;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+}
+
+.btn-cancel {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $instarter-white;
+  border: 2px solid $instarter-black;
+  color: $instarter-black;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+}
