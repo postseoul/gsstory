@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import 'variables';
+
+.main {
+  max-width: $width-desktop;
+}
+
+.order-header {
+  background: url("/assets/images/header-user-edit.png") no-repeat center;
+  height: 186px;
+}
+
+.order-search {
+  background-color: #f1efff;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.order-search-btn-group {
+  background-color: $instarter-white;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.order-search-btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: $instarter-white;
+  color: $instarter-purple-disable;
+  float: left;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.datepicker {
+  width: 180px;
+  height: 45px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.icon-calendar {
+  position: absolute;
+  margin: 10px 0 0 145px;
+}
+
+.datepicker-between {
+  margin: 5px;
+  color: $instarter-purple-disable;
+}
+
+.order-search-submit {
+  background-color: $instarter-black;
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: $instarter-white;
+  display: inline-block;
+  float: right;
+  margin-left: 10px;
+}
+
+.order-search-btn-active {
+  background-color: $instarter-purple;
+  color: $instarter-white;
+}
+
+.order-table {
+  margin-bottom: 30px;
+}
+
+.order-table-td-1-1 {
+  font-weight: 500;
+}
+.order-table-td-1-2 {
+  color: $instarter-font-grey;
+  text-decoration: underline;
+}
+
+.order-table-td-2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.order-table-td-3 {
+  font-size: 15px;
+}
+
+.order-table-td-4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.order-table-td-5-1 {
+  color: $instarter-purple;
+}
+
+.order-table-td-5-2 {
+  color: $instarter-purple;
+  font-weight: 300;
+  border-bottom: 1px solid $instarter-purple;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.order-table-td-5-cancel {
+  color: $instarter-font-grey;
+}
+
+.order-pagination-wrapper {
+  text-align: center;
+}
+
+.order-pagination {
+  display: inline-block;
+}
+
+.order-pagination a {
+  padding: 15px 18px;
+  display: inline-block;
+  float: left;
+  color: $instarter-black;
+  margin: 0 5px;
+}
+
+.order-pagination-prev,
+.order-pagination-next {
+  background-color: $instarter-background-grey;
+}

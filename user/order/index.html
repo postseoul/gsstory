@@ -1,0 +1,109 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/user/order/index.css" type="text/css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<section class="main">
+  <header class="main-header order-header">구매 내역</header>
+
+  <div class="order-search">
+    <div class="order-search-btn-group">
+      <a href="#!" class="order-search-btn order-search-btn-active">오늘</a>
+      <a href="#!" class="order-search-btn">일주일</a>
+      <a href="#!" class="order-search-btn">1개월</a>
+      <a href="#!" class="order-search-btn">3개월</a>
+      <a href="#!" class="order-search-btn">6개월</a>
+      <div class="clear"></div>
+    </div>
+    <div class="float-right">
+      <img class="icon-calendar" src="/assets/images/icon-calendar.png">
+      <input type="text" class="datepicker" id="datepicker1">
+      <span class="datepicker-between">~</span>
+      <img class="icon-calendar" src="/assets/images/icon-calendar.png">
+      <input type="text" class="datepicker" id="datepicker2">
+      <a href="#!" class="order-search-submit">조회</a>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+  <table class="order-table">
+    <thead>
+      <tr>
+        <th>주문번호</th>
+        <th>상품명</th>
+        <th>수량</th>
+        <th>결제금액</th>
+        <th>주문 상태</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="order-table-td-1">
+          <div class="order-table-td-1-1">2017-03-13</div>
+          <div class="order-table-td-1-2">20170302-000001</div>
+        </td>
+        <td class="order-table-td-2">데일리 팔로워 업 1,500</td>
+        <td class="order-table-td-3">총 1개</td>
+        <td class="order-table-td-4">132,000원</td>
+        <td class="order-table-td-5">
+          <div class="order-table-td-5-1">진행중</div>
+          <a href="/user/order/show" class="order-table-td-5-2">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="order-table-td-1">
+          <div class="order-table-td-1-1">2017-03-13</div>
+          <div class="order-table-td-1-2">20170302-000002</div>
+        </td>
+        <td class="order-table-td-2">좋아요 업 2,500 외 1건</td>
+        <td class="order-table-td-3">총 3개</td>
+        <td class="order-table-td-4">132,000원</td>
+        <td class="order-table-td-5">
+          <div class="order-table-td-5-cancel">취소</div>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <div class="order-pagination-wrapper">
+    <span class="order-pagination">
+      <a class="order-pagination-prev" href="#!"><img src="/assets/images/arrow-left-grey.png"></a>
+      <a href="#!">1</a>
+      <a class="order-pagination-next" href="#!"><img src="/assets/images/arrow-right-grey.png"></a>
+      <span class="clear"></span>
+    </span>
+  </div>
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("/layout/header.html");
+  $('.footer').load("/layout/footer.html");
+  $("#datepicker1").datepicker();
+  $("#datepicker2").datepicker();
+
+  $(".order-search-btn").click(function() {
+    $(".order-search-btn").removeClass("order-search-btn-active");
+    $(this).addClass("order-search-btn-active");
+  });
+</script>
+</html>

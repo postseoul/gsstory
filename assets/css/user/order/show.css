@@ -1,0 +1,131 @@
+.main {
+  max-width: 1200px; }
+
+.order-header {
+  background: url("/assets/images/header-user-edit.png") no-repeat center;
+  margin-bottom: 5px; }
+
+.order-subheader {
+  margin-top: 60px;
+  font-size: 25px; }
+
+.order-table-1 th {
+  padding-left: 30px;
+  text-align: left;
+  background-color: #f1efff;
+  width: 150px; }
+
+.order-table-1 td {
+  text-align: left;
+  color: #ABABAD;
+  padding-left: 30px; }
+
+.order-table-1-username {
+  font-weight: 500;
+  color: #2B2C34 !important; }
+
+.order-table-1-status {
+  font-weight: 500;
+  color: #715EFF !important; }
+
+.order-title {
+  padding-left: 30px; }
+
+.order-title-text {
+  text-align: left;
+  margin-top: 25px; }
+
+.order-title-text-header {
+  font-size: 18px;
+  font-weight: 500; }
+
+.order-title-text-description {
+  font-size: 15px; }
+
+.order-title-text-instagram {
+  font-size: 15px;
+  color: #715EFF; }
+
+.order-total-price {
+  font-size: 18px;
+  font-weight: 500; }
+
+.order-description {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #d5d5d6; }
+
+.order-description thead {
+  border-bottom: 1px solid #d5d5d6; }
+
+.order-description tr {
+  border-bottom: none; }
+
+.order-description td {
+  font-weight: 500; }
+
+.order-description-price {
+  text-align: center;
+  font-size: 25px;
+  color: #715EFF; }
+
+.order-description-items {
+  padding-top: 30px;
+  width: 310px;
+  display: inline-block; }
+
+.order-description-item {
+  margin-bottom: 20px;
+  padding-left: 35px;
+  text-align: left; }
+
+.order-description-item-1 {
+  text-align: left;
+  font-size: 18px; }
+
+.order-description-item-2 {
+  font-size: 18px;
+  color: #715EFF; }
+
+.order-description-item-3 {
+  font-weight: 400;
+  margin-left: 12px;
+  font-size: 15px; }
+
+.btn-all-order {
+  display: inline-block;
+  text-align: center;
+  line-height: 75px;
+  background-color: #2B2C34;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  height: 75px;
+  width: 190px; }
+
+.btn-group {
+  text-align: center; }
+
+.order-description-body-discount {
+  font-size: 18px; }
+
+.order-description-body-discount-prcie {
+  margin-left: 40px;
+  color: #715EFF; }
+
+.mark-mileage {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #715EFF;
+  line-height: 22px;
+  color: #FFF;
+  height: 22px;
+  width: 22px; }
+
+.icon-dot {
+  margin: 0 5px 7px 0; }
+
+.data-mileage {
+  line-height: 22px;
+  vertical-align: top; }
+
+/*# sourceMappingURL=show.css.map */
