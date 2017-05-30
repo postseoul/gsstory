@@ -86,6 +86,7 @@
   function load_count() {
     for(var i=0; i < 10; i++) {
       $("#service-item-count-"+i)[0].innerText = service_item_count[i]+'개';
+      $("#service-item-count-input-"+i)[0].value = service_item_count[i];
       if(service_item_count[i] >= 5) {
         $("#service-item-count-"+i)[0].innerText += ' (최대)'
       }
