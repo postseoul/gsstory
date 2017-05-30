@@ -34,9 +34,38 @@
               <div class="modal-search-result-info-label">게시물</div>
               <div class="modal-search-result-info-data">89</div>
             </div>
+            <div class="modal-search-result-trash">
+              <img src="/assets/images/icon-trash.png">
+            </div>
           </div>
           <div class="clear"></div>
         </div>
+      </div>
+
+      <div class="modal-search-result-box">
+        <span class="float-left">
+          <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
+          <span class="modal-search-result-account">Account_ID</span><br>
+          <span class="modal-search-result-username">사용자 이름</span>
+        </span>
+        <div class="modal-search-result-infos">
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">팔로워</div>
+            <div class="modal-search-result-info-data">6,237</div>
+          </div>
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">팔로잉</div>
+            <div class="modal-search-result-info-data">85</div>
+          </div>
+          <div class="modal-search-result-info">
+            <div class="modal-search-result-info-label">게시물</div>
+            <div class="modal-search-result-info-data">89</div>
+          </div>
+          <div class="modal-search-result-trash">
+            <img src="/assets/images/icon-trash.png">
+          </div>
+        </div>
+        <div class="clear"></div>
       </div>
     </div>
     <div class="btn-group">
@@ -51,7 +80,7 @@
   <div class="modal-header">등록된 상품 정보</div>
   <div class="modal-body">
     <div class="modal-text">
-      <div class="modal-search-result-box">
+      <div class="modal-search-result-box-selected">
         <span class="float-left">
           <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
           <span class="modal-search-result-account">Account_ID</span><br>
@@ -140,17 +169,58 @@
       <span>사진 더 불러오기<span><br>
       <img src="/assets/images/arrow-down-grey.png">
     </div>
-    <div class="modal-footer">
-      <div>
-        <div>선택한 사진</div>
-        <div><span class="selected-count">04</span> / 30</div>
-      </div>
-      <a href="#!" class="btn-submit">확인</a>
+    <div class="btn-group">
+      <a href="#order-modal-4" class="btn-submit" rel="modal:open">확인</a>
     </div>
   </div>
 </div>
 
-<div id="order-modal-1" style="display:none;">
+<div id="order-modal-4" style="display:none;">
+  <div class="modal-header">게시물 선택</div>
+  <div class="modal-body-4">
+    <div class="modal-body-header">
+      <span class="float-left">
+        <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
+        <span class="modal-search-result-account">Account_ID</span><br>
+        <span class="modal-search-result-username">사용자 이름</span>
+      </span>
+      <div class="modal-search-result-infos">
+        <div class="modal-search-result-info">
+          <div class="modal-search-result-info-label">팔로워</div>
+          <div class="modal-search-result-info-data">6,237</div>
+        </div>
+        <div class="modal-search-result-info">
+          <div class="modal-search-result-info-label">팔로잉</div>
+          <div class="modal-search-result-info-data">85</div>
+        </div>
+        <div class="modal-search-result-info">
+          <div class="modal-search-result-info-label">게시물</div>
+          <div class="modal-search-result-info-data">89</div>
+        </div>
+        <div class="modal-search-result-trash">
+          <img src="/assets/images/icon-trash.png">
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="order-modal-4-description">
+      <div class="order-modal-4-description-text">게시물이 게시 된 후 좋아요가 증가하는 시점을 설정 할 수 있습니다.</div>
+      <div class="order-modal-4-btn-group">
+        <a href="#!" class="order-modal-4-btn order-modal-4-btn-active">게시 직후</a>
+        <a href="#!" class="order-modal-4-btn">30분 후</a>
+        <a href="#!" class="order-modal-4-btn">1시간 후</a>
+        <a href="#!" class="order-modal-4-btn">4시간 후</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <a href="#order-modal-5" class="btn-submit" rel="modal:open">확인</a>
+      <a href="#!" class="btn-cancel" rel="modal:close">닫기</a>
+    </div>
+  </div>
+</div>
+
+<div id="order-modal-5" style="display:none;">
   <div class="modal-header">상품 정보 등록하기</div>
   <div class="modal-body">
     <div class="modal-text">
@@ -167,29 +237,67 @@
       <div class="clear"></div>
       <div class="modal-search-result">
         <span class="modal-search-result-description">해당하는 검색 결과를 선택해 주세요</span>
-        <div class="modal-search-result-box">
-          <span class="float-left">
-            <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
-            <span class="modal-search-result-account">Account_ID</span><br>
-            <span class="modal-search-result-username">사용자 이름</span>
-          </span>
-          <div class="modal-search-result-infos">
-            <div class="modal-search-result-info">
-              <div class="modal-search-result-info-label">팔로워</div>
-              <div class="modal-search-result-info-data">6,237</div>
+        <div class="modal-search-result-box-5">
+          <div class="modal-search-result-box-5-container">
+            <span class="float-left">
+              <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
+              <span class="modal-search-result-account">Account_ID</span><br>
+              <span class="modal-search-result-username">사용자 이름</span>
+            </span>
+            <div class="modal-search-result-infos">
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">팔로워</div>
+                <div class="modal-search-result-info-data">6,237</div>
+              </div>
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">팔로잉</div>
+                <div class="modal-search-result-info-data">85</div>
+              </div>
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">게시물</div>
+                <div class="modal-search-result-info-data">89</div>
+              </div>
+              <div class="modal-search-result-trash">
+                <img src="/assets/images/icon-trash.png">
+              </div>
             </div>
-            <div class="modal-search-result-info">
-              <div class="modal-search-result-info-label">팔로잉</div>
-              <div class="modal-search-result-info-data">85</div>
-            </div>
-            <div class="modal-search-result-info">
-              <div class="modal-search-result-info-label">게시물</div>
-              <div class="modal-search-result-info-data">89</div>
-            </div>
+            <div class="clear"></div>
           </div>
-          <div class="clear"></div>
+          <a class="order-modals-5-btn">
+            + 게시물 선택하기
+          </a>
         </div>
-      </div>
+
+        <div class="modal-search-result-box-5">
+          <div class="modal-search-result-box-5-container">
+            <span class="float-left">
+              <img class="modal-search-result-profile" src="/assets/images/sample-profile.jpg">
+              <span class="modal-search-result-account">Account_ID</span><br>
+              <span class="modal-search-result-username">사용자 이름</span>
+            </span>
+            <div class="modal-search-result-infos">
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">팔로워</div>
+                <div class="modal-search-result-info-data">6,237</div>
+              </div>
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">팔로잉</div>
+                <div class="modal-search-result-info-data">85</div>
+              </div>
+              <div class="modal-search-result-info">
+                <div class="modal-search-result-info-label">게시물</div>
+                <div class="modal-search-result-info-data">89</div>
+              </div>
+              <div class="modal-search-result-trash">
+                <img src="/assets/images/icon-trash.png">
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <a class="order-modals-5-btn">
+            + 게시물 선택하기
+          </a>
+        </div>
     </div>
     <div class="btn-group">
       <a href="#order-modal-2" class="btn-submit" rel="modal:open">입력완료</a>
@@ -207,5 +315,18 @@ $('.icon-checkbox').click(function() {
 $('.modal-image').click(function() {
   $(this).toggleClass('modal-image-selected');
   $(this).children().toggleClass('select-box-selected');
+});
+
+$('.modal-search-result-box').click(function() {
+  $(this).toggleClass('modal-search-result-box-active');
+});
+
+$('.modal-search-result-box-5').click(function() {
+  $(this).toggleClass('modal-search-result-box-5-active');
+});
+
+$(".order-modal-4-btn").click(function() {
+  $(".order-modal-4-btn").removeClass("order-modal-4-btn-active");
+  $(this).addClass("order-modal-4-btn-active");
 });
 </script>

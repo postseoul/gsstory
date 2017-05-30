@@ -77,7 +77,27 @@
 .modal-search-result-box {
   background-color: #F6F6F6;
   padding: 20px;
-  margin-right: 35px; }
+  margin-right: 35px;
+  border: 4px solid #F6F6F6;
+  margin-bottom: 10px; }
+
+.modal-search-result-box-selected {
+  background-color: #F6F6F6;
+  padding: 20px;
+  margin-right: 35px;
+  border: 4px solid #F6F6F6;
+  margin-bottom: 10px; }
+
+.modal-search-result-box:hover {
+  border-color: #715EFF; }
+
+.modal-search-result-box-active {
+  border-color: #B8AEFF;
+  background-color: #B8AEFF; }
+  .modal-search-result-box-active .modal-search-result-trash {
+    display: inline-block;
+    float: right;
+    margin: 15px 5px 0 0; }
 
 .modal-search-result-profile {
   width: 80px;
@@ -103,6 +123,9 @@
   float: right;
   margin: 15px 5px 0 0; }
 
+.modal-search-result-trash {
+  display: none; }
+
 .modal-search-result-info {
   display: inline-block;
   margin-right: 15px;
@@ -124,7 +147,7 @@
   padding: 15px; }
 
 .modal-body-3 {
-  margin: 0; }
+  margin: 0 0 50px 0; }
 
 .modal-images {
   margin-left: 15px; }
@@ -173,5 +196,66 @@
 
 .modal-footer {
   background-color: #F6F6F6; }
+
+#order-modal-4 {
+  max-width: 850px;
+  padding-bottom: 50px; }
+
+.order-modal-4-description {
+  padding-top: 40px;
+  text-align: center; }
+
+.order-modal-4-description-text {
+  font-size: 14px;
+  font-weight: 300; }
+
+.order-modal-4-btn-group {
+  margin: 10px 0 30px;
+  background-color: #e3dfff;
+  display: inline-block;
+  border-radius: 10px; }
+
+.order-modal-4-btn {
+  width: 130px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #e3dfff;
+  color: #B8AEFF;
+  float: left;
+  font-size: 16px;
+  border-radius: 10px; }
+
+.order-modal-4-btn-active {
+  background-color: #715EFF;
+  color: #FFF; }
+
+.modal-search-result-box-5 {
+  background-color: #F6F6F6;
+  margin-right: 35px;
+  margin-bottom: 10px; }
+
+.modal-search-result-box-5-container {
+  padding: 20px; }
+
+.order-modals-5-btn {
+  display: none; }
+
+.modal-search-result-box-5-active {
+  background-color: #f1efff; }
+  .modal-search-result-box-5-active .order-modals-5-btn {
+    display: block;
+    background-color: #B8AEFF;
+    color: #715EFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px; }
+  .modal-search-result-box-5-active .modal-search-result-trash {
+    display: inline-block;
+    float: right;
+    margin: 15px 5px 0 0; }
+
+.modal-search-result-box-5:hover {
+  border-color: #715EFF; }
 
 /*# sourceMappingURL=modals.css.map */
