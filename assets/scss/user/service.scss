@@ -135,3 +135,51 @@ td {
   font-weight: 500 !important;
   color: $instarter-purple;
 }
+
+
+.service-table {
+  margin: 60px 0;
+}
+
+.service-table-td-link-3 {
+  color: $instarter-purple;
+  border-bottom: 1px solid $instarter-purple;
+  display: inline-block;
+}
+
+.service-table-td-1-1 {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.service-table-td-1-2 {
+  font-weight: 300;
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.service-table-td-2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.service-pagination-wrapper {
+  text-align: center;
+}
+
+.service-pagination {
+  display: inline-block;
+}
+
+.service-pagination a {
+  padding: 15px 18px;
+  display: inline-block;
+  float: left;
+  color: $instarter-black;
+  margin: 0 5px;
+}
+
+.service-pagination-prev,
+.service-pagination-next {
+  background-color: $instarter-background-grey;
+}
