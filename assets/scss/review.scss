@@ -192,14 +192,6 @@
   text-align: center;
 }
 
-.modal-body-product {
-  color: $instarter-black;
-  display: block;
-  border-bottom: 1px solid $instarter-black;
-  padding: 5px 0;
-  margin-bottom: 15px;
-}
-
 .modal-body-product-description {
   color: $instarter-purple;
   font-size: 13px;
@@ -283,3 +275,19 @@
 .btn-file-cancel {
   margin-left: 15px;
 }
+
+.modal-body-product-wrapper {
+  color: $instarter-black;
+  border-bottom: 1px solid $instarter-black;
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+
+.modal-body-product {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+}
+

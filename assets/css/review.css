@@ -155,13 +155,6 @@
 .btn-group {
   text-align: center; }
 
-.modal-body-product {
-  color: #2B2C34;
-  display: block;
-  border-bottom: 1px solid #2B2C34;
-  padding: 5px 0;
-  margin-bottom: 15px; }
-
 .modal-body-product-description {
   color: #715EFF;
   font-size: 13px;
@@ -232,5 +225,18 @@
 
 .btn-file-cancel {
   margin-left: 15px; }
+
+.modal-body-product-wrapper {
+  color: #2B2C34;
+  border-bottom: 1px solid #2B2C34;
+  padding: 5px 0;
+  margin-bottom: 15px; }
+
+.modal-body-product {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=review.css.map */
