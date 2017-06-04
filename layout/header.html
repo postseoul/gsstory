@@ -8,7 +8,10 @@
     <a class="header-nav-item" href="/faq">자주 묻는 질문</a>
     <a class="header-nav-item header-nav-login" href="/login">로그인</a>
     <span style="display: inline-block;">
-      <a id="header-user-name" class="header-nav-item" href="#!">홍길동</a>
+      <a id="header-user-name" class="header-nav-item" href="#!">
+        <img class="header-profile" src="/assets/images/sample-profile.jpg">
+        <span class="header-user-name">홍길동</span>
+      </a>
       <img class="login-modal-triangle hidden" src="/assets/images/icon-triangle-yellow.png">
       <div class="login-modal hidden">
         <div class="login-modal-header">
@@ -62,5 +65,6 @@
   $("#header-user-name").click(function() {
     $(".login-modal-triangle").toggleClass("hidden");
     $(".login-modal").toggleClass("hidden");
+    $(".header-user-name").toggleClass("header-user-name-selected");
   });
 </script>

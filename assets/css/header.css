@@ -24,6 +24,18 @@
 .header-nav-item-selected {
   color: #ABABAD; }
 
+.header-profile {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFF;
+  border-radius: 40px;
+  background-color: #EDEDED;
+  margin-right: 5px;
+  margin-bottom: -10px; }
+
+.header-user-name-selected {
+  text-decoration: underline; }
+
 /* user header */
 .user-header {
   background-color: #F6F6F6;
@@ -53,15 +65,14 @@
   max-width: 1200px; }
 
 .login-modal {
-  margin-left: -260px;
+  margin-left: -215px;
   width: 350px;
   position: absolute;
   background-color: #FFBC66; }
 
 .login-modal-triangle {
   position: absolute;
-  margin-top: -11px;
-  margin-left: 55px; }
+  margin: 70px 0 0 -50px; }
 
 .login-modal-profile {
   width: 80px;

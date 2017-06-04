@@ -35,6 +35,20 @@ $header-height: 80px;
   color: $instarter-font-grey;
 }
 
+.header-profile {
+  width: 30px;
+  height: 30px;
+  border: 1px solid $instarter-white;
+  border-radius: 40px;
+  background-color: $instarter-border-grey;
+  margin-right: 5px;
+  margin-bottom: -10px;
+}
+
+.header-user-name-selected {
+  text-decoration: underline;
+}
+
 /* user header */
 $user-header-height: 60px;
 
@@ -71,8 +85,10 @@ $user-header-height: 60px;
   max-width: $width-desktop;
 }
 
+// login modal
+
 .login-modal {
-  margin-left: -260px;
+  margin-left: -215px;
   width: 350px;
   position: absolute;
   background-color: $instarter-yellow;
@@ -80,8 +96,7 @@ $user-header-height: 60px;
 
 .login-modal-triangle {
   position: absolute;
-  margin-top: -11px;
-  margin-left: 55px;
+  margin: 70px 0 0 -50px;
 }
 
 .login-modal-profile {
