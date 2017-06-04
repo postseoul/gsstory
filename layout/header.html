@@ -7,5 +7,60 @@
     <a class="header-nav-item" href="/review">고객 후기</a>
     <a class="header-nav-item" href="/faq">자주 묻는 질문</a>
     <a class="header-nav-item header-nav-login" href="/login">로그인</a>
+    <span style="display: inline-block;">
+      <a id="header-user-name" class="header-nav-item header-nav-login" href="#!">홍길동</a>
+      <img class="login-modal-triangle hidden" src="/assets/images/icon-triangle-yellow.png">
+      <div class="login-modal hidden">
+        <div class="login-modal-header">
+          <img class="login-modal-profile" src="/assets/images/sample-profile.jpg">
+          <div class="login-modal-header-text">
+            <div>
+              <span class="login-modal-header-name">홍길동 님</span>
+              <a href="/user/edit"><img src="/assets/images/icon-settings.png"></a>
+            </div>
+            <div class="login-modal-header-email">account_id@gmail.com</div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="login-modal-mileage">
+          <span class="mileage-mark">M</span>
+          <span class="mileage-text">적립금</span>
+          <span class="mileage-amount">19,320원</span>
+          <div class="clear"></div>
+        </div>
+        <div class="login-modal-empty-cart">
+          <img src="/assets/images/icon-cart.png">
+          <div class="empty-cart-text">장바구니에 담긴 상품이 없습니다.</div>
+        </div>
+        <div class="login-modal-cart">
+          <div class="login-modal-cart-item">
+            <img class="cart-item-icon" src="/assets/images/icon-daily-follow.png">
+            <div class="cart-item-body">
+              <span class="cart-item-title">데일리 팔로우 업 1,500</span>
+              <a class="cart-item-cancel" href="#!"><img src="/assets/images/icon-x-grey-bold.png"></a>
+              <span class="cart-item-amount">1개</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="login-modal-cart-item">
+            <img class="cart-item-icon" src="/assets/images/icon-like.png">
+            <div class="cart-item-body">
+              <span class="cart-item-title">좋아요 업 2,500</span>
+              <a class="cart-item-cancel" href="#!"><img src="/assets/images/icon-x-grey-bold.png"></a>
+              <span class="cart-item-amount">1개</span>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <a class="btn-cart" href="/order/cart">장바구니로 이동</a>
+        </div>
+      </div>
+    </span>
   </div>
 </div>
+
+<script>
+  $("#header-user-name").click(function() {
+    $(".login-modal-triangle").toggleClass("hidden");
+    $(".login-modal").toggleClass("hidden");
+  });
+</script>

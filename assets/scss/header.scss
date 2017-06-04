@@ -66,3 +66,135 @@ $user-header-height: 60px;
   margin: 0 auto;
   max-width: $width-desktop;
 }
+
+.login-modal {
+  margin-left: -260px;
+  width: 350px;
+  position: absolute;
+  background-color: $instarter-yellow;
+}
+
+.login-modal-triangle {
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 55px;
+}
+
+.login-modal-profile {
+  width: 80px;
+  height: 80px;
+  border: 1px solid $instarter-white;
+  border-radius: 40px;
+  background-color: $instarter-border-grey;
+  float: left;
+  margin-right: 10px;
+}
+
+.login-modal-header {
+  padding: 20px;
+  border-bottom: 1px solid $instarter-white;
+}
+
+.login-modal-header-text {
+  line-height: initial;
+  float: left;
+  margin-top: 15px;
+}
+
+.login-modal-header-name {
+  font-size: 20px;
+  line-height: 26px;
+  margin-right: 30px;
+  color: $instarter-white;
+  float: left;
+}
+
+.login-modal-header-email {
+  color: $instarter-white;
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 300;
+}
+
+.login-modal-mileage {
+  padding: 15px 20px;
+}
+
+.mileage-mark {
+  float: left;
+  display: inline-block;
+  color: $instarter-yellow;
+  background-color: $instarter-white;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.mileage-text {
+  font-size: 18px;
+  line-height: 20px !important;
+  line-height: initial;
+  float: left;
+  color: $instarter-white;
+}
+
+.mileage-amount {
+  font-size: 18px;
+  line-height: 20px !important;
+  float: right;
+  line-height: initial;
+  color: $instarter-white;
+}
+
+.login-modal-empty-cart {
+  text-align: center;
+  padding: 30px;
+  background-color: $instarter-background-grey;
+}
+
+.empty-cart-text {
+  line-height: initial;
+  color: $instarter-font-grey;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.login-modal-cart-item {
+  padding: 20px;
+  line-height: initial;
+  background-color: $instarter-white;
+  border: 1px solid $instarter-yellow;
+}
+
+.cart-item-icon {
+  float: left;
+}
+
+.cart-item-body {
+  float: right;
+  width: 230px;
+  font-size: 15px;
+  line-height: 32px;
+}
+.cart-item-title {
+  float: left;
+}
+.cart-item-amount {
+  margin-right: 30px;
+  float: right;
+}
+.cart-item-cancel {
+  margin-top: 6px;
+  float: right;
+}
+
+.btn-cart {
+  background-color: $instarter-black;
+  color: $instarter-white;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
