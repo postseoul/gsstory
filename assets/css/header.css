@@ -24,6 +24,13 @@
 .header-nav-item-selected {
   color: #ABABAD; }
 
+.header-nav-item-link:hover {
+  height: 80px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-bottom: 4px solid #FFBC66;
+  color: #FFBC66; }
+
 .header-profile {
   width: 30px;
   height: 30px;
