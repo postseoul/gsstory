@@ -17,17 +17,28 @@
 <header class="user-header"><!-- layout/user_header.html --></header>
 <section class="main">
   <header class="main-header qna-header">1:1문의</header>
-  <div class="qna-more">
-    <div class="float-left">
-      <div class="qna-more-header">더 궁금한 사항이 있으신가요?</div>
-      <div class="qna-more-body">원하시는 답변을 찾지 못하신 경우 1:1문의로 도와 드리겠습니다</div>
+  <form class="qna-more">
+    <div>
+      <div class="float-left">
+        <div class="qna-more-header">더 궁금한 사항이 있으신가요?</div>
+        <div class="qna-more-body">원하시는 답변을 찾지 못하신 경우 1:1문의로 도와 드리겠습니다</div>
+      </div>
+      <a class="btn-qna-more" href="#!">
+        <img src="/assets/images/icon-write.png">
+        <span class="btn-qna-more-text">1:1 문의 남기기</span>
+      </a>
+      <div class="clear"></div>
     </div>
-    <a class="btn-qna-more" href="#!">
-      <img src="/assets/images/icon-write.png">
-      <span class="btn-qna-more-text">1:1 문의 남기기</span>
-    </a>
-    <div class="clear"></div>
-  </div>
+    <div>
+      <div>
+        <input class="qna-title-input" type="text" name="" placeholder="제목">
+        <input id="qna-checkbox-input" class="hidden" type="checkbox" name="email">
+        <span id="qna-checkbox" class="qna-checkbox" onclick="toggle_checkbox();"></span>
+        <span class="qna-checkbox-label" onclick="toggle_checkbox();">이메일로 답변 받기</span>
+      </div>
+      <textarea class="qna-description-input" placeholder="문의 내용을 작성해 주세요."></textarea>
+    </div>
+  </form>
 
   <div class="qna-subheader">나의 문의 내역</div>
   <div>
@@ -109,5 +120,11 @@
   $('.qna-block').click(function() {
     $(this).toggleClass('qna-block-open')
   });
+
+  function toggle_checkbox(){
+    var checkbox = $('#qna-checkbox-input');
+    checkbox.prop('checked', !checkbox.prop('checked'));
+    $('#qna-checkbox').toggleClass('qna-checkbox-checked');
+  }
 </script>
 </html>
