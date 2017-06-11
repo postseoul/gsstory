@@ -183,3 +183,60 @@ td {
 .service-pagination-next {
   background-color: $instarter-background-grey;
 }
+
+.service-table-3-image {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+
+.service-table-3-link {
+  color: $instarter-font-grey;
+  text-decoration: underline;
+  margin: 20px 0 0 10px;
+  float: left;
+}
+
+
+.service-table-3-disabled {
+  color: $instarter-purple;
+  margin: 20px 0 0 10px;
+  float: left;
+}
+
+
+.service-table-3-purple {
+  color: $instarter-purple;
+}
+
+.service-table-3-bold {
+  font-weight: 500;
+}
+
+.service-table-4-td-title {
+  text-align: left;
+  font-weight: 500;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.service-table-4-td-description {
+   margin-left: 20px;
+   text-align: left;
+}
+
+.service-table-4-td-yellow {
+  font-size: 50px;
+  color: $instarter-yellow;
+}
+
+.service-table-4-td-title-3 {
+  color: $instarter-font-grey;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.service-table-4-td-purple {
+  font-size: 50px;
+  color: $instarter-purple;
+}
