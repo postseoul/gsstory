@@ -171,6 +171,9 @@ td {
 .service-table-3-bold {
   font-weight: 500; }
 
+.service-table-4 {
+  height: 200px; }
+
 .service-table-4-td-title {
   text-align: left;
   font-weight: 500;
@@ -193,5 +196,120 @@ td {
 .service-table-4-td-purple {
   font-size: 50px;
   color: #715EFF; }
+
+.service-table-5-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  float: left; }
+
+.service-table-5-thead-label {
+  font-weight: 500;
+  display: inline-block;
+  line-hegiht: 45px;
+  padding: 9px 0;
+  margin-right: 10px;
+  font-size: 18px;
+  float: left; }
+
+.service-table-5-btn-group {
+  float: left;
+  background-color: #FFF;
+  display: inline-block;
+  border-radius: 10px;
+  margin-right: 10px; }
+
+.service-table-5-btn {
+  width: 80px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: #FFF;
+  color: #B8AEFF;
+  float: left;
+  font-size: 16px;
+  border-radius: 10px; }
+
+.service-table-5-btn-active {
+  background-color: #715EFF;
+  color: #FFF; }
+
+.service-table-5-thead {
+  font-weight: 500;
+  background-color: #f1efff; }
+
+.btn-update {
+  background-color: #2B2C34;
+  display: inline-block;
+  color: #FFF;
+  padding: 10px 20px;
+  float: left; }
+
+.service-subheader-5-notice {
+  float: right;
+  color: #715EFF;
+  font-weight: 300;
+  font-size: 15px; }
+
+.service-table-5-first-row-block {
+  display: inline-block;
+  margin-right: 10px; }
+
+.service-table-5-first-row-image {
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 200px; }
+
+.service-like-count {
+  text-align: left;
+  font-weight: 500; }
+
+.fa {
+  font-size: 20px;
+  color: #ABABAD;
+  margin-right: 5px; }
+
+.service-table-5-first-column-1 {
+  font-size: 18px;
+  font-weight: 500; }
+
+.service-table-5-first-column {
+  font-size: 25px;
+  font-weight: 300;
+  width: 300px;
+  text-align: left;
+  padding-left: 40px; }
+
+.service-table-5-first-column-2 {
+  font-size: 50px; }
+
+.service-table-5-first-column-2-purple {
+  color: #715EFF; }
+
+.service-table-5-first-column-2-grey {
+  color: #ABABAD; }
+
+.arrow-down {
+  float: right;
+  margin: 40px 20px 0 0; }
+
+.text-applying {
+  float: left;
+  color: #ABABAD;
+  padding: 10px; }
+
+.text-applied {
+  float: left;
+  color: #FFBC66;
+  padding: 10px; }
+
+.hashtag, .comment {
+  float: left;
+  background-color: #f1efff;
+  color: #715EFF;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 10px 10px 0; }
 
 /*# sourceMappingURL=service.css.map */

@@ -1,0 +1,108 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='http://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/user/service.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<header class="user-header"><!-- layout/user_header.html --></header>
+<section class="main">
+  <header class="main-header user-service-header">진행중인 서비스</header>
+  <div class="service-main-tabs">
+    <a class="service-main-tab service-main-tab-active" href="#!">진행중인 서비스</a>
+    <a class="service-main-tab" href="#!">지난 서비스</a>
+    <div class="clear"></div>
+  </div>
+  <div class="service-subheader">서비스 정보</div>
+  <table class="service-table-1">
+  <tr>
+    <th>주문번호</th>
+    <td class="service-table-1-number">20170302-00001</td>
+    <th>서비스 기간</th>
+    <td>
+      <span class="service-table-1-date">2017-03-02 ~ 2017-04-02</span>
+      <a class="btn-renewal" href="#!">서비스 연장</a>
+    </td>
+  </tr>
+  <tr>
+    <th>서비스 상품명</th>
+    <td class="service-table-1-title">데일리 팔로워 업 1,500</td>
+    <th rowspan="2">서비스 적용 계정</th>
+    <td rowspan="2">
+      <img class="service-table-1-profile-img" src="/assets/images/sample-profile.jpg">
+      <span style="display: inline-block;">
+        <span class="service-table-1-account">Account_ID</span><br>
+        <span class="service-table-1-username">사용자 이름</span>
+      </span>
+      <a class="btn-renewal" style="margin-top: 18px;" href="#!">계정 변경</a>
+    </td>
+  </tr>
+  <tr>
+    <th>진행 상태</th>
+    <td class="service-table-1-status">진행 중</td>
+  </tr>
+  </table>
+  <div class="service-subheader">서비스 결과</div>
+  <table>
+    <thead>
+      <tr>
+        <td>번호</td>
+        <td>게시물</td>
+        <td>서비스 신청 수</td>
+        <td>서비스 전</td>
+        <td>서비스 후</td>
+        <td>상태</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>
+          <img class="service-table-3-image" src="/assets/images/sample-profile.jpg">
+          <a class="service-table-3-link" href="http://instagram.com/photo1">Instagram.com/photo1</a>
+        </td>
+        <td class="service-table-3-purple">420</td>
+        <td>25</td>
+        <td class="service-table-3-bold">445</td>
+        <td><img src="/assets/images/icon-checked.png"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>
+          <img class="service-table-3-image" src="/assets/images/sample-profile.jpg">
+          <a class="service-table-3-link" href="http://instagram.com/photo1">Instagram.com/photo1</a>
+          <span class="service-table-3-disabled">사용자 과실로 인한 서비스 미적용 - 사용자가 해당 게시글 삭제</span>
+          <div class="clear"></div>
+        </td>
+        <td class="service-table-3-purple">420</td>
+        <td>25</td>
+        <td class="service-table-3-bold">445</td>
+        <td><img src="/assets/images/icon-x-grey-bold.png"></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<footer class="footer"></footer>
+</body>
+
+<script>
+  $('.header').load("/layout/header.html");
+  $('.user-header').load("/layout/user_header.html");
+  $('.footer').load("/layout/footer.html");
+  $('.service-main-tab').click(function() {
+    $('.service-main-tab').removeClass('service-main-tab-active');
+    $(this).addClass('service-main-tab-active');
+  });
+</script>
+</html>
+
