@@ -37,7 +37,7 @@ td {
   clear: both; }
 
 .hidden {
-  display: none; }
+  display: none !important; }
 
 .main {
   color: #2B2C34;

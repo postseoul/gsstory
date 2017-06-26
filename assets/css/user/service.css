@@ -200,7 +200,6 @@ td {
 .service-table-5-image {
   width: 80px;
   height: 80px;
-  margin-right: 5px;
   float: left; }
 
 .service-table-5-thead-label {
@@ -243,7 +242,8 @@ td {
   display: inline-block;
   color: #FFF;
   padding: 10px 20px;
-  float: left; }
+  float: left;
+  margin-right: 10px; }
 
 .service-subheader-5-notice {
   float: right;
@@ -251,9 +251,20 @@ td {
   font-weight: 300;
   font-size: 15px; }
 
-.service-table-5-first-row-block {
+.service-table-5-block {
   display: inline-block;
-  margin-right: 10px; }
+  margin: 0 10px 10px 0; }
+
+.service-table-5-block-selected .service-like-count {
+  display: block;
+  text-align: left;
+  font-weight: 500; }
+.service-table-5-block-selected .service-table-5-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px; }
+.service-table-5-block-selected .arrow-down {
+  display: none !important; }
 
 .service-table-5-first-row-image {
   display: block;
@@ -262,8 +273,7 @@ td {
   height: 200px; }
 
 .service-like-count {
-  text-align: left;
-  font-weight: 500; }
+  display: none; }
 
 .fa {
   font-size: 20px;
@@ -289,6 +299,9 @@ td {
 
 .service-table-5-first-column-2-grey {
   color: #ABABAD; }
+
+.service-table-5-second-column {
+  text-align: left; }
 
 .arrow-down {
   float: right;

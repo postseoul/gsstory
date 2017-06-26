@@ -84,33 +84,49 @@
             <span class="service-table-5-first-column-2-grey">/4</span>
           </<div>
         </td>
-        <td>
-          <div class="service-table-5-first-row-block">
-            <img class="service-table-5-first-row-image" src="/assets/images/sample-profile.jpg">
+        <td class="service-table-5-second-column">
+          <div class="service-table-5-block service-table-5-block-selected">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
             <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
           </div>
-          <div class="service-table-5-first-row-block">
-            <img class="service-table-5-first-row-image" src="/assets/images/sample-profile.jpg">
+          <div class="service-table-5-block service-table-5-block-selected">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
             <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
           </div>
-          <div class="service-table-5-first-row-block">
-            <img class="service-table-5-first-row-image" src="/assets/images/sample-profile.jpg">
+          <div class="service-table-5-block service-table-5-block-selected">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
             <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
           </div>
-          <div class="service-table-5-first-row-block">
-            <img class="service-table-5-first-row-image" src="/assets/images/sample-profile.jpg">
+          <div class="service-table-5-block service-table-5-block-selected">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
+            <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
+          </div>
+          <div class="service-table-5-block service-table-5-block-selected">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
             <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
           </div>
         </td>
       </tr>
       <tr>
         <td class="service-table-5-first-column">2017.03.02</td>
-        <td>
-          <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
-          <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
-          <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
-          <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
-          <img class="arrow-down" src="/assets/images/arrow-down-black-big.png">
+        <td class="service-table-5-second-column">
+          <div class="service-table-5-block">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
+            <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
+          </div>
+          <div class="service-table-5-block">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
+            <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
+          </div>
+          <div class="service-table-5-block">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
+            <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
+          </div>
+          <div class="service-table-5-block">
+            <img class="service-table-5-image" src="/assets/images/sample-profile.jpg">
+            <div class="service-like-count"><i class="fa fa-heart-o" aria-hidden="true"></i><span>+ 420</span></div>
+          </div>
+          <img class="arrow-down" src="/assets/images/arrow-down-black-big.png" onclic="bigger();">
         </td>
       </tr>
     </tbody>
@@ -213,6 +229,15 @@
   $('.icon-checkbox').click(function() {
     $('.icon-checkbox').toggleClass('icon-checkbox-checked');
   });
+
+  $(".service-table-5-btn").click(function() {
+    $(".service-table-5-btn").removeClass("service-table-5-btn-active");
+    $(this).addClass("service-table-5-btn-active");
+  });
+
+  $(".arrow-down").click(function() {
+    $(this).siblings().addClass("service-table-5-block-selected");
+    $(this).addClass("hidden");
+  });
 </script>
 </html>
-
