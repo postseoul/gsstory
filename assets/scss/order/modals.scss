@@ -187,6 +187,10 @@
 }
 
 .modal-image {
+  width: 100%;
+  height: 100%;
+}
+.modal-image-block {
   width: 200px;
   height: 200px;
   float: left;
@@ -194,7 +198,7 @@
   margin: 0 5px 5px 0;
 }
 
-.modal-image-selected {
+.modal-image-block-selected {
   border: 2px solid $instarter-purple;
   box-sizing: border-box;
 }
@@ -206,7 +210,8 @@
   border-radius: 25px;
   border: 2px solid $instarter-white;
   float: right;
-  margin: 10px;
+  margin: -190px 0 0 145px;
+  position: absolute;
 }
 
 .select-box-selected {
