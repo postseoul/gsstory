@@ -64,6 +64,11 @@
       <tr>
         <td class="service-table-5-first-column">2017.03.03</td>
         <td class="float-right">
+        <span class="service-table-5-thead-label">서비스 진행</span>
+          <span class="service-table-5-btn-group">
+            <a href="#!" class="service-table-5-btn service-table-5-btn-active">ON</a>
+            <a href="#!" class="service-table-5-btn">OFF</a>
+          </span>
           <span class="service-table-5-thead-label">좋아요 속도</span>
           <span class="service-table-5-btn-group">
             <a href="#!" class="service-table-5-btn service-table-5-btn-active">게시 직후</a>
@@ -231,7 +236,7 @@
   });
 
   $(".service-table-5-btn").click(function() {
-    $(".service-table-5-btn").removeClass("service-table-5-btn-active");
+    $(this).siblings().removeClass("service-table-5-btn-active");
     $(this).addClass("service-table-5-btn-active");
   });
 
