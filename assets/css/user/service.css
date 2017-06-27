@@ -2,12 +2,9 @@ td {
   font-size: 15px;
   font-weight: 300; }
 
-.header, .footer {
-  min-width: 1200px; }
-
 .main {
-  width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 1200px; }
 
 .user-service-header {
   background: url("/assets/images/header-user-edit.png") no-repeat center;
@@ -15,8 +12,8 @@ td {
 
 .service-main-tab {
   float: left;
+  width: 50%;
   display: inline-block;
-  width: 600px;
   border-bottom: 1px solid #2B2C34;
   padding-bottom: 15px;
   text-align: center;

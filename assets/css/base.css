@@ -92,4 +92,11 @@ td {
 .purple {
   color: #715EFF; }
 
+@media (max-width: 1200px) {
+  .desktop {
+    display: none; } }
+@media (min-width: 1200px) {
+  .mobile {
+    display: none; } }
+
 /*# sourceMappingURL=base.css.map */

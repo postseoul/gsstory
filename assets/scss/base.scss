@@ -117,3 +117,15 @@ td {
 .purple {
   color: $instarter-purple;
 }
+
+@media (max-width: 1200px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+}

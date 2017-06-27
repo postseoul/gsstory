@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import 'variables';
 
-.header, .footer, .review-header-wrapper {
-  min-width: 1200px;
-}
-
 .review-header-wrapper {
   background-color: $instarter-background-grey;
   text-align: center;
@@ -54,7 +50,7 @@
 }
 
 .review-table-wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 

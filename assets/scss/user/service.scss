@@ -6,13 +6,9 @@ td {
     font-weight: 300;
 }
 
-.header, .footer {
-  min-width: 1200px;
-}
-
 .main {
-  width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 .user-service-header {
@@ -22,8 +18,8 @@ td {
 
 .service-main-tab {
   float: left;
+  width: 50%;
   display: inline-block;
-  width: 600px;
   border-bottom: 1px solid $instarter-black;
   padding-bottom: 15px;
   text-align: center;
