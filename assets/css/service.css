@@ -1,4 +1,5 @@
 .main {
+  max-width: 1200px;
   margin: 0 auto; }
 
 .service-header {
@@ -10,7 +11,7 @@
 .service-main-tab {
   float: left;
   display: inline-block;
-  width: 600px;
+  width: 50%;
   border-bottom: 1px solid #2B2C34;
   padding-bottom: 15px;
   text-align: center;

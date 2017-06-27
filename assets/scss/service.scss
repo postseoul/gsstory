@@ -2,6 +2,7 @@
 @import 'variables';
 
 .main {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -15,7 +16,7 @@
 .service-main-tab {
   float: left;
   display: inline-block;
-  width: 600px;
+  width: 50%;
   border-bottom: 1px solid $instarter-black;
   padding-bottom: 15px;
   text-align: center;
