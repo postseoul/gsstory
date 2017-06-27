@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import 'variables';
+
+.owl-carousel-2 .owl-controls .owl-page span,
+.owl-carousel-2 .owl-controls.clickable .owl-page span {
+  background-color: transparent;
+  border: 1px solid $instarter-purple;
+  opacity: 1;
+}
+
+.owl-carousel-2 .owl-controls .owl-page.active span,
+.owl-carousel-2 .owl-controls.clickable .owl-page:hover span {
+  background-color: $instarter-purple;
+  opacity: 1;
+}
+
+.home-service-body-item-img {
+  display: block;
+  float: initial;
+}
+
+.home-service-body-item-1,
+.home-service-body-item-2,
+.home-service-body-item-3,
+.home-service-body-item-4,
+.home-service-body-item-5,
+.home-service-body-item-6 {
+  display: inline-block;
+  width: 70%;
+  height: initial;
+  margin-bottom: 75px;
+}
+
+.owl-item {
+  text-align: center;
+}
+
+.home-why-container {
+  float: initial;
+  margin: 0 auto;
+}
+
+.home-why-container-wrapper {
+  max-width: inital;
+}
+
+.home-service-body-item-img {
+  width: 100%;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.home-service-body-item-text-header {
+  font-size: 35px;
+}
+
+.home-service-body-item-text-body {
+  font-size: 26px;
+}
+
+.home-header-content-subtitle {
+  font-size: 26px;
+}
+
+.btn-home-header-about, .btn-home-header-service {
+  font-size: 26px;
+}
+
+.home-service-header-korean {
+  font-size: 45px;
+}
+
+.home-service-header-english {
+  font-size: 24px;
+}
+
+.home-why {
+  padding: 180px 0;
+}
+
+.home-why-header {
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.home-why-body {
+  font-size: 26px;
+}
+
+.home-why-container {
+  width: 70%;
+}
+
+.home-review-item-body {
+  font-size: 26px;
+}
+
+.home-review-container {
+  height: initial;
+  width: 80%;
+}
+
+.home-review-item-user {
+  font-size: 18px;
+}
+
+.home-review-item-title {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  margin: 0;
+}

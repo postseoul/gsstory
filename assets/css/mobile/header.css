@@ -1,0 +1,18 @@
+.header {
+  background-color: #2B2C34;
+  height: 110px; }
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.header-logo {
+  margin: 35px;
+  float: left;
+  height: 35px; }
+
+.header-hamburger {
+  float: right;
+  margin: 35px; }
+
+/*# sourceMappingURL=header.css.map */

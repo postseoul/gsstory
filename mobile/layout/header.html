@@ -1,0 +1,12 @@
+<div class="header-container">
+  <a href="/"><img src="/assets/images/temp-logo.png" class="header-logo"></a>
+  <a href="#!"><img src="/assets/images/hamburger.png" class="header-hamburger"></a>
+</div>
+
+<script>
+  $("#header-user-name").click(function() {
+    $(".login-modal-triangle").toggleClass("hidden");
+    $(".login-modal").toggleClass("hidden");
+    $(".header-user-name").toggleClass("header-user-name-selected");
+  });
+</script>

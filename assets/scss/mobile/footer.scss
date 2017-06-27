@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import 'variables';
+
+.footer {
+  margin-top: 150px;
+  padding: 80px 0 100px 20px;
+  background-color: $instarter-black;
+  letter-spacing: -0.25px;
+  bottom: 0;
+  color: $instarter-white;
+  font-size: 15px;
+}
+
+.footer-container {
+  background-color: $instarter-black;
+  max-width: $width-desktop;
+  margin: 0 auto;
+}
+
+/*FOOTER LINKS: 이용약관, 개인정보취급방침, 이용안내*/
+.footer-links {
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  font-size: 26px;
+  color: $instarter-font-grey;
+  text-decoration: none;
+}
+
+.footer-links-bar {
+  opacity: 0.3;
+  font-size: 33px;
+  vertical-align: top;
+}
+
+.footer-link-first{
+  padding-right: 15px;
+}
+
+.footer-link-second{
+  padding: 0 15px;
+}
+
+.footer-link-third{
+  padding-left: 15px;
+}
+
+/* 고객센터 */
+.footer-contact {
+  margin-bottom: 20px;
+}
+
+.footer-contact-number, .footer-contact-time {
+  margin-right: 50px;
+}
+
+.footer-contact-label {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 20px;
+  color: #9182ff;
+}
+
+.footer-contact-number .footer-contact-label {
+  float: left;
+  margin-top: 20px;
+}
+
+.footer-contact-content {
+  font-size: 55px;
+}
+
+.footer-contact-breaktime {
+  font-size: 20px;
+  display: inline-block;
+  color: $instarter-font-grey;
+}
+
+.footer-hr {
+  size: 1px;
+  opacity: 0.3;
+  margin-bottom: 30px;
+}
+
+/* 계좌정보 */
+.footer-accounts {
+  margin-bottom: 50px;
+}
+
+.footer-accounts-bank-name {
+  color: $instarter-font-grey;
+  margin-right: 10px;
+}
+
+.footer-accounts-bank-number {
+  font-size: 20px;
+}
+
+.footer-accounts-bank-slash {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-accounts-name {
+  margin-left: 18px;
+}
+
+/* 회사정보 */
+.footer-company {
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.footer-company-name {
+  font-weight: bold;
+  margin-right: 25px;
+}
+
+.footer-company-paragraph {
+  margin-bottom: 10px;
+
+  a {
+    margin-left: 5px;
+    color: $instarter-font-grey;
+    text-decoration: underline;
+  }
+}
+
+.footer-company-bar {
+  font-size: 11px;
+  margin: 0 10px;
+  opacity: 0.3;
+  vertical-align: top;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  color: $instarter-font-grey;
+
+}
