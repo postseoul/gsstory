@@ -68,7 +68,7 @@
     <a href="/"><img src="/assets/images/temp-logo.png" class="mobile-header-logo"></a>
     <a href="#!"><img src="/assets/images/hamburger.png" class="mobile-header-hamburger"></a>
   </div>
-  <div class="mobile-nav">
+  <div class="mobile-nav hidden">
     <div class="mobil-nav-profile">
       <div class="mobil-nav-profile-left">
         <img class="mobile-nav-profile-image" src="/assets/images/sample-profile.jpg">
@@ -89,15 +89,15 @@
       <li class="mobile-nav-item"><a href="/review">고객후기</a></li>
       <li class="mobile-nav-item"><a href="/faq">자주 묻는 질문</a></li>
     </ul>
-    <a class="mobile-nav-logout hidden">로그아웃</a>
+    <a class="mobile-nav-logout">로그아웃</a>
   </div>
 </div>
 
 <script>
   $(".mobile-header-hamburger").click(function() {
-    $(".mobile-nav").slideToggle('fast', function() {
-      $(".mobile-nav-logout").toggleClass("hidden");
-    });
+    $(".mobile-nav").toggleClass("hidden");
+    $(".main").toggleClass("hidden");
+    $(".footer").toggleClass("hidden");
   });
 
   $("#header-user-name").click(function() {

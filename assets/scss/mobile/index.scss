@@ -1,6 +1,21 @@
 @charset "UTF-8";
 @import 'variables';
 
+.home-header {
+  height: 1150px;
+}
+.home-header-content {
+    padding-top: 630px;
+}
+
+.home-header-content-title {
+  font-weight: 500;
+}
+.home-header-content-subtitle {
+  font-weight: 400;
+  margin-bottom: 75px;
+}
+
 .owl-carousel-2 .owl-controls .owl-page span,
 .owl-carousel-2 .owl-controls.clickable .owl-page span {
   background-color: transparent;
@@ -75,7 +90,10 @@
 }
 
 .home-why {
-  padding: 180px 0;
+  padding: 580px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .home-why-header {
@@ -91,6 +109,9 @@
   width: 70%;
 }
 
+.home-review {
+  padding: 200px 0 250px;
+}
 .home-review-item-body {
   font-size: 26px;
 }
@@ -111,4 +132,9 @@
 
 .footer {
   margin: 0;
+}
+
+.yellow-line {
+  text-decoration: underline;
+  color: $instarter-yellow;
 }
