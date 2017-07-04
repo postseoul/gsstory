@@ -1,0 +1,157 @@
+.service-header {
+  background: url("/assets/images/header-service.png") no-repeat center;
+  background-size: 700px;
+  line-height: initial;
+  padding: 55px 0 40px;
+  margin: 50px;
+  font-size: 90px; }
+
+.service-main-tab {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  border-bottom: 1px solid #2B2C34;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #ABABAD;
+  font-size: 45px;
+  font-weight: 300; }
+
+.service-sub-tab:first-of-type {
+  margin-right: 30px; }
+
+.service-main-tab-active {
+  border-bottom: 2px solid #2B2C34;
+  padding-bottom: 14px;
+  color: #2B2C34;
+  font-weight: 500; }
+
+.service-sub-tabs {
+  border-bottom: 1px solid #EDEDED;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  font-size: 35px; }
+
+.service-sub-tab {
+  display: inline-block;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #ABABAD;
+  font-weight: 300; }
+
+.service-sub-tab-active {
+  border-bottom: 2px solid #715EFF;
+  padding-bottom: 14px;
+  color: #715EFF;
+  font-weight: 500; }
+
+.service-item {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 200px; }
+
+.service-item-ticket {
+  width: 90%; }
+
+.service-item-title {
+  margin-bottom: 10px;
+  font-size: 34px; }
+
+.service-item-description {
+  margin-bottom: 40px; }
+
+.service-item-description-1 {
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 300; }
+
+.service-item-description-2 {
+  font-weight: 500; }
+
+.service-item-description-3 {
+  color: #ABABAD;
+  font-size: 13px;
+  font-weight: 300; }
+
+.service-item-controls {
+  float: left; }
+
+.service-item-control {
+  margin-bottom: 40px; }
+
+.service-item-control-1-label,
+.service-item-control-2-label,
+.service-item-control-3-label {
+  color: #ABABAD;
+  width: 115px;
+  display: inline-block;
+  height: 28px;
+  line-height: 37px;
+  float: left; }
+
+.service-item-control-3-label {
+  line-height: 53px; }
+
+.service-item-control-1-input {
+  border-bottom: 1px solid #2B2C34;
+  padding-bottom: 5px; }
+
+.btn-order,
+.btn-cart {
+  padding: 21px 35px;
+  display: inline-block;
+  font-size: 20px; }
+
+.btn-more {
+  display: block;
+  margin-top: 30px;
+  color: #2B2C34;
+  font-size: 13px; }
+
+.arrow {
+  padding-top: 7px;
+  margin-bottom: -2px; }
+
+.arrow-down {
+  margin-left: 20px;
+  padding-bottom: 4px; }
+
+.service-item-control-2-input {
+  font-weight: 300;
+  margin: 0 15px; }
+
+.service-item-control-3-input {
+  line-height: 53px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 53px; }
+
+.service-item-control-price {
+  font-size: 45px;
+  margin-right: 20px; }
+
+.mark-mileage {
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 13px;
+  line-height: 23px;
+  background-color: #715EFF;
+  color: #FFF;
+  height: 22px;
+  width: 22px; }
+
+.service-item-control-mileage {
+  font-size: 15px;
+  color: #ABABAD;
+  float: right; }
+
+.service-item-control-1-input-select {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: 300; }
+
+/*# sourceMappingURL=service.css.map */

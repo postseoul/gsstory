@@ -1,0 +1,110 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/mobile/service.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/service-modal.css" type="text/css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<section class="main">
+  <header class="main-header service-header">서비스 소개</header>
+  <div class="service-main-tabs">
+    <a id="follow-tab" class="service-main-tab service-main-tab-active" href="#!" onclick="reload_tab('follow')">
+      팔로워 &amp; 좋아요 늘리기
+    </a>
+    <a id="account-tab" class="service-main-tab" href="#!" onclick="reload_tab('account')">
+      계정 관리 서비스
+    </a>
+    <div class="clear"></div>
+  </div>
+  <div class="service-sub-tabs">
+    <a id="korean-tab" class="service-sub-tab service-sub-tab-active" href="#!" onclick="reload_subtab('korean')">한국인 계정</a>
+    <a id="foreigner-tab" class="service-sub-tab" href="#!" onclick="reload_subtab('foreigner')">외국인 계정</a>
+  </div>
+  <div id="service-contents-1" class="service-contents"></div>
+  <div id="service-contents-2" class="service-contents hidden"></div>
+  <div id="service-contents-3" class="service-contents hidden"></div>
+  <div id="service-contents-4" class="service-contents hidden"></div>
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("/layout/header.html");
+  $('.footer').load("/layout/footer.html");
+  $('#service-contents-1').load('service-content/follow-korean.html');
+  $('#service-contents-2').load('service-content/follow-foreigner.html');
+  $('#service-contents-3').load('service-content/account-korean.html');
+  $('#service-contents-4').load('service-content/account-foreigner.html');
+  var service_item_count = [1,1,1,1,1,1,1,1,1,1]
+  var language = 'korean';
+  var type = 'follow';
+
+  function reload_tab(t) {
+    $('.service-contents').addClass('hidden');
+    type = t;
+    if(language=='korean' && type=='follow') {
+      $('#service-contents-1').removeClass('hidden');
+    } else if(language=='foreigner' && type=='follow') {
+      $('#service-contents-2').removeClass('hidden');
+    } else if(language=='korean' && type=='account') {
+      $('#service-contents-3').removeClass('hidden');
+    } else {
+      $('#service-contents-4').removeClass('hidden');
+    }
+    $('.service-main-tab').removeClass('service-main-tab-active');
+    $(`#${type}-tab`).addClass('service-main-tab-active');
+  }
+
+  function reload_subtab(l) {
+    $('.service-contents').addClass('hidden');
+    language = l;
+    if(language=='korean' && type=='follow') {
+      $('#service-contents-1').removeClass('hidden');
+    } else if(language=='foreigner' && type=='follow') {
+      $('#service-contents-2').removeClass('hidden');
+    } else if(language=='korean' && type=='account') {
+      $('#service-contents-3').removeClass('hidden');
+    } else {
+      $('#service-contents-4').removeClass('hidden');
+    }
+    $('.service-sub-tab').removeClass('service-sub-tab-active');
+    $(`#${language}-tab`).addClass('service-sub-tab-active');
+  }
+
+  function load_count() {
+    for(var i=0; i < 10; i++) {
+      $("#service-item-count-"+i)[0].innerText = service_item_count[i]+'개';
+      $("#service-item-count-input-"+i)[0].value = service_item_count[i];
+      if(service_item_count[i] >= 5) {
+        $("#service-item-count-"+i)[0].innerText += ' (최대)'
+      }
+    }
+  }
+
+  function add(index) {
+    if(service_item_count[index] < 5) {
+      service_item_count[index] += 1;
+      load_count()
+    }
+  }
+
+  function sub(index) {
+    if(service_item_count[index] > 1) {
+      service_item_count[index] -= 1;
+      load_count()
+    }
+  }
+</script>
+</html>
