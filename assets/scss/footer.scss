@@ -28,7 +28,7 @@
 }
 
 .footer-links-bar {
-  opacity: 0.3;
+  color: $instarter-border-grey;
   font-size: 13px;
   vertical-align: top;
 }
@@ -77,7 +77,7 @@
 
 .footer-hr {
   size: 1px;
-  opacity: 0.3;
+  color: $instarter-border-grey;
   margin-bottom: 30px;
 }
 
@@ -128,7 +128,7 @@
 .footer-company-bar {
   font-size: 11px;
   margin: 0 10px;
-  opacity: 0.3;
+  color: $instarter-border-grey;
   vertical-align: top;
 }
 
@@ -140,21 +140,19 @@
 
 @media (max-width: 1200px) {
   .footer {
-    padding: 80px 0 100px 20px;
+    padding: 0 0 70px;
   }
 }
 
 .mobile {
-  .footer-link {
-    font-size: 26px;
-    color: $instarter-font-grey;
-    text-decoration: none;
+  .footer-links {
+    display: none;
   }
 
-  .footer-links-bar {
-    opacity: 0.3;
-    font-size: 33px;
-    vertical-align: top;
+  .footer-container {
+    background-color: $instarter-black;
+    max-width: $width-desktop;
+    margin: 0 40px;
   }
 
   /* 고객센터 */
@@ -163,14 +161,70 @@
   }
 
   .footer-contact-label {
-    font-size: 24px;
+    font-size: 35px;
+    margin-top: 10px;
   }
 
   .footer-contact-content {
-    font-size: 55px;
+    font-size: 65px;
+  }
+
+  .footer-contact-time {
+    .footer-contact-label {
+      float: left;
+    }
+
+    .footer-contact-content {
+      float: left;
+      margin: 30px 0;
+    }
   }
 
   .footer-contact-breaktime {
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 10px;
+    margin-bottom: 50px;
+  }
+
+  .footer-accounts-bank-name,
+  .footer-accounts-bank-number,
+  .footer-accounts-name {
+    display: inline-block;
+    font-size: 28px;
+  }
+
+  .footer-company-paragraph {
+    font-size: 15px;
+  }
+
+  .footer-company {
+    font-weight: 500;
+  }
+
+  font-weight: 300;
+}
+
+.mobile-footer-links {
+  font-size: 40px;
+  border-bottom: 1px solid $instarter-border-grey;
+  margin-bottom: 70px;
+  .footer-link {
+    width: 33%;
+    display: inline-block;
+    float: left;
+  }
+
+  .footer-link-first,
+  .footer-link-second,
+  .footer-link-third {
+    padding: 0;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  .footer-link-first,
+  .footer-link-second {
+    border-right: 1px solid $instarter-border-grey;
   }
 }
+

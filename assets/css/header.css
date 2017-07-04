@@ -211,12 +211,14 @@
   height: -webkit-calc(100% - 110px);
   height: -moz-calc(100% - 110px);
   height: calc(100% - 110px);
-  z-index: 1; }
+  z-index: 1;
+  overflow-y: auto; }
 
 .mobile-nav-items {
   border-top: 1px solid #ABABAD;
   padding: 45px;
-  font-size: 35px;
+  font-size: 45px;
+  font-weight: 400;
   list-style-type: none;
   text-decoration: none;
   -webkit-margin-before: 0;
@@ -233,10 +235,10 @@
   margin-left: 45px;
   bottom: 0;
   margin-bottom: 40px;
-  font-size: 26px; }
+  font-size: 36px;
+  font-weight: 400; }
 
 .mobil-nav-profile {
-  padding: 15px 20px 23px;
   border-top: 1px solid #ABABAD; }
 
 .mobile-nav-profile-image {
@@ -247,30 +249,45 @@
   background-color: #EDEDED;
   margin-right: 5px;
   margin-bottom: -10px;
-  float: left; }
+  float: left;
+  margin-left: 40px; }
 
 .mobile-nav-profile-username {
-  font-size: 30px;
+  font-size: 40px;
   color: #FFF;
   float: left;
-  margin: 12px 0 0 5px; }
+  margin: 6px 0 0 5px; }
 
 .mobile-nav-mark-mileage {
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
   background-color: white;
-  width: 24px;
-  height: 24px;
+  width: 34px;
+  height: 34px;
   float: left;
   text-align: center;
-  margin-top: 8px;
-  margin-right: 10px; }
+  margin-top: 11px;
+  font-weight: 500;
+  margin-right: 15px; }
 
 .mileage-label, .mileage-value {
-  font-size: 26px; }
+  font-size: 36px; }
 
 .mileage-label {
   margin-right: 60px; }
+
+.mobil-nav-profile-left {
+  padding: 15px 0 23px;
+  display: inline-block;
+  float: left;
+  border-right: 1px solid #EDEDED;
+  width: 50%; }
+
+.mobil-nav-profile-right {
+  padding: 15px 20px 23px;
+  float: right;
+  display: inline-block;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=header.css.map */
