@@ -1,0 +1,222 @@
+.review-header-wrapper {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 120px 0 30px;
+  margin-bottom: 60px; }
+
+.review-header {
+  background: url(/assets/images/header-review.png) no-repeat center;
+  line-height: initial;
+  padding: 48px 0 16px;
+  margin: 0;
+  font-size: 80px; }
+
+.review-subheader {
+  font-size: 25px;
+  margin: 40px 0 30px;
+  line-height: 35px; }
+
+.review-description {
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 50px; }
+
+.review-ticket {
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: 300;
+  color: #715EFF;
+  margin: 0 65px 40px; }
+
+.review-ticket-image {
+  display: inline-block;
+  float: left; }
+
+.review-ticket-description {
+  display: inline-block;
+  float: left;
+  font-size: 35px;
+  margin: -20px 0 0 30px;
+  font-weight: 400;
+  text-align: left; }
+
+.review-ticket-award {
+  color: #2B2C34;
+  font-size: 50px;
+  display: inline-block;
+  float: right;
+  font-weight: 500;
+  margin-top: -10px; }
+
+.btn-review-write {
+  background-color: #715EFF;
+  color: #FFF;
+  margin: auto;
+  padding: 20px 30px; }
+
+.btn-review-write-text {
+  line-height: 32px;
+  vertical-align: text-bottom;
+  margin-left: 10px;
+  font-size: 10px;
+  font-weight: 300; }
+
+.review-list {
+  margin: 150px 0 70px;
+  border-top: 2px solid #2B2C34;
+  font-weight: 400; }
+
+.review-list-item {
+  border-bottom: 2px solid #EDEDED;
+  padding: 30px 0; }
+
+.review-list-item-1 {
+  margin-left: 20px;
+  font-size: 13px; }
+
+.review-list-item-2 {
+  margin-left: 20px;
+  font-size: 14px; }
+
+.review-list-item-3 {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #ABABAD;
+  font-size: 10px; }
+
+.review-list-item-3-1 {
+  padding: 0 5px; }
+
+.review-list-item-3-2 {
+  border-left: 3px solid #EDEDED;
+  padding: 0 15px; }
+
+.mark-new {
+  display: inline-block;
+  background-color: #FFBC66;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 20px;
+  margin-top: 15px;
+  vertical-align: top;
+  color: #FFF;
+  text-align: center; }
+
+.modal-body {
+  margin: 40px 25px; }
+
+.modal-body-title {
+  font-size: 20px; }
+
+.btn-submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #2B2C34;
+  border: 2px solid #2B2C34;
+  color: #FFF;
+  font-size: 18px;
+  padding: 10px 0;
+  width: 125px; }
+
+.btn-close {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #2B2C34;
+  background-color: #FFF;
+  color: #2B2C34;
+  font-size: 18px;
+  padding: 10px 0;
+  width: 125px; }
+
+.btn-group {
+  text-align: center; }
+
+.modal-body-product-description {
+  color: #715EFF;
+  font-size: 13px;
+  margin-bottom: 50px;
+  font-weight: 300; }
+
+.arrow-down-black {
+  float: right;
+  margin-top: 7px; }
+
+.modal-body-input {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #EDEDED;
+  margin-bottom: 10px;
+  padding: 25px;
+  font-size: 18px; }
+
+.modal-body-textarea {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #EDEDED;
+  font-size: 15px;
+  padding: 25px;
+  margin-bottom: 10px; }
+
+.modal-file-wrapper {
+  padding: 30px;
+  background-color: #F6F6F6;
+  text-align: center; }
+
+.btn-add {
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.btn-add-image {
+  float: left;
+  margin-right: 10px; }
+
+.btn-add-text {
+  color: #ABABAD;
+  font-size: 18px;
+  float: left;
+  line-height: 48px; }
+
+.modal-file-description {
+  color: #ABABAD;
+  font-size: 15px; }
+
+.modal-file-list {
+  background-color: #EDEDED;
+  padding: 10px 80px;
+  margin-bottom: 30px; }
+
+.modal-file-thumbnail {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float: left; }
+
+.modal-file-name {
+  display: inline-block;
+  float: left;
+  color: #2B2C34;
+  font-weight: 300;
+  line-height: 40px; }
+
+.btn-file-cancel {
+  margin-left: 15px; }
+
+.modal-body-product-wrapper {
+  color: #2B2C34;
+  border-bottom: 1px solid #2B2C34;
+  padding: 5px 0;
+  margin-bottom: 15px; }
+
+.modal-body-product {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 300; }
+
+/*# sourceMappingURL=review.css.map */

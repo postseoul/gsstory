@@ -1,0 +1,157 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/mobile/review.css" type="text/css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<section class="main">
+  <div class="review-header-wrapper">
+    <header class="main-header review-header">고객 후기</header>
+    <div class="review-subheader">인스타터에서 구매한 서비스의<br> 후기를 남겨주세요</div>
+    <div class="review-description">
+      남겨주신 후기 종류에 따라 적립금을 자동 지급해 드립니다.<br>
+      리뷰 적립금은 서비스 완료 후 한달 이내에 작성된 건에 한해<br>
+      지급되며, 구매 1건당 1번의 적립금만 지급됩니다.
+    </div>
+    <div class="review-ticket">
+      <img class="review-ticket-image" src="/assets/images/review-1.png">
+      <div class="review-ticket-description" style="margin: 5px 0 0 30px;">3줄 이상의 텍스트 리뷰</div>
+      <div class="review-ticket-award">1,000원</div>
+      <div class="clear"></div>
+    </div>
+    <div class="review-ticket">
+      <img class="review-ticket-image" src="/assets/images/review-2.png">
+      <div class="review-ticket-description">서비스 전, 후 비교샷이 담긴<br>사진 리뷰</div>
+      <div class="review-ticket-award">2,000원</div>
+      <div class="clear"></div>
+    </div>
+    <div class="review-ticket">
+      <img class="review-ticket-image" src="/assets/images/review-3.png">
+      <div class="review-ticket-description">사진 리뷰를 포함한<br>블로그나 인스타그램 리뷰</div>
+      <div class="review-ticket-award">4,000원</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="review-list">
+    <div class="review-list-item">
+      <div class="review-list-item-1">데일리 팔로우 업 250</div>
+      <div class="review-list-item-2">
+        처음만큼은 아니지만 만족합니다.
+        <span class="mark-new">N</span>
+      </div>
+      <div class="review-list-item-3">
+        <span class="review-list-item-3-1">rla***</span>
+        <span class="review-list-item-3-2">2017-03-13</span>
+      </div>
+    </div>
+    <div class="review-list-item">
+      <div class="review-list-item-1">데일리 팔로우 업 250</div>
+      <div class="review-list-item-2">처음만큼은 아니지만 만족합니다.</div>
+      <div class="review-list-item-3">
+        <span class="review-list-item-3-1">rla***</span>
+        <span class="review-list-item-3-2">2017-03-13</span>
+      </div>
+    </div>
+    <div class="review-list-item">
+      <div class="review-list-item-1">데일리 팔로우 업 250</div>
+      <div class="review-list-item-2">처음만큼은 아니지만 만족합니다.</div>
+      <div class="review-list-item-3">
+        <span class="review-list-item-3-1">rla***</span>
+        <span class="review-list-item-3-2">2017-03-13</span>
+      </div>
+    </div>
+    <div class="review-list-item">
+      <div class="review-list-item-1">데일리 팔로우 업 250</div>
+      <div class="review-list-item-2">처음만큼은 아니지만 만족합니다.</div>
+      <div class="review-list-item-3">
+        <span class="review-list-item-3-1">rla***</span>
+        <span class="review-list-item-3-2">2017-03-13</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a class="btn-review-write" href="#review-modal" rel="modal:open">
+      <img src="/assets/images/icon-write.png">
+      <span class="btn-review-write-text">후기 작성하기</span>
+    </a>
+  </div>
+
+  <div id="review-modal" style="display:none;">
+    <div class="modal-header">구매후기 작성하기</div>
+    <div class="modal-body">
+      <div class="modal-body-title">상품 선택</div>
+      <div class="modal-body-product-wrapper">
+        <select class="modal-body-product" href="#!">
+          <option>자동소통(선팔+좋아요+댓글) 30일</option>
+        </select>
+        <img class="arrow-down-black" src="/assets/images/arrow-down-black-big.png">
+      </div>
+      <div class="modal-body-product-description">해당 기간 이전에 구매한 상품을 확인하고 싶으신 경우 마이페이지의 구매내역에서 확인 가능 합니다.</div>
+      <div class="modal-body-title">후기 작성</div>
+      <input class="modal-body-input" type="text" placeholder="제목을 입력해 주세요"/>
+      <textarea class="modal-body-textarea" placeholder="후기는 세 줄 이상 작성해 주셔야 1,000원의 적립금이 지급 됩니다.
+서비스 전, 후 비교 사진을 첨부해 주시면 2,000원의 적립금을 드립니다."></textarea>
+      <div class="modal-file-wrapper">
+        <a href="#!" class="btn-add">
+          <img class="btn-add-image" src="/assets/images/btn-add.png">
+          <span class="btn-add-text">파일 첨부하기...</span>
+          <div class="clear"></div>
+        </a>
+        <div class="modal-file-description">최대 3개까지 첨부 가능합니다. (jpg, png, gif만 가능)</div>
+      </div>
+      <div class="modal-file-list">
+        <div class="modal-file-list-contanier">
+          <div>
+            <img class="modal-file-thumbnail" src="/assets/images/naver-logo.png">
+            <span class="modal-file-name">
+              <span>1.jpg</span>
+              <a class="btn-file-cancel" href="#!"><img src="/assets/images/icon-x-grey.png"></a>
+            </span>
+          </div>
+          <div>
+            <img class="modal-file-thumbnail" src="/assets/images/naver-logo.png">
+            <span class="modal-file-name">
+              <span>1.jpg</span>
+              <a class="btn-file-cancel" href="#!"><img src="/assets/images/icon-x-grey.png"></a>
+            </span>
+          </div>
+          <div>
+            <img class="modal-file-thumbnail" src="/assets/images/naver-logo.png">
+            <span class="modal-file-name">
+              <span>1.jpg</span>
+              <a class="btn-file-cancel" href="#!"><img src="/assets/images/icon-x-grey.png"></a>
+            </span>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="btn-group">
+        <a class="btn-submit" href="#!">입력완료</a>
+        <a class="btn-close" href="#!" rel="modal:close">닫기</a>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("../layout/header.html");
+  $('.footer').load("../layout/footer.html");
+</script>
+</html>
