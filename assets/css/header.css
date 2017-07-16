@@ -190,7 +190,10 @@
 @media (max-width: 1200px) {
   .header {
     background-color: #2B2C34;
-    height: 110px; } }
+    height: 110px; }
+
+  .user-header {
+    height: inherit; } }
 .mobile-header-logo {
   margin: 35px;
   float: left;
@@ -288,5 +291,15 @@
   float: right;
   display: inline-block;
   margin-top: 10px; }
+
+.mobile .user-header-title {
+  color: #715EFF;
+  float: left;
+  font-size: 40px;
+  padding: 30px 50px; }
+.mobile .arrow-down {
+  float: right;
+  width: 30px;
+  margin: 50px 50px; }
 
 /*# sourceMappingURL=header.css.map */

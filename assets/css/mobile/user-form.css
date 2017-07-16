@@ -1,0 +1,235 @@
+.main {
+  width: 90%; }
+
+.form-control {
+  width: 100%;
+  margin: 20px auto;
+  font-size: 50px;
+  padding: 40px;
+  font-weight: 400; }
+
+.signup-header {
+  background-image: url("/assets/images/header-user-create.png");
+  height: 156px;
+  width: 367px;
+  font-weight: 80px; }
+
+.edit-header {
+  background: url("/assets/images/header-user-edit.png") no-repeat center;
+  height: 186px;
+  font-size: 80px; }
+
+.signup-naver-logo {
+  width: 90px;
+  height: 90px;
+  float: right;
+  margin: 27px; }
+
+.signup-user-type {
+  color: #2B2C34;
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 50px;
+  margin-bottom: 30px;
+  background-color: #F6F6F6; }
+
+.signup-user-type-selected {
+  color: #FFF;
+  background-color: #715EFF; }
+
+.signup-agreements {
+  margin-bottom: 60px; }
+
+.signup-agreement {
+  max-width: 432px;
+  background-color: #F6F6F6;
+  margin-bottom: 2px;
+  padding: 20px;
+  font-size: 18px; }
+
+.signup-agreement-checkbox {
+  background-image: url("/assets/images/checkbox-no.png");
+  float: left;
+  height: 18px;
+  margin: 5px 10px 0 0;
+  width: 18px; }
+
+.signup-agreement-checkbox-checked {
+  background-image: url("/assets/images/checkbox-yes.png");
+  height: 22px;
+  margin: 1px 5px 0 0;
+  width: 23px; }
+
+.signup-agreement-link {
+  color: #67676A;
+  float: right;
+  font-size: 15px;
+  text-decoration: underline; }
+
+.modal-body {
+  font-size: 15px;
+  margin: 25px;
+  font-weight: 400; }
+
+.modal-text {
+  max-height: 420px;
+  overflow-y: scroll;
+  margin-bottom: 50px; }
+
+.btn-group {
+  text-align: center; }
+
+.btn-cancel {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: #2B2C34;
+  border: 2px solid #2B2C34;
+  color: #FFF;
+  font-size: 20px;
+  height: 50px;
+  width: 120px; }
+
+.signup-user-type {
+  margin-bottom: 60px; }
+
+.sub-header {
+  font-size: 45px;
+  margin-bottom: 20px; }
+
+.form-profile {
+  margin-bottom: 40px; }
+
+.form-profile-img {
+  float: left; }
+
+.btn-group-profile {
+  margin: 25px 0 0 20px;
+  float: left; }
+
+.btn-add-profile {
+  display: block;
+  background: url("/assets/images/btn-add.png") no-repeat;
+  font-size: 18px;
+  height: 46px;
+  line-height: 46px;
+  vertical-align: middle;
+  padding-left: 60px;
+  color: #ABABAD;
+  margin-bottom: 20px; }
+
+.btn-remove-profile {
+  color: #715EFF;
+  font-size: 15px;
+  text-decoration: underline; }
+
+.password-checked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("/assets/images/password-checked.png"); }
+
+.password-unchecked {
+  position: absolute;
+  margin: 28px 0 0 432px;
+  width: 22px;
+  height: 17px;
+  background-image: url("/assets/images/password-unchecked.png"); }
+
+.instagram-form {
+  background-color: #FFBC66;
+  padding: 10px 20px;
+  margin-bottom: 20px; }
+
+.instagram-form-profile {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #FFF;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px; }
+
+.instagram-form-username {
+  font-size: 40px;
+  color: #FFF;
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: 300;
+  vertical-align: top; }
+
+.instagram-form-control {
+  float: right; }
+
+.instagram-form-edit {
+  line-height: 55px;
+  vertical-align: middle;
+  color: #FFF;
+  text-decoration: underline;
+  margin-right: 20px; }
+
+.instagram-form-remove {
+  display: inline-block;
+  vertical-align: middle; }
+
+.instagram-form-add {
+  color: #ABABAD;
+  display: block;
+  font-size: 40px;
+  font-weight: 300;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 80px;
+  vertical-align: middle; }
+
+.hashtags {
+  margin-bottom: 60px; }
+
+.comments {
+  margin-bottom: 80px;
+  display: block; }
+
+.comment {
+  display: block; }
+
+.hashtag, .comment {
+  float: left;
+  font-size: 40px;
+  background-color: #f1efff;
+  color: #715EFF;
+  padding: 10px 30px;
+  margin: 0 10px 10px 0; }
+
+.hashtag-cancel, .comment-cancel {
+  float: right;
+  margin: 6px 0 0 20px; }
+
+.btn-group {
+  margin-bottom: 100px; }
+
+.btn-password-edit {
+  font-size: 40px;
+  background-color: #FFF;
+  border: 2px solid #2B2C34;
+  color: #2B2C34;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 30px 40px;
+  font-weight: 500; }
+
+.btn-user-edit {
+  font-size: 40px;
+  background-color: #2B2C34;
+  border: none;
+  color: #FFF;
+  display: inline-block;
+  padding: 30px 90px; }
+
+.sublink {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=user-form.css.map */

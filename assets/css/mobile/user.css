@@ -1,20 +1,6 @@
 .main {
   padding: 0 40px; }
 
-.user-header {
-  height: inherit; }
-
-.user-header-title {
-  color: #715EFF;
-  float: left;
-  font-size: 40px;
-  padding: 30px 50px; }
-
-.arrow-down {
-  float: right;
-  width: 30px;
-  margin: 50px 50px; }
-
 .user-service-header {
   background: url("/assets/images/header-user-edit.png") no-repeat center;
   height: 186px;

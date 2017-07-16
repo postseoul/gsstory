@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
-  <link rel="stylesheet" href="/assets/css/user/form.css" type="text/css">
-  <link rel="stylesheet" href="/assets/css/user/edit.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/mobile/user-form.css" type="text/css">
   <link rel="stylesheet" href="/assets/css/order/modals.css" type="text/css">
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -27,17 +26,13 @@
   </header>
   <form class="signup">
     <div class="sub-header">회원 정보 관리</div>
-    <div class="form-profile">
-      <img class="form-profile-img" src="/assets/images/default-profile.png">
-      <div class="btn-group-profile">
-        <a href="#!" class="btn-add-profile">프로필 사진 추가...</a>
-        <a href="#!" class="btn-remove-profile">프로필 이미지 삭제하기</a>
-      </div>
-      <div class="clear"></div>
+    <div style="position: absolute; width: 90%;">
+      <img src="/assets/images/naver-logo.png" class="signup-naver-logo">
     </div>
-    <div class="signup-naver-logo"></div>
     <input class="form-control" value="홍길동" placeholder="이름" disabled/>
-    <div class="signup-naver-logo"></div>
+    <div style="position: absolute; width: 90%;">
+      <img src="/assets/images/naver-logo.png" class="signup-naver-logo">
+    </div>
     <input class="form-control" type="email" value="account_id@mail.com" placeholder="이메일 주소" disabled/>
     <div class="password-checked"></div>
     <input class="form-control" type="password" placeholder="비밀번호" />
@@ -53,48 +48,52 @@
       <img class="instagram-form-profile" src="/assets/images/default-profile.png"/>
       <span class="instagram-form-username">Account_id</span>
       <div class="instagram-form-control">
-        <a class="instagram-form-edit" href="#modal-1" rel="modal:open">아이디 변경</a>
-        <a class="instagram-form-remove" href="#!"><img src="/assets/images/icon-trash.png"></a>
+        <a class="instagram-form-edit" href="#modal-1" rel="modal:open"><a class="instagram-form-remove" href="#!"><img style="height: 50px; margin: 28px;" src="/assets/images/icon-instagram-write.png"></a></a>
+        <a class="instagram-form-remove" href="#!"><img style="height: 50px; margin: 28px;" src="/assets/images/icon-trash-white.png"></a>
         <div class="clear"></div>
       </div>
+      <div class="clear" ></div>
     </div>
-    <a href="#modal-1" class="instagram-form-add" rel="modal:open">인스타그램 아이디 추가...</a>
+    <a href="#modal-1" class="instagram-form-add" rel="modal:open">
+      <img style="vertical-align: top; margin-top: 8px;" src="/assets/images/btn-add.png">
+      인스타그램 아이디 추가...
+    </a>
 
-    <div class="sub-header">해시태그 관리</div>
-    <input class="form-control" placeholder="추가하고자 하는 해시태그를 입력하세요">
-    <div class="hashtags">
-      <div class="hashtag">
-        해시태그 1
-        <a href="#!" class="hashtag-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
+    <div class="sub-header">댓글 관리</div>
+    <input class="form-control" style="font-size: 40px;" placeholder="추가하고자 하는 댓글 내용을 입력하세요">
+    <div class="comments">
+      <div class="comment">
+        사용자가 등록한 댓글 1
+        <a href="#!" class="comment-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
       </div>
-      <div class="hashtag">
-        해시태그 2
-        <a href="#!" class="hashtag-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
+      <div class="comment">
+        사용자가 등록한 댓글 2
+        <a href="#!" class="comment-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
       </div>
-      <div class="hashtag">
-        해시태그 3
-        <a href="#!" class="hashtag-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
+      <div class="comment">
+        사용자가 등록한 댓글 3
+        <a href="#!" class="comment-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
       </div>
       <div class="clear"></div>
     </div>
 
-    <div class="sub-header">댓글 관리</div>
-    <input class="form-control" placeholder="추가하고자 하는 댓글 내용을 입력하세요">
-    <div class="comments">
-          <div class="comment">
-            사용자가 등록한 댓글 1
-            <a href="#!" class="comment-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
-          </div>
-          <div class="comment">
-            사용자가 등록한 댓글 2
-            <a href="#!" class="comment-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
-          </div>
-          <div class="comment">
-            사용자가 등록한 댓글 3
-            <a href="#!" class="comment-cancel"><img src="/assets/images/icon-x-purple.png"/></a>
-          </div>
-          <div class="clear"></div>
-        </div>
+    <div class="sub-header">해시태그 관리</div>
+    <input class="form-control" style="font-size: 40px;" placeholder="추가하고자 하는 해시태그를 입력하세요">
+    <div class="hashtags">
+      <div class="hashtag">
+        해시태그 1
+        <a href="#!" class="hashtag-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
+      </div>
+      <div class="hashtag">
+        해시태그 2
+        <a href="#!" class="hashtag-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
+      </div>
+      <div class="hashtag">
+        해시태그 3
+        <a href="#!" class="hashtag-cancel"><img style="width: 25px; margin-top: 12px;" src="/assets/images/icon-x-purple.png"/></a>
+      </div>
+      <div class="clear"></div>
+    </div>
 
     <div class="btn-group">
       <input class="btn-password-edit" type="submit" value="비밀번호 변경"/>
