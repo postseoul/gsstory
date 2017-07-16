@@ -1,0 +1,192 @@
+@charset "UTF-8";
+@import 'variables';
+
+.main {
+  padding: 0 40px;
+}
+
+.user-header {
+  height: inherit;
+}
+
+.user-header-title {
+  color: $instarter-purple;
+  float: left;
+  font-size: 40px;
+  padding: 30px 50px;
+}
+
+.arrow-down {
+  float: right;
+  width: 30px;
+  margin: 50px 50px;
+}
+
+.user-service-header {
+  background: url("/assets/images/header-user-edit.png") no-repeat center;
+  height: 186px;
+  font-size: 70px;
+}
+
+.profile-box {
+  background-color: #ffbc6d;
+  color: $instarter-white;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.profile-box-1 {
+  padding: 50px;
+}
+
+.profile-box-2 {
+  border-top: 2px solid $instarter-white;
+  background-color: #ffb261;
+  padding: 30px 50px;
+}
+
+.mark-mileage {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3px;
+  color: $instarter-yellow;
+  background-color: $instarter-white;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.mileage-price {
+  float: right;
+  margin-right: 10px;
+  font-size: 50px;
+  margin-top: -5px;
+}
+
+.service-box {
+  background-color: $instarter-purple;
+  color: $instarter-white;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border: 1px solid $instarter-border-grey;
+  border-radius: 150px;
+  float: left;
+}
+
+.profile-info {
+  float: left;
+  font-size: 45px;
+  margin: 15px 0 0 30px;
+}
+
+.profile-info-email {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.icon-settings {
+  margin-top: 50px;
+  width: 40px;
+  float: right;
+}
+
+.service-box-background-number {
+  position: absolute;
+  color: $instarter-black;
+  font-size: 380px;
+  line-height: 300px;
+  opacity: 0.1;
+  display: inline-block;
+  margin-left: -200px;
+  margin-top: -20px;
+}
+
+.service-box-header {
+  text-align: center;
+  font-weight: 400;
+  padding: 30px;
+  border-bottom: 1px solid $instarter-border-grey;
+}
+
+.service-box-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.service-box-icon {
+  width: 100px;
+  margin: 100px 0 30px;
+}
+
+.service-box-title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.service-box-number {
+  font-size: 180px;
+  font-weight: 100;
+}
+
+.service-box-badge {
+  position: absolute;
+  margin-top: 80px;
+  font-size: 35px;
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 160px;
+  background-color: $instarter-yellow;
+  color: $instarter-purple;
+  padding: 5px 20px;
+}
+
+.user-list-header {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.user-list {
+  margin-top: 20px;
+  border-top: 2px solid $instarter-black;
+  font-weight: 400;
+}
+
+.user-list-item {
+  border-bottom: 2px solid $instarter-border-grey;
+  padding: 30px 0;
+  font-size: 15px;
+}
+
+.user-list-item-2-right {
+  float: right;
+  font-size: 30px;
+  color: $instarter-font-grey;
+  margin-top: 20px;
+}
+
+.user-list-left {
+  font-size: 40px;
+  float: left;
+}
+
+.user-list-itme-3 {
+  float: right;
+  font-size: 40px;
+}
+
+.btn-detail {
+  display: block;
+  text-align: center;
+  background-color: $instarter-background-grey;
+  padding: 40px;
+}
+
+.arrow-right {
+  width: 20px;
+  margin-left: 20px;
+}
