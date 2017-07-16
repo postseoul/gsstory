@@ -1,0 +1,232 @@
+.order-header {
+  background: url("/assets/images/header-order.png") no-repeat center;
+  margin-bottom: 5px; }
+
+.order-subheader {
+  margin: 0 0 20px 40px; }
+
+.order-list-1 {
+  border-top: 2px solid #2B2C34; }
+
+.ticket-order-like-up,
+.ticket-order-daily-follower-up {
+  width: inherit;
+  height: 200px; }
+
+.order-title-text-description {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 10px;
+  float: right; }
+
+.order-price {
+  font-weight: 300;
+  margin-top: 10px; }
+
+.order-discount {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #715EFF; }
+
+.mileage-box {
+  float: left; }
+
+.mark-mileage {
+  display: inline-block;
+  background-color: #715EFF;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: 300;
+  vertical-align: top;
+  padding: 8px 12px;
+  margin-top: 10px; }
+
+.data-mileage {
+  font-weight: 300;
+  vertical-align: top;
+  display: inline-block;
+  font-size: 45px; }
+
+.order-total-price {
+  float: right;
+  font-size: 45px; }
+
+.order-list-1-item-container-1 {
+  padding: 40px;
+  border-bottom: 2px solid #EDEDED; }
+
+.order-list-1-item-container-2 {
+  padding: 40px;
+  border-bottom: 2px solid #EDEDED; }
+
+.btn-order-information {
+  text-align: center;
+  padding: 40px;
+  background-color: #F6F6F6;
+  border-bottom: 2px solid #EDEDED; }
+
+.btn-order-information-text {
+  color: #2B2C34; }
+
+.icon-plus-black {
+  width: 35px;
+  margin-right: 5px; }
+
+.order-information-complete-data {
+  padding: 40px 100px;
+  background-color: #f1efff; }
+
+.icon-checked {
+  width: 40px;
+  margin-left: -60px;
+  margin-right: 10px; }
+
+.order-information-complete-data-title {
+  color: #715EFF;
+  margin-bottom: 30px; }
+
+.order-information-complete-data-label {
+  font-weight: 400;
+  font-size: 13px;
+  color: #715EFF;
+  margin-bottom: 10px; }
+
+.order-information-complete-data-link {
+  color: #2B2C34;
+  text-decoration: underline; }
+
+.well-notice {
+  border-top: 1px solid #ABABAD;
+  background-color: #ededed;
+  padding: 60px;
+  margin-bottom: 100px; }
+
+.well-notice-list-item {
+  font-size: 13px;
+  color: #2B2C34;
+  font-weight: 400; }
+
+.well-notice-list-dot {
+  width: 8px;
+  margin-bottom: 12px;
+  margin-right: 15px; }
+
+.order-discount-table {
+  border-top: 2px solid #2B2C34;
+  margin-bottom: 100px; }
+
+.order-discount-table-label {
+  float: left;
+  font-size: 45px; }
+
+.order-discount-table-data {
+  float: right;
+  font-size: 45px; }
+
+.order-discount-table-data-checkbox {
+  background-image: url("/assets/images/checkbox-no.png");
+  display: inline-block;
+  margin: 0 5px 4px 0;
+  vertical-align: middle;
+  background-size: cover;
+  width: 35px;
+  height: 35px; }
+
+.order-discount-table-data-checkbox-checked {
+  background-image: url("/assets/images/checkbox-yes.png");
+  display: inline-block;
+  height: 39px;
+  margin: 0 0 9px 0;
+  width: 40px;
+  vertical-align: middle; }
+
+.order-discount-table-list-1 {
+  background-color: #f1efff;
+  padding: 30px 60px;
+  border-bottom: 1px solid #ABABAD; }
+
+.order-discount-table-list-2 {
+  padding: 30px 60px;
+  border-bottom: 1px solid #ABABAD;
+  font-size: 40px;
+  font-weight: 400; }
+  .order-discount-table-list-2 .purple {
+    font-weight: 100; }
+
+.order-discount-table-input {
+  width: 200px;
+  text-align: center;
+  font-size: 45px; }
+
+.order-discount-table-coupon-input-select {
+  font-size: 45px; }
+
+.arrow-down-black {
+  width: 30px;
+  float: right;
+  margin-top: 20px; }
+
+.final-price {
+  margin-bottom: 100px; }
+
+.final-price-block {
+  background-color: #f1efff;
+  padding: 20px 60px; }
+
+.final-price-block-last {
+  padding: 20px 60px;
+  color: #FFF;
+  background-color: #715EFF; }
+
+.final-price-block-label {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 400;
+  float: left; }
+
+.final-price-block-data {
+  font-size: 50px;
+  float: right; }
+
+.final-price-icon {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  float: left; }
+
+.btn-group {
+  margin: 40px 40 100px; }
+
+.btn-payment-1,
+.btn-payment-2,
+.btn-payment-3 {
+  font-size: 25px;
+  font-weight: 400; }
+
+.btn-payment-active {
+  color: #715EFF;
+  font-weight: 500; }
+
+.radio-1,
+.radio-2,
+.radio-3 {
+  background-image: url("/assets/images/radio-no.png");
+  display: inline-block;
+  background-size: cover;
+  height: 35px;
+  width: 35px; }
+
+.radio-checked {
+  background-image: url("/assets/images/radio-yes.png"); }
+
+.btn-default {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+  height: inherit;
+  padding: 30px 0; }
+
+/*# sourceMappingURL=order.css.map */
