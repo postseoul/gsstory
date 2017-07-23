@@ -84,7 +84,7 @@
 
 /* 회사정보 */
 .footer-company {
-  font-size: 13px;
+  font-size: 22px;
   margin-bottom: 20px; }
 
 .footer-company-name {
@@ -119,41 +119,46 @@
   .mobile .footer-container {
     background-color: #2B2C34;
     max-width: 1200px;
-    margin: 0 40px; }
+    margin: 0 20px; }
   .mobile .footer-contact-number, .mobile .footer-contact-time {
     display: block; }
   .mobile .footer-contact-label {
-    font-size: 35px;
+    font-size: 24px;
     margin-top: 10px; }
   .mobile .footer-contact-content {
-    font-size: 65px; }
+    font-size: 55px; }
   .mobile .footer-contact-time .footer-contact-label {
     float: left; }
   .mobile .footer-contact-time .footer-contact-content {
     float: left;
-    margin: 30px 0; }
+    margin: 15px 0; }
+  .mobile .footer-company-paragraph {
+    display: inline-block;
+    width: 100%; }
   .mobile .footer-contact-breaktime {
     font-size: 25px;
-    padding-left: 10px;
     margin-bottom: 50px; }
   .mobile .footer-accounts-bank-name,
   .mobile .footer-accounts-bank-number,
   .mobile .footer-accounts-name {
     display: inline-block;
     font-size: 28px; }
-  .mobile .footer-company-paragraph {
-    font-size: 15px; }
   .mobile .footer-company {
-    font-weight: 500; }
+    display: inline-block;
+    width: 100%; }
 
 .mobile-footer-links {
-  font-size: 40px;
+  font-size: 30px;
   border-bottom: 1px solid #55565d;
   margin-bottom: 70px; }
   .mobile-footer-links .footer-link {
-    width: 33%;
     display: inline-block;
     float: left; }
+  .mobile-footer-links .footer-link-first,
+  .mobile-footer-links .footer-link-third {
+    width: 30%; }
+  .mobile-footer-links .footer-link-second {
+    width: 39%; }
   .mobile-footer-links .footer-link-first,
   .mobile-footer-links .footer-link-second,
   .mobile-footer-links .footer-link-third {

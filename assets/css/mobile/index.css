@@ -1,14 +1,16 @@
 .home-header {
-  height: 1150px; }
+  height: inherit; }
 
 .home-header-content {
-  padding-top: 630px; }
+  padding-top: 370px;
+  padding-bottom: 100px; }
 
 .home-header-content-title {
-  font-weight: 500; }
+  font-weight: 400; }
 
 .home-header-content-subtitle {
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
   margin-bottom: 75px; }
 
 .owl-carousel-2 .owl-controls .owl-page span,
@@ -35,7 +37,8 @@
   display: inline-block;
   width: 70%;
   height: initial;
-  margin-bottom: 75px; }
+  margin-bottom: 75px;
+  background-position: center bottom; }
 
 .owl-item {
   text-align: center; }
@@ -49,17 +52,15 @@
 
 .home-service-body-item-img {
   width: 100%;
-  min-width: 500px;
   margin: 0 auto; }
 
 .home-service-body-item-text-header {
+  font-weight: 500;
   font-size: 35px; }
 
 .home-service-body-item-text-body {
-  font-size: 26px; }
-
-.home-header-content-subtitle {
-  font-size: 26px; }
+  font-weight: 400;
+  font-size: 23px; }
 
 .btn-home-header-about, .btn-home-header-service {
   font-size: 26px; }
@@ -68,10 +69,10 @@
   font-size: 45px; }
 
 .home-service-header-english {
-  font-size: 24px; }
+  font-size: 16px; }
 
 .home-why {
-  padding: 580px 0;
+  padding: 380px 0 120px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
@@ -80,28 +81,34 @@
   font-size: 45px;
   line-height: 50px; }
 
-.home-why-body {
-  font-size: 26px; }
-
 .home-why-container {
-  width: 70%; }
+  width: 90%; }
+
+.home-why-link {
+  color: #FFF; }
+
+.home-why-link {
+  margin: 0 0 2px 15px;
+  height: 20px; }
 
 .home-review {
-  padding: 200px 0 250px; }
-
-.home-review-item-body {
-  font-size: 26px; }
+  padding: 140px 0 130px; }
 
 .home-review-container {
   height: initial;
-  width: 80%; }
+  width: 80%;
+  background: url(/assets/images/home-review-background.png) no-repeat center;
+  background-size: 400px; }
 
 .home-review-item-user {
   font-size: 18px; }
 
 .home-review-item-title {
   font-size: 50px;
-  margin-bottom: 60px; }
+  margin-bottom: 40px; }
+
+.home-review-item-body {
+  font-size: 20px; }
 
 .footer {
   margin: 0; }
@@ -109,5 +116,9 @@
 .yellow-line {
   text-decoration: underline;
   color: #FFBC66; }
+
+.owl-theme .owl-controls {
+  margin-top: -50px;
+  text-align: center; }
 
 /*# sourceMappingURL=index.css.map */

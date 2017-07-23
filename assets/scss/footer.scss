@@ -106,7 +106,7 @@
 
 /* 회사정보 */
 .footer-company {
-  font-size: 13px;
+  font-size: 22px;
   margin-bottom: 20px;
 }
 
@@ -152,7 +152,7 @@
   .footer-container {
     background-color: $instarter-black;
     max-width: $width-desktop;
-    margin: 0 40px;
+    margin: 0 20px;
   }
 
   /* 고객센터 */
@@ -161,12 +161,12 @@
   }
 
   .footer-contact-label {
-    font-size: 35px;
+    font-size: 24px;
     margin-top: 10px;
   }
 
   .footer-contact-content {
-    font-size: 65px;
+    font-size: 55px;
   }
 
   .footer-contact-time {
@@ -176,13 +176,17 @@
 
     .footer-contact-content {
       float: left;
-      margin: 30px 0;
+      margin: 15px 0;
     }
+  }
+
+  .footer-company-paragraph {
+    display: inline-block;
+    width: 100%;
   }
 
   .footer-contact-breaktime {
     font-size: 25px;
-    padding-left: 10px;
     margin-bottom: 50px;
   }
 
@@ -193,25 +197,29 @@
     font-size: 28px;
   }
 
-  .footer-company-paragraph {
-    font-size: 15px;
-  }
-
   .footer-company {
-    font-weight: 500;
+    display: inline-block;
+    width: 100%;
   }
 
   font-weight: 300;
 }
 
 .mobile-footer-links {
-  font-size: 40px;
+  font-size: 30px;
   border-bottom: 1px solid #55565d;
   margin-bottom: 70px;
   .footer-link {
-    width: 33%;
     display: inline-block;
     float: left;
+  }
+
+  .footer-link-first,
+  .footer-link-third {
+    width: 30%;
+  }
+  .footer-link-second {
+    width: 39%;
   }
 
   .footer-link-first,
