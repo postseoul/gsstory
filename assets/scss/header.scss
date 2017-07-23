@@ -233,7 +233,7 @@ $user-header-height: 60px;
 @media (max-width: 1200px) {
   .header {
     background-color: $instarter-black;
-    height: 110px;
+    height: 140px;
   }
 
   .user-header {
@@ -243,14 +243,15 @@ $user-header-height: 60px;
 }
 
 .mobile-header-logo {
-  margin: 35px;
+  margin: 45px;
   float: left;
-  height: 35px;
+  height: 55px;
 }
 
 .mobile-header-hamburger {
   float: right;
-  margin: 35px;
+  height: 35px;
+  margin: 55px;
 }
 
 .mobile-nav {
@@ -258,7 +259,7 @@ $user-header-height: 60px;
   width: 100%;
   background-color: $instarter-black;
   position: absolute;
-  top: 110px;
+  top: 140px;
   height: 100%;
   height: -webkit-calc(100% - 110px);
   height: -moz-calc(100% - 110px);

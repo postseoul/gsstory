@@ -60,8 +60,8 @@
   color: #ABABAD; }
 
 .footer-hr {
-  size: 1px;
-  color: #EDEDED;
+  border-bottom: none;
+  border-top: 1px solid #55565d;
   margin-bottom: 30px; }
 
 /* 계좌정보 */
@@ -148,7 +148,7 @@
 
 .mobile-footer-links {
   font-size: 40px;
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1px solid #55565d;
   margin-bottom: 70px; }
   .mobile-footer-links .footer-link {
     width: 33%;
@@ -162,6 +162,6 @@
     line-height: 100px; }
   .mobile-footer-links .footer-link-first,
   .mobile-footer-links .footer-link-second {
-    border-right: 1px solid #EDEDED; }
+    border-right: 1px solid #55565d; }
 
 /*# sourceMappingURL=footer.css.map */

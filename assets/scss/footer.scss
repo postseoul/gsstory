@@ -76,8 +76,8 @@
 }
 
 .footer-hr {
-  size: 1px;
-  color: $instarter-border-grey;
+  border-bottom: none;
+  border-top: 1px solid #55565d;
   margin-bottom: 30px;
 }
 
@@ -206,7 +206,7 @@
 
 .mobile-footer-links {
   font-size: 40px;
-  border-bottom: 1px solid $instarter-border-grey;
+  border-bottom: 1px solid #55565d;
   margin-bottom: 70px;
   .footer-link {
     width: 33%;
@@ -224,7 +224,7 @@
 
   .footer-link-first,
   .footer-link-second {
-    border-right: 1px solid $instarter-border-grey;
+    border-right: 1px solid #55565d;
   }
 }
 
