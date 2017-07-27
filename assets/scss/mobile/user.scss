@@ -2,13 +2,14 @@
 @import 'variables';
 
 .main {
-  padding: 0 40px;
+  padding: 0 30px;
 }
 
 .user-service-header {
   background: url("/assets/images/header-user-edit.png") no-repeat center;
   height: 186px;
   font-size: 70px;
+  margin-bottom: 40px;
 }
 
 .profile-box {
@@ -19,32 +20,36 @@
 }
 
 .profile-box-1 {
-  padding: 50px;
+  padding: 30px;
 }
 
 .profile-box-2 {
-  border-top: 2px solid $instarter-white;
+  border-top: 2px solid #ffd9b0;
   background-color: #ffb261;
   padding: 30px 50px;
 }
 
 .mark-mileage {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-size: 30px;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
   text-align: center;
-  padding-top: 3px;
   color: $instarter-yellow;
   background-color: $instarter-white;
   vertical-align: top;
-  margin-top: 9px;
+  margin-top: 6px;
 }
 
+.mileage-label {
+  font-size: 26px;
+  display: inline-block;
+}
 .mileage-price {
   float: right;
   margin-right: 10px;
-  font-size: 50px;
+  font-size: 30px;
   margin-top: -5px;
 }
 
@@ -54,45 +59,45 @@
 }
 
 .profile-image {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border: 1px solid $instarter-border-grey;
-  border-radius: 150px;
+  border-radius: 100px;
   float: left;
 }
 
 .profile-info {
   float: left;
-  font-size: 45px;
+  font-size: 30px;
   margin: 15px 0 0 30px;
 }
 
 .profile-info-email {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 300;
 }
 
 .icon-settings {
-  margin-top: 50px;
-  width: 40px;
+  margin-top: 40px;
   float: right;
 }
 
 .service-box-background-number {
   position: absolute;
-  color: $instarter-black;
-  font-size: 380px;
-  line-height: 300px;
+  color: black;
+  font-size: 230px;
+  line-height: 200px;
   opacity: 0.1;
   display: inline-block;
-  margin-left: -200px;
-  margin-top: -20px;
+  width: 100%;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .service-box-header {
   text-align: center;
   font-weight: 400;
-  padding: 30px;
+  padding: 25px;
   border-bottom: 1px solid $instarter-border-grey;
 }
 
@@ -102,27 +107,28 @@
 }
 
 .service-box-icon {
-  width: 100px;
-  margin: 100px 0 30px;
+  margin: 50px 0 30px;
 }
 
 .service-box-title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 400;
+  display: inline-block;
+  width: 100%;
 }
 
 .service-box-number {
-  font-size: 180px;
+  font-size: 100px;
   font-weight: 100;
 }
 
 .service-box-badge {
   position: absolute;
-  margin-top: 80px;
-  font-size: 35px;
+  margin-top: 40px;
+  font-size: 20px;
   font-weight: 400;
   display: inline-block;
-  margin-left: 160px;
+  margin-left: 90px;
   background-color: $instarter-yellow;
   color: $instarter-purple;
   padding: 5px 20px;
@@ -130,6 +136,7 @@
 
 .user-list-header {
   margin-top: 80px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -141,35 +148,121 @@
 
 .user-list-item {
   border-bottom: 2px solid $instarter-border-grey;
-  padding: 30px 0;
+  padding: 20px 10px;
   font-size: 15px;
 }
 
 .user-list-item-2-right {
   float: right;
-  font-size: 30px;
+  font-size: 26px;
   color: $instarter-font-grey;
-  margin-top: 20px;
+  margin-top: 6px;
+  font-weight: 300;
 }
 
 .user-list-left {
-  font-size: 40px;
+  font-size: 26px;
   float: left;
+  .user-list-item-2 {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: $instarter-font-grey;
+  }
 }
 
-.user-list-itme-3 {
+.user-list-item-3,
+.user-list-item-3-inactive {
   float: right;
-  font-size: 40px;
+  font-size: 26px;
+  margin-top: 18px;
+  color: $instarter-purple
+}
+
+.user-list-item-3-inactive {
+  color: $instarter-font-grey;
 }
 
 .btn-detail {
+  color: $instarter-black;
   display: block;
   text-align: center;
-  background-color: $instarter-background-grey;
-  padding: 40px;
+  background-color: #e9e9ea;
+  padding: 20px;
 }
 
 .arrow-right {
-  width: 20px;
+  width: 15px;
   margin-left: 20px;
+}
+
+.owl-theme .owl-controls {
+    margin-top: -50px;
+    text-align: center;
+}
+
+.owl-theme .owl-buttons {
+  display: none;
+}
+
+.owl-theme .owl-pagination {
+  padding: 30px 0;
+}
+
+.owl-theme .owl-controls .owl-page span,
+.owl-theme .owl-controls.clickable .owl-page span {
+  background-color: #8b7df9;
+  opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  background-color: white;
+  opacity: 1;
+}
+
+.user-direct-link-box-0 {
+  padding: 30px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+  display: block;
+  color: $instarter-black;
+}
+
+.user-direct-link-box {
+  padding: 35px;
+  background-color: #f6f6f6;
+  margin-bottom: 10px;
+  display: block;
+  color: $instarter-black;
+}
+
+.user-direct-link-box-0-item-1,
+.user-direct-link-box-0-item-2 {
+  display: inline-block;
+  font-size: 26px;
+  width: 60%;
+}
+
+.user-direct-link-box-0-item-2 {
+  font-style: 20px;
+  color: $instarter-font-grey;
+  font-weight: 300;
+}
+
+.user-direct-link-box-0-item-3 {
+  float: right;
+  margin-top: 10px;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+.link-box-icon {
+  margin-right: 20px;
+  padding-top: 5px;
+  float: left;
 }

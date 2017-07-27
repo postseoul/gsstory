@@ -5,7 +5,7 @@
 
 .arrow-down-grey-2 {
   float: right;
-  width: 30px;
+  width: 18px;
   margin-top: 20px;
   margin-right: 50px; }
 
@@ -18,12 +18,14 @@
   color: #FFF;
   line-height: initial;
   padding: 100px 0 15px;
-  font-size: 85px; }
+  font-size: 60px; }
 
 .recommend-subheader {
-  font-size: 18px;
+  font-size: 26px;
   color: #ABABAD;
-  margin-bottom: 150px; }
+  font-weight: 300;
+  margin-bottom: 150px;
+  display: inline-block; }
 
 .recommend-tickets {
   margin-bottom: 90px; }
@@ -37,68 +39,77 @@
   text-align: left;
   color: #FFF;
   display: block;
-  font-size: 45px;
-  height: 150px; }
+  font-size: 30px;
+  height: 150px;
+  font-weight: 300; }
 
 .recommend-block {
-  padding: 110px 0;
+  padding: 80px 0;
   background-color: #EDEDED; }
 
 .recommend-case {
   text-align: center;
   color: #24DCDE;
-  margin-bottom: 30px; }
+  font-size: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 100%; }
 
 .recommend-block-title {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
+  line-height: 45px;
   color: #715EFF; }
 
 .recommend-description {
   text-align: center;
   font-size: 15px;
-  font-weight: 300;
+  line-height: 20px;
+  font-weight: 400;
   margin: 30px 0 80px; }
 
 .recommend-number {
   float: left;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  font-size: 15px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
   text-align: center;
   display: inline-block;
-  margin-right: 5px;
   color: white;
   border-radius: 25px;
-  margin: 5px 20px 0 30px;
+  margin: 7px 10px 0 30px;
   background-color: #24DCDE; }
 
 .recommend-list-item-title {
   font-weight: bold;
   display: inline-block;
-  font-size: 40px;
+  font-size: 26px;
   float: left; }
 
 .recommend-list-item-text {
   text-align: left; }
 
 .recommend-list-item-description {
-  margin: 10px 0 20px;
-  padding-left: 100px;
-  font-size: 13px; }
+  margin: 10px 0 20px 65px;
+  display: inline-block;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 300; }
 
 .recommend-1-images {
   text-align: left;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden; }
 
 .recommend-1-images-1 {
   margin-left: 30px;
-  width: 70%; }
+  height: 310px; }
 
 .recommend-1-images-2 {
   left: 250px;
-  width: 70%;
+  height: 310px;
   position: absolute; }
 
 .recommend-4-images img,
@@ -116,11 +127,11 @@
 
 .background-number {
   color: black;
-  font-size: 130px;
+  font-size: 120px;
   position: absolute;
   left: 30px;
   opacity: 0.2;
-  margin-top: -40px; }
+  margin-top: -45px; }
 
 .sticky-bottom {
   position: fixed;
@@ -137,7 +148,8 @@
   padding: 30px;
   text-align: center;
   display: inline-block;
-  font-size: 50px; }
+  font-size: 30px;
+  line-height: 1; }
 
 .btn-cart {
   background-color: #FFF;
@@ -145,6 +157,7 @@
 
 .btn-order {
   background-color: #2B2C34;
-  color: #FFF; }
+  color: #FFF;
+  font-weight: 400; }
 
 /*# sourceMappingURL=recommend.css.map */

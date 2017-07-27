@@ -62,7 +62,7 @@
 $user-header-height: 60px;
 
 .user-header {
-  background-color: $instarter-background-grey;
+  background-color: #e9e9ea;
   height: $user-header-height;
 }
 
@@ -238,6 +238,7 @@ $user-header-height: 60px;
 
   .user-header {
     height: inherit;
+    padding: 30px;
   }
 
 }
@@ -265,6 +266,10 @@ $user-header-height: 60px;
   height: calc(100% - 110px);
   z-index: 1;
   overflow-y: hidden;
+
+  .icon-settings {
+    margin: 23px;
+  }
 }
 
 .mobile-nav-items {
@@ -363,18 +368,12 @@ $user-header-height: 60px;
   .user-header-title {
     color: $instarter-purple;
     float: left;
-    font-size: 40px;
-    padding: 30px 50px;
+    font-size: 26px;
+    font-weight: 500;
   }
 
   .arrow-down {
     float: right;
-    width: 30px;
-    margin: 50px 50px;
+    margin-top: 15px;
   }
-}
-
-.icon-settings {
-  margin: 20px 0 0 40px;
-  width: 30px;
 }

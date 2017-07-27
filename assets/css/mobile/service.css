@@ -1,10 +1,10 @@
 .service-header {
   background: url("/assets/images/header-service.png") no-repeat center;
-  background-size: 700px;
+  background-size: 400px;
   line-height: initial;
   padding: 55px 0 40px;
   margin: 50px;
-  font-size: 90px; }
+  font-size: 60px; }
 
 .service-main-tab {
   float: left;
@@ -15,7 +15,7 @@
   text-align: center;
   margin-bottom: 35px;
   color: #ABABAD;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 300; }
 
 .service-sub-tab:first-of-type {
@@ -28,10 +28,12 @@
   font-weight: 500; }
 
 .service-sub-tabs {
-  border-bottom: 1px solid #EDEDED;
+  border-bottom: 1px solid #d5d5d6;
   margin-bottom: 75px;
-  margin-left: 50px;
-  font-size: 35px; }
+  font-size: 26px; }
+
+#korean-tab {
+  margin-left: 20px; }
 
 .service-sub-tab {
   display: inline-block;
@@ -49,14 +51,14 @@
 .service-item {
   text-align: center;
   width: 90%;
-  margin: 0 auto 200px; }
+  margin: 0 auto 80px; }
 
 .service-item-ticket {
   width: 90%; }
 
 .service-item-title {
   margin-bottom: 10px;
-  font-size: 34px; }
+  font-size: 40px; }
 
 .service-item-description {
   margin-bottom: 40px; }
@@ -153,5 +155,29 @@
   border: none;
   font-size: 24px;
   font-weight: 300; }
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: #2B2C34;
+  width: 100%;
+  overflow: hidden; }
+  .sticky-bottom .btn-cart, .sticky-bottom .btn-order {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #2B2C34;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 1; }
+  .sticky-bottom .btn-cart {
+    background-color: #FFF;
+    color: #2B2C34; }
+  .sticky-bottom .btn-order {
+    background-color: #2B2C34;
+    color: #FFF;
+    font-weight: 400; }
 
 /*# sourceMappingURL=service.css.map */
