@@ -156,6 +156,9 @@
   }
 
   /* 고객센터 */
+  .footer-contact {
+    margin-bottom: 0;
+  }
   .footer-contact-number, .footer-contact-time {
     display: block;
   }
@@ -178,6 +181,14 @@
       float: left;
       margin: 15px 0;
     }
+  }
+
+  .footer-hr {
+    margin-top: 0;
+  }
+
+  .footer-account {
+    margin-bottom: 40px;
   }
 
   .footer-company-paragraph {
@@ -206,7 +217,7 @@
 }
 
 .mobile-footer-links {
-  font-size: 30px;
+  font-size: 26px;
   border-bottom: 1px solid #55565d;
   margin-bottom: 70px;
   .footer-link {

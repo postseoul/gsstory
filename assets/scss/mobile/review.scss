@@ -4,27 +4,30 @@
 .review-header-wrapper {
   background-color: $instarter-background-grey;
   text-align: center;
-  padding: 120px 0 30px;
+  padding: 100px 0 30px;
   margin-bottom: 60px;
 }
 
 .review-header {
   background: url(/assets/images/header-review.png) no-repeat center;
+  background-size: 450px;
   line-height: initial;
   padding: 48px 0 16px;
   margin: 0;
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .review-subheader {
-  font-size: 25px;
+  font-size: 34px;
   margin: 40px 0 30px;
-  line-height: 35px;
+  line-height: 39px;
 }
 
 .review-description {
+  display: inline-block;
+  width: 100%;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 24px;
   margin-bottom: 50px;
 }
 
@@ -33,7 +36,7 @@
   font-size: 20px;
   font-weight: 300;
   color: $instarter-purple;
-  margin: 0 65px 40px;
+  margin: 0 30px 40px;
 }
 
 .review-ticket-image {
@@ -44,38 +47,37 @@
 .review-ticket-description {
   display: inline-block;
   float: left;
-  font-size: 35px;
-  margin: -20px 0 0 30px;
+  font-size: 26px;
+  margin: -5px 0 0 30px;
   font-weight: 400;
   text-align: left;
 }
 
 .review-ticket-award {
   color: $instarter-black;
-  font-size: 50px;
+  font-size: 40px;
   display: inline-block;
   float: right;
   font-weight: 500;
-  margin-top: -10px;
 }
 
 .btn-review-write {
   background-color: $instarter-purple;
   color: $instarter-white;
   margin: auto;
-  padding: 20px 30px;
+  padding: 35px 30px 25px;
 }
 
 .btn-review-write-text {
-  line-height: 32px;
+  line-height: 40px;
   vertical-align: text-bottom;
   margin-left: 10px;
-  font-size: 10px;
+  font-size: 26px;
   font-weight: 300;
 }
 
 .review-list {
-  margin: 150px 0 70px;
+  margin: 60px 0 70px;
   border-top: 2px solid $instarter-black;
   font-weight: 400;
 }
@@ -87,27 +89,30 @@
 
 .review-list-item-1 {
   margin-left: 20px;
-  font-size: 13px;
+  font-size: 26px;
 }
 
 .review-list-item-2 {
-  margin-left: 20px;
-  font-size: 14px;
+  color: $instarter-black;
+  margin: 10px 0 0 20px;
+  font-size: 26px;
 }
 
 .review-list-item-3 {
   margin-top: 10px;
   margin-left: 20px;
-  color: $instarter-font-grey;
-  font-size: 10px;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 .review-list-item-3-1 {
-  padding: 0 5px;
+  padding-left: 5px;
 }
+
 .review-list-item-3-2 {
   border-left: 3px solid $instarter-border-grey;
-  padding: 0 15px;
+  padding: 0 20px;
+  margin-left: 20px;
 }
 
 .mark-new {
@@ -118,17 +123,18 @@
   height: 20px;
   line-height: 20px;
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 9px;
   vertical-align: top;
   color: $instarter-white;
   text-align: center;
 }
+
 .modal-body {
   margin: 40px 25px;
 }
 
 .modal-body-title {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .btn-submit {
@@ -136,33 +142,36 @@
   text-align: center;
   vertical-align: middle;
   background-color: $instarter-black;
-  border: 2px solid $instarter-black;
+  border: 1px solid $instarter-black;
   color: $instarter-white;
-  font-size: 18px;
-  padding: 10px 0;
-  width: 125px;
+  font-size: 24px;
+  padding: 20px 0;
+  width: 150px;
 }
 
 .btn-close {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  border: 2px solid $instarter-black;
+  border: 1px solid $instarter-black;
   background-color: $instarter-white;
   color: $instarter-black;
-  font-size: 18px;
-  padding: 10px 0;
-  width: 125px;
+  font-size: 24px;
+  padding: 20px 0;
+  width: 150px;
 }
 
 .btn-group {
   text-align: center;
 }
 
+#review-modal {
+  width: 100%;
+}
 .modal-body-product-description {
   color: $instarter-purple;
-  font-size: 13px;
-  margin-bottom: 50px;
+  font-size: 18px;
+  margin-bottom: 30px;
   font-weight: 300;
 }
 
@@ -177,14 +186,14 @@
   border: 1px solid $instarter-border-grey;
   margin-bottom: 10px;
   padding: 25px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .modal-body-textarea {
   width: 100%;
   height: 250px;
   border: 1px solid $instarter-border-grey;
-  font-size: 15px;
+  font-size: 22px;
   padding: 25px;
   margin-bottom: 10px;
 }
@@ -207,14 +216,14 @@
 
 .btn-add-text {
   color: $instarter-font-grey;
-  font-size: 18px;
+  font-size: 24px;
   float: left;
   line-height: 48px;
 }
 
 .modal-file-description {
   color: $instarter-font-grey;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .modal-file-list {
@@ -223,12 +232,14 @@
   margin-bottom: 30px;
 }
 
+.modal-file-list-contanier {
+  text-align: center;
+}
+
 .modal-file-thumbnail {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
-  margin-right: 10px;
-  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
 }
 
 .modal-file-name {
@@ -247,6 +258,7 @@
   color: $instarter-black;
   border-bottom: 1px solid $instarter-black;
   padding: 5px 0;
+  margin-top: 40px;
   margin-bottom: 15px;
 }
 
@@ -254,7 +266,85 @@
   -webkit-appearance: none;
   background-color: transparent;
   border: none;
-  font-size: 18px;
+  font-size: 26px;
   font-weight: 300;
 }
 
+.review-show-title {
+  font-size: 40px;
+  font-weight: 500;
+  padding: 0 30px;
+}
+
+.review-show-metas {
+  color: $instarter-font-grey;
+  font-weight: 300;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.review-show-meta-split {
+  margin: 0 10px;
+}
+
+.review-show-body {
+  border-top: 2px solid $instarter-black;
+  margin-top: 20px;
+  padding: 30px;
+  font-size: 26px;
+}
+
+.review-show-images {
+  padding: 20px 30px 50px;
+}
+
+.review-show-comment {
+  background-color: #f1efff;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.review-show-comment-admin {
+  font-size: 26px;
+  color: $instarter-purple;
+  margin-bottom: 30px;
+}
+
+.review-show-comment-body {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.review-show-pagination {
+  border-top: 1px solid $instarter-border-grey;
+  margin-bottom: 60px;
+}
+
+.review-show-pagination-item {
+  border-bottom: 1px solid $instarter-border-grey;
+  padding: 25px 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.review-show-pagination-item-1 {
+  font-weight: 500;
+  margin-right: 35px;
+}
+
+.review-show-pagination-item-1,
+.review-show-pagination-item-2 {
+  color: $instarter-black;
+}
+
+.btn-list {
+  background-color: $instarter-black;
+  font-size: 30px;
+  padding: 30px 50px;
+  color: $instarter-white;
+}
+
+.arrow-pagination {
+  margin: 0 10px 5px 0;
+}

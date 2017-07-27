@@ -120,6 +120,8 @@
     background-color: #2B2C34;
     max-width: 1200px;
     margin: 0 20px; }
+  .mobile .footer-contact {
+    margin-bottom: 0; }
   .mobile .footer-contact-number, .mobile .footer-contact-time {
     display: block; }
   .mobile .footer-contact-label {
@@ -132,6 +134,10 @@
   .mobile .footer-contact-time .footer-contact-content {
     float: left;
     margin: 15px 0; }
+  .mobile .footer-hr {
+    margin-top: 0; }
+  .mobile .footer-account {
+    margin-bottom: 40px; }
   .mobile .footer-company-paragraph {
     display: inline-block;
     width: 100%; }
@@ -148,7 +154,7 @@
     width: 100%; }
 
 .mobile-footer-links {
-  font-size: 30px;
+  font-size: 26px;
   border-bottom: 1px solid #55565d;
   margin-bottom: 70px; }
   .mobile-footer-links .footer-link {
