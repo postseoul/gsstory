@@ -61,7 +61,6 @@
 
 .service-item {
   text-align: center;
-  width: 90%;
   margin: 0 auto 80px;
 }
 
@@ -80,7 +79,7 @@
 
 .service-item-description-1 {
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 24px;
   font-weight: 300;
 }
 
@@ -90,7 +89,7 @@
 
 .service-item-description-3 {
   color: $instarter-font-grey;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 300;
 }
 
@@ -133,7 +132,7 @@
   display: block;
   margin-top: 30px;
   color: $instarter-black;
-  font-size: 13px;
+  font-size: 24px;
 }
 
 .arrow {
@@ -219,4 +218,10 @@
     color: $instarter-white;
     font-weight: 400;
   }
+}
+
+.arrow-right {
+  height: 26px;
+  margin-left: 15px;
+  margin-bottom: -3px;
 }

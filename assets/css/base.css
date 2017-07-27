@@ -16,6 +16,9 @@ input {
 a {
   text-decoration: none; }
 
+b {
+  font-weight: 500; }
+
 table {
   width: 100%;
   border-top: 2px solid #2B2C34;

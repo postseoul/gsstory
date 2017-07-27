@@ -1,31 +1,81 @@
 .modal {
-  padding: 20px;
-  max-width: inherit; }
+  max-width: inherit;
+  background-color: #ededed; }
+
+.modal-wrapper {
+  padding: 20px; }
 
 .service-modal-subtitle {
   color: #ABABAD;
   font-weight: 400;
-  font-size: 15px; }
+  font-size: 20px; }
 
 .service-modal-title {
   font-size: 45px;
   line-height: 45px;
-  margin: 5px 0 20px; }
+  margin: 5px 0 20px;
+  font-weight: 400; }
 
 .service-modal-description {
-  margin-bottom: 50px; }
+  font-size: 24px;
+  margin-bottom: 50px;
+  font-weight: 400; }
 
 .service-modal-description-important {
   color: #FF5E8B; }
 
 .service-modal-question {
   color: #715EFF;
-  font-size: 20px;
-  margin-bottom: 10px; }
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-weight: 400; }
 
 .service-modal-answer {
-  font-size: 13px;
+  font-size: 24px;
   font-weight: 300;
   margin-bottom: 30px; }
+
+.service-modal-review {
+  background-color: #715EFF;
+  color: #FFF;
+  padding: 40px 60px;
+  text-align: center;
+  display: inline-block; }
+
+.service-modal-review-title {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px; }
+
+.service-modal-review-description {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 30px; }
+
+.service-modal-review-meta {
+  font-size: 20px;
+  font-weight: 400; }
+
+.service-modal-image-carousel {
+  text-align: center; }
+  .service-modal-image-carousel img {
+    margin-left: -60px; }
+
+.service-modal-notice {
+  padding: 20px;
+  background-color: #FFF; }
+
+.service-modal-notice-title {
+  font-size: 26px; }
+
+.service-modal-notice-item {
+  font-size: 22px;
+  font-weight: 300; }
+
+.well-notice-list-dot {
+  width: 4px;
+  margin-top: 14px;
+  float: left;
+  margin-right: 20px; }
 
 /*# sourceMappingURL=service-modal.css.map */

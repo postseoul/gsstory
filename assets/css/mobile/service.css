@@ -50,7 +50,6 @@
 
 .service-item {
   text-align: center;
-  width: 90%;
   margin: 0 auto 80px; }
 
 .service-item-ticket {
@@ -65,7 +64,7 @@
 
 .service-item-description-1 {
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 24px;
   font-weight: 300; }
 
 .service-item-description-2 {
@@ -73,7 +72,7 @@
 
 .service-item-description-3 {
   color: #ABABAD;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 300; }
 
 .service-item-controls {
@@ -109,7 +108,7 @@
   display: block;
   margin-top: 30px;
   color: #2B2C34;
-  font-size: 13px; }
+  font-size: 24px; }
 
 .arrow {
   padding-top: 7px;
@@ -179,5 +178,10 @@
     background-color: #2B2C34;
     color: #FFF;
     font-weight: 400; }
+
+.arrow-right {
+  height: 26px;
+  margin-left: 15px;
+  margin-bottom: -3px; }
 
 /*# sourceMappingURL=service.css.map */
