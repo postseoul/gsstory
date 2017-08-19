@@ -255,6 +255,7 @@
 }
 
 .btn-password-edit {
+  -webkit-appearance: none;
   font-size: 40px;
   background-color: $instarter-white;
   border: 2px solid $instarter-black;
@@ -266,6 +267,7 @@
 }
 
 .btn-user-edit {
+  -webkit-appearance: none;
   font-size: 40px;
   background-color: $instarter-black;
   border: none;

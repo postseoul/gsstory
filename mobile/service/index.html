@@ -14,7 +14,6 @@
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <header class="header"><!-- layout/header.html --></header>
@@ -48,10 +47,10 @@
 <script>
   $('.header').load("/layout/header.html");
   $('.footer').load("/layout/footer.html");
-  $('#service-contents-1').load('service-content/follow-korean.html');
-  $('#service-contents-2').load('service-content/follow-foreigner.html');
-  $('#service-contents-3').load('service-content/account-korean.html');
-  $('#service-contents-4').load('service-content/account-foreigner.html');
+  $('#service-contents-1').load('../service-content/follow-korean.html');
+  $('#service-contents-2').load('../service-content/follow-foreigner.html');
+  $('#service-contents-3').load('../service-content/account-korean.html');
+  $('#service-contents-4').load('../service-content/account-foreigner.html');
   var service_item_count = [1,1,1,1,1,1,1,1,1,1]
   var language = 'korean';
   var type = 'follow';
