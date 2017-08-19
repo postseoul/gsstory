@@ -1,0 +1,111 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=640px">
+
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/user/service.css" type="text/css">
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<header class="user-header"><!-- layout/user_header.html --></header>
+<section class="main">
+  <header class="main-header user-service-header">진행중인 서비스</header>
+
+  <div class="service-main-tabs">
+    <a class="service-main-tab service-main-tab-active" href="#!">진행중인 서비스</a>
+    <a class="service-main-tab" href="#!">지난 서비스</a>
+    <div class="clear"></div>
+  </div>
+
+  <table class="service-table">
+    <tbody>
+      <tr>
+        <td class="service-table-td-1">
+          <div class="service-table-td-1-1">2017-03-13</div>
+          <div class="service-table-td-1-2">20170302-000001</div>
+        </td>
+        <td class="service-table-td-2">데일리 팔로워 업 1,500</td>
+        <td class="service-table-td-3">
+          <a href="/user/service/show1" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="service-table-td-1">
+          <div class="service-table-td-1-1">2017-03-13</div>
+          <div class="service-table-td-1-2">20170302-000002</div>
+        </td>
+        <td class="service-table-td-2">좋아요 업 1,500</td>
+        <td class="service-table-td-3">
+          <a href="/user/service/show2" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="service-table-td-1">
+          <div class="service-table-td-1-1">2017-03-13</div>
+          <div class="service-table-td-1-2">20170302-000003</div>
+        </td>
+        <td class="service-table-td-2">팔로워 업 1,500</td>
+        <td class="service-table-td-3">
+          <a href="/user/service/show3" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="service-table-td-1">
+          <div class="service-table-td-1-1">2017-03-13</div>
+          <div class="service-table-td-1-2">20170302-000004</div>
+        </td>
+        <td class="service-table-td-2">데일리 좋아요 업 1,500</td>
+        <td class="service-table-td-3">
+          <a href="/user/service/show4" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="service-table-td-1">
+          <div class="service-table-td-1-1">2017-03-13</div>
+          <div class="service-table-td-1-2">20170302-000005</div>
+        </td>
+        <td class="service-table-td-2">좋아요 업 2,500 외 1건</td>
+        <td class="service-table-td-3">
+          <a href="/user/service/show5" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <div class="service-pagination-wrapper">
+    <span class="service-pagination">
+      <a class="service-pagination-prev" href="#!"><img src="/assets/images/arrow-left-grey.png"></a>
+      <a href="#!">1</a>
+      <a class="service-pagination-next" href="#!"><img src="/assets/images/arrow-right-grey.png"></a>
+      <span class="clear"></span>
+    </span>
+  </div>
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("/layout/header.html");
+  $('.user-header').load("/layout/user_header.html");
+  $('.footer').load("/layout/footer.html");
+  $('.service-main-tab').click(function() {
+    $('.service-main-tab').removeClass('service-main-tab-active');
+    $(this).addClass('service-main-tab-active');
+  });
+</script>
+</html>
