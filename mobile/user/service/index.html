@@ -1,0 +1,295 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=640px">
+
+  <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/header.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/footer.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/modal.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/mobile/user/service.css" type="text/css">
+
+  <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<header class="header"><!-- layout/header.html --></header>
+<header class="user-header"><!-- layout/user_header.html --></header>
+<section class="main">
+  <header class="main-header user-service-header">진행중인 서비스</header>
+
+  <div class="service-main-tabs">
+    <a class="service-main-tab service-main-tab-active" href="#!">진행중인 서비스</a>
+    <a class="service-main-tab" href="#!">지난 서비스</a>
+    <div class="clear"></div>
+  </div>
+
+  <div class="service-sub-tabs">
+    <a class="service-sub-tab service-sub-tab-active" href="#!">데일리 좋아요 업 2,500</a>
+    <a class="service-sub-tab" href="#!">데일리 팔로워 업 1,500</a>
+    <a class="service-sub-tab" href="#!">팔로워 업 1,500</a>
+    <div class="clear"></div>
+  </div>
+
+  <div class="service-info">
+    <div class="service-info-title">서비스 정보</div>
+    <div class="service-info-date">20170302-00001</div>
+
+    <div class="service-info-current">
+      <div class="service-info-current-1">
+        <div class="service-info-current-1-1">데일리 좋아요 업 2,500</div>
+        <div class="service-info-current-1-2">2017-03-02 ~ 2017-04-02</div>
+      </div>
+      <div class="service-info-current-2">진행 중</div>
+    </div>
+
+    <div class="service-info-account">
+      <div class="service-info-account-1">
+        <img src="/assets/images/service-account.png">
+      </div>
+      <div class="service-info-account-2">
+        <div class="service-info-account-2-1">Account_ID</div>
+        <div class="service-info-account-2-2">사용자 이름</div>
+      </div>
+      <div class="service-info-account-3">
+        <a href="#!">계정 변경</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-result">
+    <div class="service-result-title">서비스 결과</div>
+    <div class="service-result-sub-title">서비스 적용 가능 개수는 매일 00시 00분에 재충전 됩니다.</div>
+
+    <div class="service-result-date">
+      <div class="service-result-date-1">2017.03.03</div>
+      <div class="service-result-date-2">
+        <img src="/assets/images/icon-settings-black.png">
+      </div>
+    </div>
+    <div class="service-result-ing">
+      <div class="service-result-ing-1">서비스 진행</div>
+      <div class="service-result-ing-2">
+        <div class="service-result-ing-2-btn">
+          <div class="on">
+            <div class="service-result-ing-2-btn-1">ON</div>
+            <div class="service-result-ing-2-btn-2"></div>
+          </div>
+          <div class="off">
+            <div class="service-result-ing-2-btn-2"></div>
+            <div class="service-result-ing-2-btn-1">OFF</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-result-like-speed">
+      <div class="service-result-like-speed-1">좋아요 속도</div>
+      <div class="service-result-like-speed-selection">
+        <div class="service-result-like-speed-one active">게시 직후</div>
+        <div class="service-result-like-speed-one">30분 후</div>
+        <div class="service-result-like-speed-one">1시간 후</div>
+        <div class="service-result-like-speed-one">4시간 후</div>
+      </div>
+    </div>
+
+    <div class="service-result-img-like">
+      <div class="service-result-img-like-one">
+        <div class="service-result-img-like-img">
+          <img src="/assets/images/user-service-1.png">
+          <img class="service-result-img-like-circle" src="/assets/images/circle-purple.png">
+          <img class="service-result-img-like-icon" src="/assets/images/icon-checked-white.png">
+        </div>
+        <div class="service-result-img-like-like">
+          <p>
+            <img src="/assets/images/icon-like-grey.png">
+            <span>+ 420</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="service-result-img-like-one">
+      <div class="service-result-img-like-img">
+        <img src="/assets/images/user-service-2.png">
+        <img class="service-result-img-like-circle" src="/assets/images/circle-yellow.png">
+        <img class="service-result-img-like-icon sand" src="/assets/images/icon-sandglass.png">
+      </div>
+      <div class="service-result-img-like-like">
+        <p>
+          <img src="/assets/images/icon-like-grey.png">
+          <span>&middot;&middot;&middot;&middot;&middot;</span>
+        </p>
+      </div>
+    </div>
+    <div class="service-result-img-like-one">
+      <div class="service-result-img-like-img">
+        <img src="/assets/images/user-service-3.png">
+        <img class="service-result-img-like-circle" src="/assets/images/circle-purple.png">
+        <img class="service-result-img-like-icon" src="/assets/images/icon-checked-white.png">
+      </div>
+      <div class="service-result-img-like-like">
+        <p>
+          <img src="/assets/images/icon-like-grey.png">
+          <span>+ 420</span>
+        </p>
+      </div>
+    </div>
+    <div class="service-result-img-like-one">
+      <div class="service-result-img-like-img">
+        <img src="/assets/images/user-service-4.png">
+        <img class="service-result-img-like-circle" src="/assets/images/circle-purple.png">
+        <img class="service-result-img-like-icon" src="/assets/images/icon-checked-white.png">
+      </div>
+      <div class="service-result-img-like-like">
+        <p>
+          <img src="/assets/images/icon-like-grey.png">
+          <span>+ 420</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <table class="service-result-table">
+    <tbody>
+      <tr>
+        <td class="service-result-table-td-1">2017.03.02</td>
+        <td class="service-result-table-td-2">
+          <img src="/assets/images/user-service-list-1.png">
+          <img src="/assets/images/user-service-list-2.png">
+          <img src="/assets/images/user-service-list-3.png">
+          <img src="/assets/images/user-service-list-4.png">
+        </td>
+        <td class="service-result-table-td-3">
+          <img src="/assets/images/arrow-down-black-big.png">
+        </td>
+      </tr>
+      <tr>
+        <td class="service-result-table-td-1">2017.03.01</td>
+        <td class="service-result-table-td-2">
+          <img src="/assets/images/user-service-list-1.png">
+          <img src="/assets/images/user-service-list-2.png">
+          <img src="/assets/images/user-service-list-3.png">
+          <img src="/assets/images/user-service-list-4.png">
+        </td>
+        <td class="service-result-table-td-3">
+          <img src="/assets/images/arrow-down-black-big.png">
+        </td>
+      </tr>
+      <tr>
+        <td class="service-result-table-td-1">2017.02.28</td>
+        <td class="service-result-table-td-2">
+          <img src="/assets/images/user-service-list-1.png">
+          <img src="/assets/images/user-service-list-2.png">
+          <img src="/assets/images/user-service-list-3.png">
+          <img src="/assets/images/user-service-list-4.png">
+        </td>
+        <td class="service-result-table-td-3">
+          <img src="/assets/images/arrow-down-black-big.png">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!--<table class="service-table">-->
+    <!--<tbody>-->
+    <!--<tr>-->
+      <!--<td class="service-table-td-1">-->
+        <!--<div class="service-table-td-1-1">2017-03-13</div>-->
+        <!--<div class="service-table-td-1-2">20170302-000001</div>-->
+      <!--</td>-->
+      <!--<td class="service-table-td-2">데일리 팔로워 업 1,500</td>-->
+      <!--<td class="service-table-td-3">-->
+        <!--<a href="/user/service/show1" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>-->
+      <!--</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--<td class="service-table-td-1">-->
+        <!--<div class="service-table-td-1-1">2017-03-13</div>-->
+        <!--<div class="service-table-td-1-2">20170302-000002</div>-->
+      <!--</td>-->
+      <!--<td class="service-table-td-2">좋아요 업 1,500</td>-->
+      <!--<td class="service-table-td-3">-->
+        <!--<a href="/user/service/show2" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>-->
+      <!--</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--<td class="service-table-td-1">-->
+        <!--<div class="service-table-td-1-1">2017-03-13</div>-->
+        <!--<div class="service-table-td-1-2">20170302-000003</div>-->
+      <!--</td>-->
+      <!--<td class="service-table-td-2">팔로워 업 1,500</td>-->
+      <!--<td class="service-table-td-3">-->
+        <!--<a href="/user/service/show3" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>-->
+      <!--</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--<td class="service-table-td-1">-->
+        <!--<div class="service-table-td-1-1">2017-03-13</div>-->
+        <!--<div class="service-table-td-1-2">20170302-000004</div>-->
+      <!--</td>-->
+      <!--<td class="service-table-td-2">데일리 좋아요 업 1,500</td>-->
+      <!--<td class="service-table-td-3">-->
+        <!--<a href="/user/service/show4" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>-->
+      <!--</td>-->
+    <!--</tr>-->
+    <!--<tr>-->
+      <!--<td class="service-table-td-1">-->
+        <!--<div class="service-table-td-1-1">2017-03-13</div>-->
+        <!--<div class="service-table-td-1-2">20170302-000005</div>-->
+      <!--</td>-->
+      <!--<td class="service-table-td-2">좋아요 업 2,500 외 1건</td>-->
+      <!--<td class="service-table-td-3">-->
+        <!--<a href="/user/service/show5" class="service-table-td-link-3">상세보기<img style="margin-left: 5px;" src="/assets/images/arrow-right-purple-small.png"></a>-->
+      <!--</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+  <!--</table>-->
+
+  <!--<div class="service-pagination-wrapper">-->
+    <!--<span class="service-pagination">-->
+      <!--<a class="service-pagination-prev" href="#!"><img src="/assets/images/arrow-left-grey.png"></a>-->
+      <!--<a href="#!">1</a>-->
+      <!--<a class="service-pagination-next" href="#!"><img src="/assets/images/arrow-right-grey.png"></a>-->
+      <!--<span class="clear"></span>-->
+    <!--</span>-->
+  <!--</div>-->
+</section>
+<footer class="footer"><!-- layout/header.html --></footer>
+</body>
+
+<script>
+  $('.header').load("/layout/header.html");
+  $('.user-header').load("/layout/user_header.html");
+  $('.footer').load("/layout/footer.html");
+  $('.service-sub-tab').click(function() {
+    $('.service-sub-tab').removeClass('service-sub-tab-active');
+    $(this).addClass('service-sub-tab-active');
+  });
+  $('.service-main-tab').click(function() {
+    $('.service-main-tab').removeClass('service-main-tab-active');
+    $(this).addClass('service-main-tab-active');
+  });
+  $('.service-result-like-speed-one').click(function() {
+    $('.service-result-like-speed-one').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $('.service-result-ing-2-btn').click(function() {
+    if($(this).children('.on').css('display') === "none"){
+      $(this).children('.off').hide();
+      $(this).children('.on').show();
+    }
+    else {
+      $(this).children('.on').hide();
+      $(this).children('.off').show();
+    }
+  });
+</script>
+</html>

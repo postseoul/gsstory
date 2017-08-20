@@ -111,7 +111,7 @@
 }
 
 .home-why-link {
-  margin: 0 0 2px 15px;
+  font-size: 26px;
   height: 20px;
 }
 
@@ -128,6 +128,7 @@
 
 .home-review-item-user {
   font-size: 18px;
+  padding-top: 50px;
 }
 
 .home-review-item-title {
@@ -151,4 +152,59 @@
 .owl-theme .owl-controls {
     margin-top: -50px;
     text-align: center;
+}
+
+.home-why-body {
+  font-size: 26px;
+}
+
+.home-review-item-body {
+  font-size: 26px;
+  letter-spacing: -1.5px;
+}
+
+.home-review-title {
+  font-size: 22px;
+}
+
+.home-instamanager {
+  padding: 150px 0;
+}
+
+.home-instamanager-title {
+  font-size: 24px;
+}
+
+.home-instamanager-description {
+  font-weight: 400;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.home-instamanager-label {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.home-instamanager-phone {
+  width: 180px;
+  height: 65px;
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+.home-instamanager-submit {
+  margin-top: 10px;
+  width: 557px;
+  margin-left: -5px;
+}
+
+.home-instamanager-info {
+  font-size: 18px;
+  color: $instarter-font-grey;
+}
+
+
+.owl-pagination {
+  padding-top: 40px;
 }

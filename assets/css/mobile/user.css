@@ -160,10 +160,10 @@
   display: block;
   text-align: center;
   background-color: #e9e9ea;
-  padding: 20px; }
+  padding: 20px;
+  font-size: 24px; }
 
 .arrow-right {
-  width: 15px;
   margin-left: 20px; }
 
 .owl-theme .owl-controls {

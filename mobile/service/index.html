@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=640px">
+
   <link href='https://fonts.googleapis.com/earlyaccess/notosanskr.css' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/base.css" type="text/css">
@@ -14,7 +15,6 @@
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.8.0/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 <header class="header"><!-- layout/header.html --></header>
@@ -39,8 +39,48 @@
   <div id="service-contents-4" class="service-contents hidden"></div>
 </section>
 <div class="sticky-bottom">
-  <a class="btn-cart">장바구니</a>
-  <a class="btn-order">바로주문</a>
+  <a class="btn-sticky" onclick="toggleSticky();">
+    <img class="btn-sticky-img" src="/assets/images/arrow-down-white.png">
+  </a>
+  <div class="sticky-expand">
+    <div class="sticky-order-options">
+      <div class="sticky-order-options-title">주문옵션</div>
+      <div class="sticky-order-options-list">
+        <div class="sticky-order-options-list-item">
+          <span class="sticky-order-options-list-title">팔로워 업</span>
+          <img class="sticky-order-options-img" src="/assets/images/arrow-down-black.png">
+        </div>
+        <div class="sticky-order-options-list-item">
+          <span class="sticky-order-options-list-title">2,500명 증가</span>
+          <img class="sticky-order-options-img" src="/assets/images/arrow-down-black.png">
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="sticky-cart-options">
+      <div class="sticky-cart-options-title-wrapper">
+        <div class="sticky-cart-options-title">팔로워 업</div>
+        <div class="sticky-cart-options-count-label">개수: 2,500</div>
+      </div>
+      <div class="sticky-cart-options-count-box">
+        <a class="arrow-left" onclick="sub(0)"><img class="arrow" src="/assets/images/arrow-left-black.png"></a>
+        <span id="sticky-cart-options-count-0">1개</span>
+        <input id="sticky-cart-options-count-input-0" class="hidden" type="number" value=1>
+        <a class="arrow-right" onclick="add(0)"><img class="arrow" src="/assets/images/arrow-right-black.png"></a>
+      </div>
+      <div class="sticky-cart-options-price">60,231원</div>
+      <div class="clear"></div>
+    </div>
+    <div class="sticky-cart-total">
+      <div class="sticky-cart-total-title">주문 합계</div>
+      <div class="sticky-cart-total-price">60,231<span style="font-size: 30px;">원</span></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div>
+    <a class="btn-cart">장바구니</a>
+    <a class="btn-order">바로주문</a>
+  </div>
 </div>
 <footer class="footer"><!-- layout/header.html --></footer>
 </body>
@@ -48,10 +88,10 @@
 <script>
   $('.header').load("/layout/header.html");
   $('.footer').load("/layout/footer.html");
-  $('#service-contents-1').load('service-content/follow-korean.html');
-  $('#service-contents-2').load('service-content/follow-foreigner.html');
-  $('#service-contents-3').load('service-content/account-korean.html');
-  $('#service-contents-4').load('service-content/account-foreigner.html');
+  $('#service-contents-1').load('../service-content/follow-korean.html');
+  $('#service-contents-2').load('../service-content/follow-foreigner.html');
+  $('#service-contents-3').load('../service-content/account-korean.html');
+  $('#service-contents-4').load('../service-content/account-foreigner.html');
   var service_item_count = [1,1,1,1,1,1,1,1,1,1]
   var language = 'korean';
   var type = 'follow';
@@ -89,11 +129,11 @@
   }
 
   function load_count() {
-    for(var i=0; i < 10; i++) {
-      $("#service-item-count-"+i)[0].innerText = service_item_count[i]+'개';
-      $("#service-item-count-input-"+i)[0].value = service_item_count[i];
+    for(var i=0; i < 1; i++) {
+      $("#sticky-cart-options-count-"+i)[0].innerText = service_item_count[i]+'개';
+      $("#sticky-cart-options-count-input-"+i)[0].value = service_item_count[i];
       if(service_item_count[i] >= 5) {
-        $("#service-item-count-"+i)[0].innerText += ' (최대)'
+        $("#sticky-cart-options-count-"+i)[0].innerText += ' (최대)'
       }
     }
   }
@@ -110,6 +150,10 @@
       service_item_count[index] -= 1;
       load_count()
     }
+  }
+
+  function toggleSticky() {
+    $(".sticky-expand").toggleClass('hidden');
   }
 </script>
 </html>

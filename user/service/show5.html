@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="/assets/css/user/service.css" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
 </head>
 <body>
 <header class="header"><!-- layout/header.html --></header>
@@ -23,48 +23,58 @@
     <a class="service-main-tab" href="#!">지난 서비스</a>
     <div class="clear"></div>
   </div>
+
+  <div class="service-list-tabs">
+    <div class="service-list-tab service-list-tab-active">선팔+댓글+좋아요 30일</div>
+    <div class="clear"></div>
+  </div>
+
   <div class="service-subheader">서비스 정보</div>
   <table class="service-table-1">
-  <tr>
-    <th>주문번호</th>
-    <td class="service-table-1-number">20170302-00001</td>
-    <th>서비스 기간</th>
-    <td>
-      <span class="service-table-1-date">2017-03-02 ~ 2017-04-02</span>
-      <a class="btn-renewal" href="#!">서비스 연장</a>
-    </td>
-  </tr>
-  <tr>
-    <th>서비스 상품명</th>
-    <td class="service-table-1-title">데일리 팔로워 업 1,500</td>
-    <th rowspan="2">서비스 적용 계정</th>
-    <td rowspan="2">
-      <img class="service-table-1-profile-img" src="/assets/images/sample-profile.jpg">
-      <span style="display: inline-block;">
+    <tr>
+      <th>주문번호</th>
+      <td class="service-table-1-number">20170302-00001</td>
+      <th>서비스 기간</th>
+      <td>
+        <span class="service-table-1-date">2017-03-02 ~ 2017-04-02</span>
+        <a class="btn-renewal" href="#!">서비스 연장</a>
+      </td>
+    </tr>
+    <tr>
+      <th>서비스 상품명</th>
+      <td class="service-table-1-title">선팔+댓글+좋아요 30</td>
+      <th rowspan="2">서비스 적용 계정</th>
+      <td rowspan="2">
+        <img class="service-table-1-profile-img" src="/assets/images/sample-profile.jpg">
+        <span style="display: inline-block;">
         <span class="service-table-1-account">Account_ID</span><br>
         <span class="service-table-1-username">사용자 이름</span>
       </span>
-      <a class="btn-renewal" style="margin-top: 18px;" href="#!">계정 변경</a>
-    </td>
-  </tr>
-  <tr>
-    <th>진행 상태</th>
-    <td class="service-table-1-status">진행 중</td>
-  </tr>
+        <!--<a class="btn-renewal" style="margin-top: 18px;" href="#!">계정 변경</a>-->
+      </td>
+    </tr>
+    <tr>
+      <th>진행 상태</th>
+      <td class="service-table-1-status">진행 중</td>
+    </tr>
   </table>
+
   <div class="service-subheader">
-  <span>서비스 옵션 확인 및 수정</span>
+    <span>서비스 옵션 확인 및 수정</span>
   </div>
   <table class="service-table-1">
     <tr>
-      <th>댓글 내용</th>
+      <th>활동옵션</th>
       <td>
-        <span class="comment">사용자가 등록한 댓글1</span>
-        <span class="comment">사용자가 등록한 댓글2</span>
-        <span class="comment">사용자가 등록한 댓글3</span>
+      <span class="service-table-input">
+        <select class="service-table-input-select">
+          <option>나의 팔로잉과 팔로워도 해당 서비스 대상에 포함시킵니다(인친관리)</option>
+        </select>
+        <img class="service-table-input-select-icon" src="/assets/images/arrow-down-black-big.png">
+      </span>
         <div class="float-right">
-          <span class="text-applying">적용 준비중</span>
-          <a href="#!" class="btn-update">댓글 내용 수정</a>
+          <span class="text-applied">적용됨</span>
+          <a href="#!" class="btn-update">활동옵션 수정</a>
         </div>
       </td>
     </tr>
@@ -81,9 +91,30 @@
       </td>
     </tr>
     <tr>
-      <th>언팔 전환</th>
+      <th>댓글 내용</th>
       <td>
-        <a href="#!" class="btn-update">언팔로 전환</a>
+        <span class="comment">사용자가 등록한 댓글1</span>
+        <span class="comment">사용자가 등록한 댓글2</span>
+        <span class="comment">사용자가 등록한 댓글3</span>
+        <div class="float-right">
+          <span class="text-applying">적용 준비중</span>
+          <a href="#!" class="btn-update">댓글 내용 수정</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th>언팔(선팔) 설정</th>
+      <td>
+      <span class="service-table-input" id="follow-selection">
+        <select class="service-table-input-select">
+          <option>인스타겟으로 인한 팔로잉 중 맞팔되지 않은 유저</option>
+        </select>
+        <img class="service-table-input-select-icon" src="/assets/images/arrow-down-black-big.png">
+      </span>
+        <div class="float-right">
+          <span class="text-applied">적용됨</span>
+          <a href="#!" class="btn-update" id="follow-selection-btn">언팔로 전환</a>
+        </div>
       </td>
     </tr>
   </table>
@@ -93,12 +124,25 @@
 </body>
 
 <script>
+  var follow = 1;
   $('.header').load("/layout/header.html");
   $('.user-header').load("/layout/user_header.html");
   $('.footer').load("/layout/footer.html");
   $('.service-main-tab').click(function() {
     $('.service-main-tab').removeClass('service-main-tab-active');
     $(this).addClass('service-main-tab-active');
+  });
+  $('#follow-selection-btn').click(function(){
+    if(follow) {
+      $(this).html('선팔로 전환');
+      $('#follow-selection').hide();
+      follow = 0;
+    }
+    else {
+      $(this).html('언팔로 전환');
+      $('#follow-selection').show();
+      follow = 1;
+    }
   });
 </script>
 </html>

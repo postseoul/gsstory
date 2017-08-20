@@ -172,6 +172,53 @@
   font-size: 13px;
   margin-bottom: 50px; }
 
+.home-instamanager {
+  background-color: #e9e9ea;
+  padding: 120px 0;
+  text-align: center; }
+
+.icon-instamanager {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px; }
+
+.logo-instamanager {
+  display: block;
+  margin: 0 auto; }
+
+.home-instamanager-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #715EFF;
+  margin-bottom: 40px; }
+
+.home-instamanager-description {
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 55px; }
+
+.home-instamanager-label {
+  color: #715EFF;
+  font-size: 15px; }
+
+.home-instamanager-phone {
+  width: 170px;
+  height: 65px;
+  font-size: 30px;
+  margin-right: 5px; }
+
+.home-instamanager-submit {
+  width: 148px;
+  height: 65px;
+  background-color: #2B2C34;
+  color: #FFF;
+  font-size: 20px;
+  vertical-align: top; }
+
+.home-instamanager-info {
+  font-size: 13px;
+  color: #ABABAD; }
+
 .owl-theme .owl-controls .owl-page span,
 .owl-theme .owl-controls.clickable .owl-page span {
   background-color: transparent;

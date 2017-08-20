@@ -4,8 +4,8 @@
 .form-control {
   width: 100%;
   margin: 20px auto;
-  font-size: 50px;
-  padding: 40px;
+  font-size: 26px;
+  padding: 25px;
   font-weight: 400; }
 
 .signup-header {
@@ -17,13 +17,13 @@
 .edit-header {
   background: url("/assets/images/header-user-edit.png") no-repeat center;
   height: 186px;
-  font-size: 80px; }
+  font-size: 60px; }
 
 .signup-naver-logo {
-  width: 90px;
-  height: 90px;
+  width: 57px;
+  height: 57px;
   float: right;
-  margin: 27px; }
+  margin: 11px; }
 
 .signup-user-type {
   color: #2B2C34;
@@ -31,7 +31,7 @@
   width: 50%;
   text-align: center;
   padding: 25px 0;
-  font-size: 50px;
+  font-size: 26px;
   margin-bottom: 30px;
   background-color: #F6F6F6; }
 
@@ -96,7 +96,7 @@
   margin-bottom: 60px; }
 
 .sub-header {
-  font-size: 45px;
+  font-size: 30px;
   margin-bottom: 20px; }
 
 .form-profile {
@@ -145,18 +145,18 @@
   margin-bottom: 20px; }
 
 .instagram-form-profile {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border: 2px solid #FFF;
   border-radius: 50px;
   float: left;
   margin-right: 10px; }
 
 .instagram-form-username {
-  font-size: 40px;
+  font-size: 26px;
   color: #FFF;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: 300;
   vertical-align: top; }
 
@@ -172,14 +172,13 @@
 
 .instagram-form-remove {
   display: inline-block;
-  vertical-align: middle; }
+  margin: 10px; }
 
 .instagram-form-add {
   color: #ABABAD;
   display: block;
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 300;
-  padding: 30px;
   text-align: center;
   margin-bottom: 80px;
   vertical-align: middle; }
@@ -196,7 +195,7 @@
 
 .hashtag, .comment {
   float: left;
-  font-size: 40px;
+  font-size: 26px;
   background-color: #f1efff;
   color: #715EFF;
   padding: 10px 30px;
@@ -204,13 +203,14 @@
 
 .hashtag-cancel, .comment-cancel {
   float: right;
-  margin: 6px 0 0 20px; }
+  margin: 10px 0 0 20px; }
 
 .btn-group {
   margin-bottom: 100px; }
 
 .btn-password-edit {
-  font-size: 40px;
+  -webkit-appearance: none;
+  font-size: 26px;
   background-color: #FFF;
   border: 2px solid #2B2C34;
   color: #2B2C34;
@@ -220,7 +220,8 @@
   font-weight: 500; }
 
 .btn-user-edit {
-  font-size: 40px;
+  -webkit-appearance: none;
+  font-size: 26px;
   background-color: #2B2C34;
   border: none;
   color: #FFF;
@@ -229,7 +230,16 @@
 
 .sublink {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 0; }
+
+.instagram-form-add-text {
+  display: inline-block;
+  margin-top: 10px; }
+
+.icon-clock {
+  width: 25px;
+  float: right;
+  margin: 30px; }
 
 /*# sourceMappingURL=user-form.css.map */

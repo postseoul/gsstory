@@ -104,5 +104,7 @@ td {
 @media (min-width: 1200px) {
   .mobile {
     display: none; } }
+input {
+  -webkit-appearance: none; }
 
 /*# sourceMappingURL=base.css.map */

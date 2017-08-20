@@ -40,8 +40,34 @@ td {
   font-weight: 500;
 }
 
+.service-list-tabs {
+  width: 100%;
+  border-bottom: 1px solid $instarter-border-grey;
+  text-align: center;
+}
+
+.service-list-tab {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  color: $instarter-font-grey;
+  font-weight: 300;
+  padding-bottom: 19px;
+  margin-left: 20px;
+  :first-of-type {
+    margin-left: 0;
+  }
+}
+.service-list-tab-active {
+  color: $instarter-purple;
+  font-weight: 400;
+  border-bottom: 2px solid $instarter-purple;
+}
+
 .service-subheader {
   margin-top: 60px;
+  padding-bottom: 8px;
   font-size: 25px;
 }
 
@@ -390,6 +416,23 @@ td {
   padding: 10px;
 }
 
+.service-table-input {
+  padding-bottom: 10px;
+  border-bottom: 1px solid $instarter-black;
+}
+
+.service-table-input-select {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: 300;
+  vertical-align: middle;
+}
+
+.service-table-input-select-icon {
+  padding-left: 25px;
+}
 
 .hashtag, .comment {
   float: left;

@@ -1,0 +1,467 @@
+@charset "UTF-8";
+@import 'variables';
+
+.modal-body {
+    margin: 30px 0 50px;
+}
+
+.modal-text {
+  margin: 40px 30px 0 30px;
+  padding-bottom: 10px;
+}
+
+.modal-text-intput-wrapper {
+  display: inline-block;
+  border-bottom: 4px solid $instarter-black;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.modal-text-intput {
+  font-size: 18px;
+  float: left;
+  width: 80%;
+}
+
+.icon-search {
+  float: right;
+}
+
+.icon-checkbox-wrapper {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin: 50px 0 0 0;
+}
+
+.icon-checkbox {
+  background-image: url("/assets/images/checkbox-no.png");
+  display: inline-block;
+  height: 18px;
+  margin: 2px 5px 0 0;
+  width: 18px;
+}
+
+.icon-checkbox-checked {
+  background-image: url("/assets/images/checkbox-yes.png");
+  display: inline-block;
+  height: 22px;
+  margin: -3px 0 0 0;
+  width: 23px;
+}
+
+.icon-checkbox-text {
+  font-size: 19px;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.icon-checkbox-text-checked{
+  color: $instarter-purple;
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.btn-submit {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $instarter-black;
+  border: 2px solid $instarter-black;
+  color: $instarter-white;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+}
+
+.btn-cancel {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  background-color: $instarter-white;
+  border: 2px solid $instarter-black;
+  color: $instarter-black;
+  font-size: 20px;
+  height: 50px;
+  width: 120px;
+}
+
+.modal-search-result-description {
+  margin-top: 0;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.modal-search-result-box {
+  background-color: $instarter-background-grey;
+  margin-right: 0;
+  border: 4px solid $instarter-background-grey;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.modal-search-result-box-selected {
+  background-color: $instarter-background-grey;
+  padding: 20px;
+  margin-right: 35px;
+  border: 4px solid $instarter-background-grey;
+  margin-bottom: 10px;
+}
+
+.modal-search-result-box:hover {
+  border-color: $instarter-purple;
+}
+
+.modal-search-result-box-active {
+  border-color: $instarter-purple-disable;
+  background-color: $instarter-purple-disable;
+
+  .modal-search-result-trash {
+    display: inline-block;
+    float: right;
+    margin: 15px 5px 0 0;
+  }
+}
+
+.modal-search-result-profile {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: $instarter-border-grey;
+  float: left;
+  margin-right: 10px;
+}
+
+.modal-search-result-account {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 21px;
+  display: inline-block;
+}
+
+.modal-search-result-username {
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.modal-search-result-infos {
+  display: inline-block;
+  float: right;
+  margin: 8px 5px 0 0;
+}
+
+.modal-search-result-trash {
+  display: none;
+}
+
+.modal-search-result-info {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.modal-search-result-info-label {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.modal-search-result-info-data {
+  font-size: 18px;
+  color: $instarter-purple;
+}
+
+// modal 3
+#order-modal-3 {
+  max-width: 850px;
+}
+
+.modal-body-header {
+  background-color: $instarter-background-grey;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+
+.modal-body-3 {
+  margin: 0 0 50px 0;
+}
+
+.modal-images {
+  margin-left: 15px;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.modal-image-block-2 {
+  width: 31%;
+  float: left;
+  margin: 0 5px 0 0;
+  text-align: center;
+  p {
+    color: $instarter-purple;
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.modal-image-block {
+  width: 31%;
+  float: left;
+  background-color: $instarter-background-grey;
+  margin: 0 5px 5px 0;
+}
+
+.modal-image-block-selected {
+  border: 2px solid $instarter-purple;
+  box-sizing: border-box;
+}
+
+.select-box {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 25px;
+  border: 2px solid $instarter-white;
+  float: right;
+  margin: -168px 0 0 125px;
+  position: absolute;
+}
+
+.select-box-selected {
+  background-color: $instarter-purple;
+  border-color: $instarter-purple;
+}
+
+.select-box-selected span {
+  background: url(/assets/images/icon-checked-white.png) no-repeat;
+  margin: 12px 10px;
+  display: block;
+  width: 17px;
+  height: 12px;
+}
+.selected-count {
+  font-size: 36px;
+  color: $instarter-purple;
+}
+
+.btn-more {
+  text-align: center;
+  color: $instarter-font-grey;
+  font-size: 19px;
+  margin: 30px 0 20px;
+  img {
+    padding-top: 4px;
+  }
+}
+
+.modal-body-more {
+  background-color: $instarter-background-grey;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.modal-body-more-desc {
+  position: relative;
+  top: -5px;
+  display: inline-block;
+  padding-bottom: 20px;
+  width: 22%;
+  .modal-body-more-desc-p1 {
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: $instarter-black;
+  }
+  .modal-body-more-desc-p2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: $instarter-font-grey;
+    font-weight: 300;
+    span {
+      font-size: 30px;
+      color: $instarter-purple;
+      font-weight: 500;
+    }
+  }
+}
+.modal-body-more-imgs {
+  display: inline-block;
+  overflow-x: hidden;
+  width: 75%;
+  img {
+    height: 75px;
+    width: 75px;
+    float: left;
+    display: inline-block;
+    margin-left: 5px;
+  }
+}
+
+.modal-footer {
+  background-color: $instarter-background-grey;
+}
+
+// modal 4
+
+#order-modal-4 {
+  max-width: 850px;
+  padding-bottom: 50px;
+}
+
+.modal-like-wrap {
+  width: 84px;
+  height: 80px;
+  border-radius: 8px;
+  background-color: $instarter-yellow;
+  margin-left: 15px;
+  text-align: center;
+
+  img {
+    display: flex;
+    position: relative;
+    width: 73px;
+    left: 7px;
+    top: 18px;
+  }
+  p {
+    color: $instarter-white;
+    font-size: 11px;
+    margin: -30px 0 0 0;
+  }
+  .modal-like-number {
+    font-size: 27px;
+    margin: 0 0 0 0;
+  }
+}
+
+.modal-body-more-desc-2 {
+  position: relative;
+  top: -30px;
+  display: inline-block;
+  padding-bottom: 20px;
+  width: 22%;
+  .modal-body-more-desc-p1 {
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 500;
+    color: $instarter-black;
+  }
+  .modal-body-more-desc-p2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: $instarter-font-grey;
+    font-weight: 300;
+    span {
+      font-size: 30px;
+      color: $instarter-purple;
+      font-weight: 500;
+    }
+  }
+}
+
+.modal-body-more-imgs-2 {
+  display: inline-block;
+  overflow-x: hidden;
+  width: 75%;
+  .modal-body-more-img-2 {
+    float: left;
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+    img {
+      height: 75px;
+      width: 75px;
+    }
+    p {
+      margin: 5px 0 0 0;
+      font-size: 15px;
+      color: $instarter-purple;
+    }
+  }
+}
+
+.order-modal-4-description {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.order-modal-4-description-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.order-modal-4-btn-group {
+  margin: 30px 0 30px;
+  background-color: #e3dfff;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.order-modal-4-btn {
+  width: 130px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #e3dfff;
+  color: $instarter-purple-disable;
+  float: left;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.order-modal-4-btn-active {
+  background-color: $instarter-purple;
+  color: $instarter-white;
+}
+
+// modal 5
+
+.modal-search-result-box-5 {
+  background-color: $instarter-background-grey;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.modal-search-result-box-5-container {
+  padding: 20px;
+}
+
+.order-modals-5-btn {
+  display: none;
+}
+
+.modal-search-result-box-5-active {
+  background-color: #f1efff;
+
+  .order-modals-5-btn {
+    display: block;
+    background-color: $instarter-purple-disable;
+    color: $instarter-purple;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .modal-search-result-trash {
+    display: inline-block;
+    float: right;
+    margin: 15px 5px 0 0;
+  }
+}
+
+.modal-search-result-box-5:hover {
+  border-color: $instarter-purple;
+}
+
