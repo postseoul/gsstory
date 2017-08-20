@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad64d5e-7d4f-4732-8fa9-199130933069" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/user/edit.css" afterPath="$PROJECT_DIR$/assets/css/user/edit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/variables.scss" afterPath="$PROJECT_DIR$/assets/scss/variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/user/service/index.html" afterPath="$PROJECT_DIR$/mobile/user/service/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/mobile/order/order.css" afterPath="$PROJECT_DIR$/assets/css/mobile/order/order.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/mobile/order/order.scss" afterPath="$PROJECT_DIR$/assets/scss/mobile/order/order.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/order/order.html" afterPath="$PROJECT_DIR$/mobile/order/order.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,62 +19,35 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="service.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/scss/mobile/user/service.scss">
+      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="184" column="21" lean-forward="false" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/user/service/index.html">
+      <file leaf-file-name="order.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/order/order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="121" column="53" lean-forward="false" selection-start-line="121" selection-start-column="53" selection-end-line="121" selection-end-column="53" />
+            <state relative-caret-position="125">
+              <caret line="177" column="23" lean-forward="false" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="23" />
               <folding>
-                <element signature="e#5215#5223#0" expanded="true" />
-                <element signature="e#5223#5231#0" expanded="true" />
-                <element signature="e#5231#5239#0" expanded="true" />
-                <element signature="e#5239#5247#0" expanded="true" />
-                <element signature="e#5247#5255#0" expanded="true" />
-                <marker date="1503130092193" expanded="false" signature="8462:8479" ph="..." />
-                <marker date="1503130092193" expanded="false" signature="8988:9005" ph="..." />
-                <marker date="1503130092193" expanded="false" signature="9514:9531" ph="..." />
-                <marker date="1503130092193" expanded="false" signature="10044:10061" ph="..." />
-                <marker date="1503130092193" expanded="false" signature="10575:10592" ph="..." />
+                <element signature="n#style#0;n#div#0;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/service.html">
+      <file leaf-file-name="order.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/scss/mobile/order/order.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-684">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/mobile/service.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1159">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="156">
+              <caret line="293" column="12" lean-forward="false" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -84,12 +57,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>service-tab</find>
-      <find>service-table-td-</find>
-      <find>service-main-tab-ac</find>
-      <find>service-sub</find>
-      <find>service-sub-tab</find>
-      <find>service-table</find>
+      <find>order-price</find>
+      <find>order-list-1-item-container-1</find>
+      <find>order-information-complete-data</find>
+      <find>order-information-complete-data-label</find>
+      <find>order-information-complete-data-title</find>
+      <find>well-notice-header</find>
+      <find>well-notice-list-dot</find>
+      <find>well-notice-list-item</find>
+      <find>well-notice</find>
+      <find>30order-discount-table-label</find>
+      <find>order-discount-table-data-checkbox-label</find>
+      <find>order-discount-table-data-checkbox</find>
+      <find>order-discount-table-input</find>
+      <find>order-discount-table-label</find>
+      <find>order-discount-table-list-1</find>
+      <find>order-discount-table-data</find>
+      <find>arrow-down-black</find>
+      <find>order-discount-table-coupon-input-select</find>
+      <find>order-discount-table-list-2</find>
+      <find>order-discount-table</find>
+      <find>final-price-block</find>
+      <find>final-price-block-label</find>
+      <find>final-price-block-data</find>
+      <find>final-price-icon</find>
+      <find>final-price</find>
+      <find>75</find>
+      <find>margin-bottom</find>
+      <find>btn-payment-1</find>
+      <find>order-subheader</find>
+      <find>btn-group</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,6 +98,8 @@
         <option value="$PROJECT_DIR$/assets/scss/variables.scss" />
         <option value="$PROJECT_DIR$/mobile/user/service/index.html" />
         <option value="$PROJECT_DIR$/assets/scss/mobile/user/service.scss" />
+        <option value="$PROJECT_DIR$/mobile/order/order.html" />
+        <option value="$PROJECT_DIR$/assets/scss/mobile/order/order.scss" />
       </list>
     </option>
   </component>
@@ -173,29 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="order" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
+              <option name="myItemId" value="order" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,12 +373,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503107209900</updated>
-      <workItem from="1503107211124" duration="21309000" />
+      <workItem from="1503107211124" duration="30174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21309000" />
+    <option name="totallyTimeSpent" value="30174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="971" y="0" width="949" height="1047" extended-state="0" />
@@ -539,26 +516,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/service.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1159">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/service.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/user/service.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="184" column="21" lean-forward="false" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -582,10 +551,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/user/service.scss">
+    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/service.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="184" column="21" lean-forward="false" selection-start-line="184" selection-start-column="21" selection-end-line="184" selection-end-column="21" />
+        <state relative-caret-position="-1159">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/order/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="177" column="23" lean-forward="false" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#8;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/mobile/order/order.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="293" column="12" lean-forward="false" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
           <folding />
         </state>
       </provider>
