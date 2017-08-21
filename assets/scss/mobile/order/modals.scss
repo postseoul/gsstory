@@ -103,7 +103,6 @@
   background-color: $instarter-background-grey;
   margin-right: 0;
   border: 4px solid $instarter-background-grey;
-  margin-bottom: 10px;
   padding: 20px;
 }
 
@@ -131,23 +130,23 @@
 }
 
 .modal-search-result-profile {
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
   background-color: $instarter-border-grey;
   float: left;
   margin-right: 10px;
 }
 
 .modal-search-result-account {
-  margin-top: 10px;
+  margin-top: 6px;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 28px;
   display: inline-block;
 }
 
 .modal-search-result-username {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   display: inline-block;
 }
@@ -155,7 +154,7 @@
 .modal-search-result-infos {
   display: inline-block;
   float: right;
-  margin: 8px 5px 0 0;
+  margin-right: 5px;
 }
 
 .modal-search-result-trash {
@@ -169,13 +168,13 @@
 }
 
 .modal-search-result-info-label {
-  font-size: 17px;
+  font-size: 22px;
   font-weight: 300;
   margin-bottom: 5px;
 }
 
 .modal-search-result-info-data {
-  font-size: 18px;
+  font-size: 26px;
   color: $instarter-purple;
 }
 
@@ -465,3 +464,157 @@
   border-color: $instarter-purple;
 }
 
+.order-modal-6-container {
+  padding: 20px;
+  background-color: $instarter-background-grey;
+}
+
+.order-modal-6-description {
+  padding: 30px;
+  font-size: 22px;
+  background-color: #ededed;
+  margin: 0;
+}
+
+.order-modal-6-description-item-1,
+.order-modal-6-description-item-2 {
+  list-style: none;
+  background-image: url(/assets/images/icon-dot-purple.png);
+  background-repeat: no-repeat;
+  background-position: left 15px;
+  background-size: 4px;
+  padding-left: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.order-modal-6-description-item-1 {
+  color: $instarter-purple;
+}
+
+.order-modal-6-subtitle {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.order-modal-6-body {
+  padding: 30px;
+}
+
+.order-modal-6-input {
+  width: 100%;
+  height: 80px;
+  border: 1px solid $instarter-border-grey;
+  font-size: 26px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.order-modal-6-checkbox-container {
+  padding: 30px;
+  font-size: 26px;
+  background-color: $instarter-background-grey;
+}
+
+.order-modal-6-checkbox-notice {
+  font-size: 26px;
+  color: $instarter-purple;
+  padding: 30px;
+  background-color: #ededed;
+}
+
+.btn-group-modal {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.hashtag {
+  color: $instarter-purple;
+  background-color: #f1efff;
+  padding: 15px;
+  font-size: 26px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.order-modal-6-recommend-label {
+  margin-top: 40px;
+  font-size: 26px;
+  font-weight: 300;
+  float: right;
+}
+
+.order-modal-6-select {
+  font-size: 26px;
+  text-align: left;
+}
+
+.order-modal-6-select-wrapper {
+  width: 100%;
+  border-bottom: 1px solid $instarter-black;
+  display: inline-block;
+}
+
+.order-modal-6-arrow-down {
+  float: right;
+  margin-top: 13px;
+}
+
+.order-modal-6-checkbox {
+  font-weight: 400;
+}
+
+.order-modal-6-checkbox-wrapper{
+  margin-bottom: 30px;
+}
+
+.order-modal-6-checkbox-img {
+  background-image: url("/assets/images/checkbox-no.png");
+  display: inline-block;
+  height: 18px;
+  margin: 10px 5px 0 0;
+  width: 18px;
+}
+
+.order-modal-6-checkbox-img-checked {
+  background-image: url("/assets/images/checkbox-yes.png");
+  display: inline-block;
+  height: 22px;
+  margin: 7px 0 0 0;
+  width: 23px;
+}
+
+
+.order-modal-6-radio-label {
+  display: inline-block;
+  float: left;
+  font-size: 26px;
+  width: 500px;
+}
+
+
+.order-modal-6-raido-img {
+  float: left;
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+
+.order-modal-6-checkbox-text-checked {
+  color: $instarter-purple;
+}
+
+.order-modal-6-radio-label {
+  font-weight: 400;
+}
+
+.order-modal-6-radio-label-active {
+  color: $instarter-purple;
+  font-weight: 500;
+}
+
+.subtitle-desc {
+  font-size: 22px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  color: $instarter-font-grey;
+}
